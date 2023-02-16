@@ -61,11 +61,11 @@ def test_status():
 
 def test_location():
     assert parsed_items[0]["location"] == {
-        "label": "a remote manner using Microsoft® Teams. This remote "
+        "name": "a remote manner using Microsoft® Teams. This remote "
         "hearing may be viewed on Xfinity Channel 64, Fios "
         "Channel 40 or  "
         "http://phlcouncil.com/watch-city-council/",
-        "url": "http://phlcouncil.com/watch-city-council/",
+        "address": "http://phlcouncil.com/watch-city-council/",
     }
 
 
