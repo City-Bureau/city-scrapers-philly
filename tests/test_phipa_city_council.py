@@ -21,15 +21,6 @@ freezer.stop()
 
 
 """
-def test_location():
-    assert parsed_items[0]["location"] == {
-        "name": "a remote manner using Microsoft® Teams. This remote "
-        "hearing may be viewed on Xfinity Channel 64, Fios "
-        "Channel 40 or  "
-        "http://phlcouncil.com/watch-city-council/",
-        "address": "http://phlcouncil.com/watch-city-council/",
-    }
-    
 def test_tests():
     print("Please write some tests for this spider or at least disable this one.")
     assert False
@@ -66,6 +57,16 @@ def test_id():
 
 def test_status():
     assert parsed_items[0]["status"] == "tentative"
+
+
+def test_location():
+    assert parsed_items[0]["location"] == {
+        "name": "a remote manner using Microsoft® Teams. This remote "
+        "hearing may be viewed on Xfinity Channel 64, Fios "
+        "Channel 40 or  "
+        "http://phlcouncil.com/watch-city-council/",
+        "address": "http://phlcouncil.com/watch-city-council/",
+    }
 
 
 def test_source():
