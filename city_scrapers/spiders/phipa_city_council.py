@@ -68,4 +68,3 @@ class PhipaCityCouncilSpider(LegistarSpider):
             "name": location,
             "address": address,
         }
- 
