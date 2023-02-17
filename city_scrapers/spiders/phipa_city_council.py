@@ -59,7 +59,7 @@ class PhipaCityCouncilSpider(LegistarSpider):
 
     def _parse_location(self, item):
         """Parse or generate location."""
-        address = ""
+        address = "http://phlcouncil.com/watch-city-council/"
         location = item.get("Meeting Location", "")
         if isinstance(location, dict):
             address = location.get("url", "")
