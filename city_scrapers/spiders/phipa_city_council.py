@@ -65,6 +65,6 @@ class PhipaCityCouncilSpider(LegistarSpider):
             address = location.get("url", "")
             location = location.get("label", "")
         return {
-            "name": location,
             "address": address,
+            "name": location,
         }
