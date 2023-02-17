@@ -65,7 +65,7 @@ def test_location():
         "hearing may be viewed on Xfinity Channel 64, Fios "
         "Channel 40 or  "
         "http://phlcouncil.com/watch-city-council/",
-        "address": "http://phlcouncil.com/watch-city-council/",
+        "address": "1400 John F Kennedy Blvd, Philadelphia, PA 19107",
     }
 
 
