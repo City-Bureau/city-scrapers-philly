@@ -59,12 +59,10 @@ class PhipaCityCouncilSpider(LegistarSpider):
 
     def _parse_location(self, item):
         """Parse or generate location."""
-        address = "http://phlcouncil.com/watch-city-council/"
         location = item.get("Meeting Location", "")
         if isinstance(location, dict):
-            address = location.get("url", "")
             location = location.get("label", "")
         return {
-            "address": address,
+            "address": "1400 John F Kennedy Blvd, Philadelphia, PA 19107",
             "name": location,
         }
