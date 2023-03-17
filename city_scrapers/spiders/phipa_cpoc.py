@@ -8,7 +8,9 @@ class PhipaCpocSpider(CityScrapersSpider):
     name = "phipa_cpoc"
     agency = "Philadelphia Police Oversight Commission"
     timezone = "America/Chicago"
-    start_urls = ["https://www.phila.gov/departments/citizens-police-oversight-commission/"]
+    start_urls = [
+        "https://www.phila.gov/departments/citizens-police-oversight-commission/"
+    ]
 
     def parse(self, response):
         """
@@ -86,7 +88,9 @@ class PhipaCpocSpider(CityScrapersSpider):
 
     def _parse_links(self, item):
         """Parse or generate links."""
-        link = "https://www.phila.gov/departments/citizens-police-oversight-commission/#"
+        link = (
+            "https://www.phila.gov/departments/citizens-police-oversight-commission/#"
+        )
         meetingID = item.css("div::attr(data-open)").get()
         return [{"href": link + meetingID, "title": "Meeting Information"}]
 
