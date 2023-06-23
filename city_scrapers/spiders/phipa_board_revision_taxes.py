@@ -7,7 +7,7 @@ from dateutil.parser import parser
 class PhipaBoardRevisionTaxesSpider(CityScrapersSpider):
     name = "phipa_board_revision_taxes"
     agency = "Philadelphia Board Of Revision Of Taxes"
-    timezone = "America/Chicago"
+    timezone = "America/New_York"
     start_urls = ["https://www.phila.gov/departments/board-of-revision-of-taxes/"]
 
     def parse(self, response):
