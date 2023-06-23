@@ -6,7 +6,7 @@ from city_scrapers_core.spiders import LegistarSpider
 class PhipaCityCouncilSpider(LegistarSpider):
     name = "phipa_city_council"
     agency = "Philadelphia City Council"
-    timezone = "America/Chicago"
+    timezone = "America/New_York"
     start_urls = ["https://phila.legistar.com/Calendar.aspx"]
     # Add the titles of any links not included in the scraped results
     link_types = []

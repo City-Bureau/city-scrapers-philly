@@ -7,7 +7,7 @@ from dateutil.parser import parser
 class PhipaCpocSpider(CityScrapersSpider):
     name = "phipa_cpoc"
     agency = "Philadelphia Police Oversight Commission"
-    timezone = "America/Chicago"
+    timezone = "America/New_York"
     start_urls = [
         "https://www.phila.gov/departments/citizens-police-oversight-commission/"
     ]

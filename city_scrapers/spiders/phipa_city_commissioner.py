@@ -7,7 +7,7 @@ from dateutil.parser import parser
 class PhipaCityCommissionerSpider(CityScrapersSpider):
     name = "phipa_city_commissioner"
     agency = "Philadelphia City Commissioners"
-    timezone = "America/Chicago"
+    timezone = "America/New_York"
     start_urls = [
         "https://vote.phila.gov/resources-data/commissioner-meetings/commissioner-meetings/"  # noqa
     ]
