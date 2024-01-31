@@ -1,4 +1,12 @@
 import os
+from dotenv import load_dotenv, find_dotenv
+
+# Specify the .env.development filename
+env_file = find_dotenv('.env.development')
+
+# Load the specified .env.development file
+if os.path.exists(env_file):
+    load_dotenv(env_file)
 
 # Scrapy settings for city_scrapers project
 #
@@ -53,3 +61,5 @@ EXTENSIONS = {
 }
 
 CLOSESPIDER_ERRORCOUNT = 5
+
+GOOGLE_CLOUD_API_KEY = os.getenv("GOOGLE_CLOUD_API_KEY", None)
