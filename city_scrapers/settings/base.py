@@ -1,8 +1,9 @@
 import os
-from dotenv import load_dotenv, find_dotenv
+
+from dotenv import find_dotenv, load_dotenv
 
 # Specify the .env.development filename
-env_file = find_dotenv('.env.development')
+env_file = find_dotenv(".env.development")
 
 # Load the specified .env.development file
 if os.path.exists(env_file):

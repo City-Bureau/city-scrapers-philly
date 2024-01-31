@@ -11,6 +11,7 @@ scrapy-wayback-middleware = "*"
 python-dateutil = "*"
 python-dotenv = "*"
 pytz = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 freezegun = "*"
