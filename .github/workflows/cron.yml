@@ -25,6 +25,7 @@ env:
   # GCS_BUCKET = os.getenv("GCS_BUCKET")
   # Setup Sentry, add the DSN to secrets and uncomment here
   # SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+  GOOGLE_CLOUD_API_KEY: ${{ secrets.GOOGLE_CLOUD_API_KEY }}
 
 jobs:
   crawl:
