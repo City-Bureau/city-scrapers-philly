@@ -3,7 +3,7 @@
 [![CI build status](https://github.com/City-Bureau/city-scrapers-philly/workflows/CI/badge.svg)](https://github.com/City-Bureau/city-scrapers-template/actions?query=workflow%3ACI)
 [![Cron build status](https://github.com/City-Bureau/city-scrapers-philly/workflows/Cron/badge.svg)](https://github.com/City-Bureau/city-scrapers-template/actions?query=workflow%3ACron)
 
-Repo for the [City Scrapers](https://cityscrapers.org) project in Spokane, Washington.
+Repo for the [City Scrapers](https://cityscrapers.org) project in Philadelphia, Pennsylvania.
 
 See the [development documentation](https://cityscrapers.org/docs/development/) for info how to get started.
 
