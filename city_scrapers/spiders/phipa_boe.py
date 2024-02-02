@@ -71,10 +71,8 @@ class PhipaBoeSpider(CityScrapersSpider):
             yield meeting
 
     def _parse_title(self, item):
-        """Parse or generate meeting title."""
-        if "summary" not in item:
-            return ""
-        return item["summary"]
+        """Parse meeting title."""
+        return item.get("summary") or ""
 
     def _parse_description(self, item):
         """Parse meeting description. Description text for this
