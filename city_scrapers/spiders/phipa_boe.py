@@ -120,6 +120,7 @@ class PhipaBoeSpider(CityScrapersSpider):
                     "title": "Google Calendar Event",
                 }
             )
+        return links
 
     def _parse_source(self):
         """Generate link to public Google Calendar site."""
