@@ -23,8 +23,7 @@ env:
   AZURE_CONTAINER: ${{ secrets.AZURE_CONTAINER }}
   # GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
   # GCS_BUCKET = os.getenv("GCS_BUCKET")
-  # Setup Sentry, add the DSN to secrets and uncomment here
-  # SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+  SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
   GOOGLE_CLOUD_API_KEY: ${{ secrets.GOOGLE_CLOUD_API_KEY }}
 
 jobs:
