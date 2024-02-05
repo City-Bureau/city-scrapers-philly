@@ -8,6 +8,8 @@ env:
   AUTOTHROTTLE_MAX_DELAY: 30.0
   AUTOTHROTTLE_START_DELAY: 1.5
   AUTOTHROTTLE_TARGET_CONCURRENCY: 3.0
+  # GOOGLE_CLOUD_API_KEY is needed by phipa_boe for the 'validate output' step
+  GOOGLE_CLOUD_API_KEY: ${{ secrets.GOOGLE_CLOUD_API_KEY }} 
 
 jobs:
   check:

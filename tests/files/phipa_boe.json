@@ -1,0 +1,885 @@
+{
+ "kind": "calendar#events",
+ "etag": "\"p32c9vastui2o80o\"",
+ "summary": "Board of Education Meetings (PUBLIC)",
+ "description": "Action Meetings and Committee Meetings",
+ "updated": "2024-01-30T20:04:05.039Z",
+ "timeZone": "America/New_York",
+ "accessRole": "reader",
+ "defaultReminders": [],
+ "nextSyncToken": "CJifq530hYQDEAAYASDdzuqeAijdzuqeAg==",
+ "items": [
+  {
+   "kind": "calendar#event",
+   "etag": "\"3343137019902000\"",
+   "id": "6c1h9c364fmgp8un7dev4pbfsh",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmMxaDljMzY0Zm1ncDh1bjdkZXY0cGJmc2ggcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2022-12-20T20:35:09.000Z",
+   "updated": "2022-12-20T20:35:09.951Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2021/08/005-Admin-Procedures-Aug-2021.pdf&amp;sa=D&amp;source=calendar&amp;ust=1672000485683834&amp;usg=AOvVaw3KO5muuS0VPsNsYFSE9jZd\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2021/08/005-Admin-Procedures-Aug-2021.pdf\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1672000485683834&amp;usg=AOvVaw01lVdqRroq7SLIkE0E4gey\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1672000485683834&amp;usg=AOvVaw3ukiJGkqgdYYaHNO_65-VO\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2023-12-07T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-07T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "6c1h9c364fmgp8un7dev4pbfsh@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3402874601814000\"",
+   "id": "49u2bn19g9bmimu9mckm4buqr2",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NDl1MmJuMTlnOWJtaW11OW1ja200YnVxcjIgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-01T13:27:07.000Z",
+   "updated": "2023-12-01T13:28:20.907Z",
+   "summary": "New Charter Application Hearings",
+   "description": "\u003cp dir=\"ltr\"\u003eNotice is hereby given that the Board of Education of The School District of Philadelphia shall hold an initial public hearing pursuant to the Charter School Law on the application for a new charter school in Philadelphia.  The hearing will be held on December 20, 2023 via remote platform.  The remote platform link will be posted on the Board of Education’s website at \u003ca href=\"https://www.philasd.org/schoolboard/.\"\u003ehttps://www.philasd.org/schoolboard/.\u003c/a\u003e\u003c/p\u003e\u003cp dir=\"ltr\"\u003eThe hearing shall commence at 4:00 p.m.  The charter applicant, identified below, will be given fifteen (15) minutes to present information about its application.  \u003c/p\u003e\u003cul\u003e\u003cli dir=\"ltr\"\u003e\u003cp dir=\"ltr\"\u003eGlobal Leadership Academy International Charter High School\u003c/p\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp dir=\"ltr\"\u003eThe Board of Education will receive public comment from Philadelphia residents on the charter application on December 20th.  Public comment shall start at approximately 4:30 p.m on the remote platform.  To register to speak, individuals must either call the speaker registration line at  215-400-5959 or email \u003ca href=\"mailto:schoolboard@philasd.org\"\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/a\u003e by 5:00 pm EST on December 19th.   Individuals who timely register will be permitted to provide public comment on December 20th.   Each individual shall have two minutes to speak.    \u003c/p\u003e\u003cp dir=\"ltr\"\u003eThe Board of Education also will accept written public testimony on the new charter application from Philadelphia residents through January 26, 2024 at 5:00 p.m. EST. \u003c/p\u003e\u003cp dir=\"ltr\"\u003eTestimony may be submitted by mail or via email to schoolboard@philasd.org. \u003c/p\u003e\u003cp dir=\"ltr\"\u003eIf submitted by mail, written testimony must be postmarked by January 26, 2024 and addressed to:\u003c/p\u003e\u003cp dir=\"ltr\"\u003eBoard of Education\u003c/p\u003e\u003cp dir=\"ltr\"\u003eThe School District of Philadelphia\u003c/p\u003e\u003cp dir=\"ltr\"\u003e440 North Broad Street, Suite 101\u003c/p\u003e\u003cp dir=\"ltr\"\u003ePhiladelphia, PA  19130\u003c/p\u003eRegardless of submission method, all written testimony should include the full name and address of the sender in order to establish Philadelphia residency. Additionally, written testimony should clearly indicate the specific new charter application to which the testimony refers. All written testimony timely received by the Board of Education will be made part of the public record for the new charter application hearing.",
+   "location": "Remote Video Conferencing Platform (Zoom)",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2023-12-20T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-20T17:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "49u2bn19g9bmimu9mckm4buqr2@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404647305330000\"",
+   "id": "70u06b63pos6aq2jnpaeu8vo92",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NzB1MDZiNjNwb3M2YXEyam5wYWV1OHZvOTIgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:40:52.000Z",
+   "updated": "2023-12-11T19:40:52.665Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.philasd.org/pstv/watch/\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.philasd.org/schoolboard/meetingmaterials/\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-01-25T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-25T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "70u06b63pos6aq2jnpaeu8vo92@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404647337752000\"",
+   "id": "4q0hbmihg8lah1efqs5km01pce",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHEwaGJtaWhnOGxhaDFlZnFzNWttMDFwY2UgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:41:08.000Z",
+   "updated": "2023-12-11T19:41:08.876Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702755652635816&amp;usg=AOvVaw3Akc_63bG1Qs9M2-WN565S\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702755652635816&amp;usg=AOvVaw2Gx3T0klcDD0DiRgpXrvsU\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702755652635816&amp;usg=AOvVaw3wQ6rKgLX-dChVq8aIaQbn\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-02-29T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-29T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "4q0hbmihg8lah1efqs5km01pce@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404647373610000\"",
+   "id": "5quppfnpu2vdtcaanarhdfmr7l",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NXF1cHBmbnB1MnZkdGNhYW5hcmhkZm1yN2wgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:41:26.000Z",
+   "updated": "2023-12-11T19:41:26.805Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702755668850812&amp;usg=AOvVaw2UMMMkVUsCfl9r5k5KyPOj\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702755668850812&amp;usg=AOvVaw2OumIOWjhQRUlGYWUVUDhI\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702755668850812&amp;usg=AOvVaw3y16IOc3SXBuRBy0_OTTG2\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-03-28T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-03-28T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "5quppfnpu2vdtcaanarhdfmr7l@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404647560220000\"",
+   "id": "7l1hlk2okcfko4f33kpvuabk7k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N2wxaGxrMm9rY2ZrbzRmMzNrcHZ1YWJrN2sgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:42:03.000Z",
+   "updated": "2023-12-11T19:43:00.110Z",
+   "summary": "Budget Hearing & Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702755686766300&amp;usg=AOvVaw1tmSImDIDdIdycKMoNzvQH\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702755686766300&amp;usg=AOvVaw1UVsEyvCcUuXGqsat20V3Y\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702755686766300&amp;usg=AOvVaw3_rPbbdiCliTZadyM4gWRv\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-04-25T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-04-25T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "7l1hlk2okcfko4f33kpvuabk7k@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404647624584000\"",
+   "id": "7f0ijfls10fp7kj5csrirskak0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N2YwaWpmbHMxMGZwN2tqNWNzcmlyc2thazAgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:43:32.000Z",
+   "updated": "2023-12-11T19:43:32.292Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702755780018036&amp;usg=AOvVaw3i40BtkGBkv-_z54ppYphD\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702755780018036&amp;usg=AOvVaw0R2_Lu_8MVi7qxzN96ewfy\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702755780018036&amp;usg=AOvVaw0_bpu-dY5h6HaDsc2-5YAV\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-05-30T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-05-30T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "7f0ijfls10fp7kj5csrirskak0@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404647657814000\"",
+   "id": "37eg22s10ijeihc0cvd0tq6r0l",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MzdlZzIyczEwaWplaWhjMGN2ZDB0cTZyMGwgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:43:48.000Z",
+   "updated": "2023-12-11T19:43:48.907Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702755812240723&amp;usg=AOvVaw2duSVOt12QlbNhQGxpTRLf\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702755812240723&amp;usg=AOvVaw1v1C0A_WI13rOp-iaAm-tZ\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702755812240723&amp;usg=AOvVaw3lqUXYHnlW9TzREKPrI6XS\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-06-27T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-06-27T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "37eg22s10ijeihc0cvd0tq6r0l@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404647697528000\"",
+   "id": "1j4or89hinpaocrtnqu3rp0lkn",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MWo0b3I4OWhpbnBhb2NydG5xdTNycDBsa24gcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:44:08.000Z",
+   "updated": "2023-12-11T19:44:08.764Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702755828867706&amp;usg=AOvVaw23lQwLTRBsg9KYL93qgEuE\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702755828867706&amp;usg=AOvVaw2KIYdmwxkrTb1nrQJmlnIJ\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702755828867706&amp;usg=AOvVaw0k94BLonPpbyC5jiBcb8IX\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-07-11T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-07-11T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "1j4or89hinpaocrtnqu3rp0lkn@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404647731364000\"",
+   "id": "39vptesoabkbuotbroa6k72f7j",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Mzl2cHRlc29hYmtidW90YnJvYTZrNzJmN2ogcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:44:25.000Z",
+   "updated": "2023-12-11T19:44:25.682Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702755848732331&amp;usg=AOvVaw1Zq1JAD0ZkkqwtgR1kuYTV\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702755848732331&amp;usg=AOvVaw0RCMjMkXWOBmUff00M2hJV\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702755848732331&amp;usg=AOvVaw2gmT290dbH99dL5RdquKYQ\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-08-22T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-08-22T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "39vptesoabkbuotbroa6k72f7j@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404647793532000\"",
+   "id": "6e0v1abn7uuskckv2umts4ev05",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmUwdjFhYm43dXVza2NrdjJ1bXRzNGV2MDUgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:44:56.000Z",
+   "updated": "2023-12-11T19:44:56.766Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702755865640900&amp;usg=AOvVaw3CkmPXYwlmZlnK-oAr3qHu\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702755865640900&amp;usg=AOvVaw1na1ATD1kXpRnz_VIv-SL9\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702755865640900&amp;usg=AOvVaw3OHw2aH2c-C1umlD1vK-AD\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-09-19T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-09-19T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "6e0v1abn7uuskckv2umts4ev05@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648013940000\"",
+   "id": "1l1ofknv4u9pk4a63v3u52goi3",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MWwxb2ZrbnY0dTlwazRhNjN2M3U1MmdvaTMgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:46:47.000Z",
+   "updated": "2023-12-11T19:46:46.970Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702755896735817&amp;usg=AOvVaw3W61zn5ES60SKU9OqI159s\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702755896735817&amp;usg=AOvVaw26FkvZ2AOck_mD2csd1AxY\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702755896735817&amp;usg=AOvVaw00HIQIu5iPhGCNNcDg4grD\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-10-24T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-10-24T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "1l1ofknv4u9pk4a63v3u52goi3@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648047512000\"",
+   "id": "2v9of44mlth6e01joaq7n45186",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MnY5b2Y0NG1sdGg2ZTAxam9hcTduNDUxODYgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:47:03.000Z",
+   "updated": "2023-12-11T19:47:03.756Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756006938691&amp;usg=AOvVaw29z8vZ9RtoNJWEjlvokL-K\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756006938691&amp;usg=AOvVaw1nWsdmX3_S_BFh9lrkLRGP\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756006938691&amp;usg=AOvVaw3OLCqLRw585TOg5mS7od9p\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-11-21T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-11-21T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "2v9of44mlth6e01joaq7n45186@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648083988000\"",
+   "id": "0av9dv0t5q3nt7qh82e4tfktpr",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MGF2OWR2MHQ1cTNudDdxaDgyZTR0Zmt0cHIgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:47:22.000Z",
+   "updated": "2023-12-11T19:47:21.994Z",
+   "summary": "Monthly Action Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756023728366&amp;usg=AOvVaw0eLvaP5LRWxzyhzem5K-PX\" target=\"_blank\"\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756023728366&amp;usg=AOvVaw0-mubuEgdiYEr02unEtHb8\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756023728366&amp;usg=AOvVaw0IFisW1gW_LhD4dh5jj0V6\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-12-05T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-12-05T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "0av9dv0t5q3nt7qh82e4tfktpr@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648235678000\"",
+   "id": "4g010a365ojf300ciotpp202ko",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NGcwMTBhMzY1b2pmMzAwY2lvdHBwMjAya28gcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:48:11.000Z",
+   "updated": "2023-12-11T19:48:37.839Z",
+   "summary": "Policy Committee Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.philasd.org/pstv/watch/\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.philasd.org/schoolboard/meetingmaterials/\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-04-18T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-04-18T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "4g010a365ojf300ciotpp202ko@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648260682000\"",
+   "id": "0vhm0sg342pd3rjot7pf0f8ufb",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MHZobTBzZzM0MnBkM3Jqb3Q3cGYwZjh1ZmIgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:48:50.000Z",
+   "updated": "2023-12-11T19:48:50.341Z",
+   "summary": "Policy Committee Meeting",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756117694823&amp;usg=AOvVaw1923QqidHPmK6_nYvVoJcX\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756117694823&amp;usg=AOvVaw03eUVLGZUzimrCn56Vt5Uw\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756117694823&amp;usg=AOvVaw0A0MFD6QeRmfaVB22YCswL\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-11-07T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-11-07T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "0vhm0sg342pd3rjot7pf0f8ufb@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648400696000\"",
+   "id": "3nscp9b24o6lrqkamovtdsstjb",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M25zY3A5YjI0bzZscnFrYW1vdnRkc3N0amIgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:49:37.000Z",
+   "updated": "2023-12-11T19:50:00.348Z",
+   "summary": "Public Hearing",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.philasd.org/pstv/watch/\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.philasd.org/schoolboard/meetingmaterials/\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-06-06T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-06-06T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "3nscp9b24o6lrqkamovtdsstjb@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648432824000\"",
+   "id": "5uosurq8q5rgi34a5h1he0dglu",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NXVvc3VycThxNXJnaTM0YTVoMWhlMGRnbHUgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:50:16.000Z",
+   "updated": "2023-12-11T19:50:16.412Z",
+   "summary": "Public Hearing",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756200224616&amp;usg=AOvVaw3bR_fakXbyQl7m5NkOfeWp\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756200224616&amp;usg=AOvVaw1O_bjP-5jm8tP8Icp76kJU\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756200224616&amp;usg=AOvVaw0XPfd1ynleYq4N0nx9o9ua\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-10-17T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-10-17T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "5uosurq8q5rgi34a5h1he0dglu@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648720426000\"",
+   "id": "7ep3nlpajncnoi8rj3babhgeu0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N2VwM25scGFqbmNub2k4cmozYmFiaGdldTAgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:52:40.000Z",
+   "updated": "2023-12-11T19:52:40.213Z",
+   "summary": "Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756346634488&amp;usg=AOvVaw1sgF3Ty9fd0nOI-LlYwL1r\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756346634488&amp;usg=AOvVaw07xb-EgysZikLmWNGZAOcs\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756346634488&amp;usg=AOvVaw1TL-rOdyUE4zaFhG4LKJZo\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-02-08T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-08T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "7ep3nlpajncnoi8rj3babhgeu0@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648750824000\"",
+   "id": "01kv6d6pnap7r97dop2pnn8ti7",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDFrdjZkNnBuYXA3cjk3ZG9wMnBubjh0aTcgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:52:55.000Z",
+   "updated": "2023-12-11T19:52:55.412Z",
+   "summary": "Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756360183316&amp;usg=AOvVaw3igv1Yoz0VCnuFg-lwSMnl\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756360183316&amp;usg=AOvVaw2N9OxyJlvDZBOT4_t11xM5\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756360183316&amp;usg=AOvVaw0a4xSSI-SLx5yqyaEdhFK-\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-03-07T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-03-07T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "01kv6d6pnap7r97dop2pnn8ti7@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648796484000\"",
+   "id": "32lpe8c55pj4ah49cljvi9b9v7",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MzJscGU4YzU1cGo0YWg0OWNsanZpOWI5djcgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:53:18.000Z",
+   "updated": "2023-12-11T19:53:18.242Z",
+   "summary": "Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756375383545&amp;usg=AOvVaw24lGQO8tHm6ABnnUTVioi-\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756375383545&amp;usg=AOvVaw1LYyZNq1M08pzXcpyU4dHa\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756375383545&amp;usg=AOvVaw1Ku7hmfMwk5XzsRm_UqtB9\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-05-09T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-05-09T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "32lpe8c55pj4ah49cljvi9b9v7@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648835970000\"",
+   "id": "14b5d4shfr74app9gvc81gtabk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MTRiNWQ0c2hmcjc0YXBwOWd2YzgxZ3RhYmsgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:53:38.000Z",
+   "updated": "2023-12-11T19:53:37.985Z",
+   "summary": "Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756398203795&amp;usg=AOvVaw2ttBO5G8AqCesg0NbAmXHV\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756398203795&amp;usg=AOvVaw1FMA2gfucAHNwIEYgJBOec\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756398203795&amp;usg=AOvVaw2tZhUC6iDnHjvTsHwf07Jg\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-06-13T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-06-13T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "14b5d4shfr74app9gvc81gtabk@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648873348000\"",
+   "id": "621mdgveg1hq2pl3h6iq485kce",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NjIxbWRndmVnMWhxMnBsM2g2aXE0ODVrY2UgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:53:56.000Z",
+   "updated": "2023-12-11T19:53:56.674Z",
+   "summary": "Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756417957649&amp;usg=AOvVaw0wqVHfvvWLlzRRILb_z4Ka\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756417957649&amp;usg=AOvVaw3gnZUYqdJi8CAfZz3i66T_\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756417957649&amp;usg=AOvVaw2DT_QQjX8eL8I-uSthPOYV\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-08-01T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-08-01T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "621mdgveg1hq2pl3h6iq485kce@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648923198000\"",
+   "id": "43ggtbi9et27lcou6352gqrtev",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NDNnZ3RiaTlldDI3bGNvdTYzNTJncXJ0ZXYgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:54:21.000Z",
+   "updated": "2023-12-11T19:54:21.599Z",
+   "summary": "Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756436628945&amp;usg=AOvVaw23tdaQlbABOEDpW66fA0NF\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756436628945&amp;usg=AOvVaw1xJVqeZGvDtA-zUmxwxH-q\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756436628945&amp;usg=AOvVaw20ROuHAtXfGabvNcVSCsmO\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-09-05T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-09-05T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "43ggtbi9et27lcou6352gqrtev@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648954474000\"",
+   "id": "3hff0ntgjugvff37qqiv4gtcvq",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M2hmZjBudGdqdWd2ZmYzN3FxaXY0Z3RjdnEgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:54:37.000Z",
+   "updated": "2023-12-11T19:54:37.237Z",
+   "summary": "Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756461565683&amp;usg=AOvVaw3pZnEdKHSNpd-b1xJ_KH6c\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756461565683&amp;usg=AOvVaw39AVzXacaol7am1KxtM4LK\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756461565683&amp;usg=AOvVaw1H8kgr0cwa4rKQI5E6cW6v\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-10-10T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-10-10T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "3hff0ntgjugvff37qqiv4gtcvq@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3404648986996000\"",
+   "id": "1m2ood1ln7hg2pflau9djd1ofp",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MW0yb29kMWxuN2hnMnBmbGF1OWRqZDFvZnAgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:54:53.000Z",
+   "updated": "2023-12-11T19:54:53.498Z",
+   "summary": "Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1702756477211092&amp;usg=AOvVaw1XHwOlmZrDt2p_K9ulOMw6\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1702756477211092&amp;usg=AOvVaw039d7UCuygQsFLQSW5tnWK\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1702756477211092&amp;usg=AOvVaw0VHFDMmtQW2l6K1KdVo_uM\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-11-14T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-11-14T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "1m2ood1ln7hg2pflau9djd1ofp@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3408944785002000\"",
+   "id": "6r08g6md2pnf6nhvso85se3k8g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NnIwOGc2bWQycG5mNm5odnNvODVzZTNrOGcgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2023-12-11T19:52:02.000Z",
+   "updated": "2024-01-05T16:33:12.501Z",
+   "summary": "(Cancelled) Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.philasd.org/pstv/watch/\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.philasd.org/schoolboard/meetingmaterials/\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-01-11T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-11T19:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "6r08g6md2pnf6nhvso85se3k8g@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3409964989954000\"",
+   "id": "06602brte4ijf480brt7rv9ghp",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDY2MDJicnRlNGlqZjQ4MGJydDdydjlnaHAgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2024-01-08T14:46:14.000Z",
+   "updated": "2024-01-11T14:14:54.977Z",
+   "summary": "New Charter Application Hearing",
+   "description": "\u003cp dir=\"ltr\"\u003eNotice is hereby given that the Board of Education of The School District of Philadelphia (“School District”) shall hold a public hearing pursuant to the Charter School Law on an application for a new charter school in Philadelphia.  The hearing will be held on January 23, 2024 via remote platform.  The remote platform link will be posted on the Board of Education’s website at \u003ca href=\"https://www.philasd.org/schoolboard/\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/\u003c/u\u003e\u003c/a\u003e the morning of each hearing.\u003c/p\u003e\u003cp dir=\"ltr\"\u003eThe schedule for the hearing is as follows:\u003c/p\u003e\u003cp dir=\"ltr\"\u003e\u003cb\u003eJanuary 23,  2024:\u003c/b\u003e\u003c/p\u003e\u003cp dir=\"ltr\"\u003e2:00 pm – Global Leadership Academy International Charter High School\u003c/p\u003e\u003cp dir=\"ltr\"\u003ePublic testimony will not be accepted during the hearing on January 23, 2024.  The Board of Education will accept written public testimony on the new charter application from Philadelphia residents through January 26, 2024 at 5:00 p.m. EST. \u003c/p\u003e\u003cp dir=\"ltr\"\u003eTestimony may be submitted by mail or via email to schoolboard@philasd.org. \u003c/p\u003e\u003cp dir=\"ltr\"\u003eIf submitted by mail, written testimony must be postmarked by January 26, 2024 and addressed to:\u003c/p\u003e\u003cp dir=\"ltr\"\u003eBoard of Education\u003c/p\u003e\u003cp dir=\"ltr\"\u003eThe School District of Philadelphia\u003c/p\u003e\u003cp dir=\"ltr\"\u003e440 North Broad Street, Suite 101\u003c/p\u003e\u003cp dir=\"ltr\"\u003ePhiladelphia, PA  19130\u003c/p\u003e\u003cbr\u003eRegardless of submission method, all written testimony should include the full name and address of the sender, in order to establish Philadelphia residency. Additionally, written testimony should clearly indicate the specific new charter application to which the testimony refers. All written testimony timely received by the Board of Education will be made part of the public record for the respective new charter application hearing.",
+   "location": "via remote video conferencing platform",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-01-23T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-23T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "06602brte4ijf480brt7rv9ghp@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3413290090078000\"",
+   "id": "022i3hc464m7ujp4qfd2senpk6",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDIyaTNoYzQ2NG03dWpwNHFmZDJzZW5wazYgcGhpbGFzZC5vcmdfb3ZiZXI1aG0xbnZtYXJ2bm4xdmszZmowMGdAZw",
+   "created": "2024-01-30T20:04:05.000Z",
+   "updated": "2024-01-30T20:04:05.039Z",
+   "summary": "Goals and Guardrails Meeting, a Committee of the Whole",
+   "description": "\u003cp\u003eRegistered speakers will be permitted to attend either in-person or remotely via the Zoom video conferencing platform. \u003c/p\u003e\u003cp\u003eIf you wish to view our full speakers procedures please visit: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf&amp;sa=D&amp;source=calendar&amp;ust=1707075538203717&amp;usg=AOvVaw0SJuYBpjn5SnjoIPyV1F_j\" target=\"_blank\"\u003e\u003cu\u003ehttps://www.philasd.org/schoolboard/wp-content/uploads/sites/892/2023/10/006-Meetings-1.pdf\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting Location: Remote Video Conference; Livestream available: \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/pstv/watch/&amp;sa=D&amp;source=calendar&amp;ust=1707075538203717&amp;usg=AOvVaw3IA-g0AWZUNND5sKywC3jZ\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehttps://www.philasd.org/pstv/watch/\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMeeting materials can be found \u003ca href=\"https://www.google.com/url?q=https://www.philasd.org/schoolboard/meetingmaterials/&amp;sa=D&amp;source=calendar&amp;ust=1707075538203717&amp;usg=AOvVaw3DGdJCT_XB8mQAgE70MJjn\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003ehere\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e.\u003cbr\u003e\u003c/p\u003e\u003cp\u003eContact Information:\u003cbr\u003ePhone: 215-400-5959\u003cbr\u003eEmail: \u003ca href=\"mailto:schoolboard@philasd.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003e\u003cu\u003eschoolboard@philasd.org\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e \u003c/p\u003e\u003cp\u003e\u003c/p\u003e",
+   "creator": {
+    "email": "tahorger@philasd.org"
+   },
+   "organizer": {
+    "email": "philasd.org_ovber5hm1nvmarvnn1vk3fj00g@group.calendar.google.com",
+    "displayName": "Board of Education Meetings (PUBLIC)",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-04-04T16:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-04-04T19:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "022i3hc464m7ujp4qfd2senpk6@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  }
+ ]
+}

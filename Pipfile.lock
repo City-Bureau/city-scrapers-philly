@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5a008f41025a10bfa7f5526a8e9090d3b02bad38ba77d5494e15eb629bf5f21a"
+            "sha256": "a6a8fc4f768664fd14a62728a4d73021e6929de0ef4d201877f735981e6438ec"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -45,6 +45,15 @@
                 "sha256:7bbc2c9c16678f7a420367fef6b172ba8730a7e66df7f4d7a55d5b3c8216615b"
             ],
             "version": "==12.19.0"
+        },
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051",
+                "sha256:b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed"
+            ],
+            "index": "pypi",
+            "markers": "python_full_version >= '3.6.0'",
+            "version": "==4.12.3"
         },
         "certifi": {
             "hashes": [
@@ -500,14 +509,24 @@
                 "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
             ],
             "index": "pypi",
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.2"
+        },
+        "python-dotenv": {
+            "hashes": [
+                "sha256:e324ee90a023d808f1959c46bcbc04446a10ced277783dc6ee09987c37ec10ca",
+                "sha256:f7b63ef50f1b690dddf550d03497b66d609393b40b564ed0d674909a68ebf16a"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==1.0.1"
         },
         "pytz": {
             "hashes": [
                 "sha256:31d4583c4ed539cd037956140d695e42c033a19e984bfce9964a3f7d59bc2b40",
                 "sha256:f90ef520d95e7c46951105338d918664ebfd6f1d995bd7d153127ce90efafa6a"
             ],
+            "index": "pypi",
             "version": "==2023.4"
         },
         "queuelib": {
@@ -670,7 +689,7 @@
                 "sha256:fd2b8500d64b909289e3541c201b4d672c0e7b458fc20e77bb37f0d71d93a75a"
             ],
             "index": "pypi",
-            "markers": "python_full_version >= '3.6.1' and python_version < '4.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.6.1'",
             "version": "==0.3.3"
         },
         "sentry-sdk": {
@@ -701,8 +720,16 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
+        },
+        "soupsieve": {
+            "hashes": [
+                "sha256:5663d5a7b3bfaeee0bc4372e7fc48f9cff4940b3eec54a6451cc5299f1097690",
+                "sha256:eaa337ff55a1579b6549dc679565eac1e3d000563bcb1c8ab0d0fefbc0c2cdc7"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==2.5"
         },
         "tldextract": {
             "hashes": [
@@ -947,7 +974,7 @@
                 "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
             ],
             "index": "pypi",
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.2"
         },
         "six": {
@@ -955,7 +982,7 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
         },
         "tomli": {
