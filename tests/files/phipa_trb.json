@@ -1,0 +1,2557 @@
+{
+ "kind": "calendar#events",
+ "etag": "\"p32k85odcmfto60o\"",
+ "summary": "taxreviewboard@gmail.com",
+ "description": "Zoom Hearing ",
+ "updated": "2024-01-26T15:47:11.689Z",
+ "timeZone": "America/New_York",
+ "accessRole": "reader",
+ "defaultReminders": [],
+ "nextSyncToken": "CKiC4ayz-4MDEAAYASD9o5-eAij9o5-eAg==",
+ "items": [
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401152350984000\"",
+   "id": "_68o34cph64p32l1h6goj8d9nb8mjge1j68o3gcpk70s32g36cks30ehg78o3kc1qccqjeehi6tj6cej6ckoj4ej670pmcpbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z29qOGQ5bmI4bWpnZTFqNjhvM2djcGs3MHMzMmczNmNrczMwZWhnNzhvM2tjMXFjY3FqZWVoaTZ0ajZjZWo2Y2tvajRlajY3MHBtY3BiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-11-21T14:16:10.000Z",
+   "updated": "2023-11-21T14:16:15.492Z",
+   "summary": "WATER REVENUE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/88320834881?pwd=WFA3eG9hUGVVMEhyZWluYlNZbElhUT09\n\nMeeting ID: 883 2083 4881\nPasscode: 040668\n\n---\n\nOne tap mobile\n+12678310333,,88320834881#,,,,*040668# US (Philadelphia) \n+13126266799,,88320834881#,,,,*040668# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 883 2083 4881\nPasscode: 040668\n\nFind your local number: https://us02web.zoom.us/u/kcwcXK28Kw\n\n",
+   "location": "https://us02web.zoom.us/j/88320834881?pwd=WFA3eG9hUGVVMEhyZWluYlNZbElhUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-08T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-08T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T141457Z-88320834881@fe80:0:0:0:c57:27ff:fe12:f83fens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401152937394000\"",
+   "id": "_68o34cph64p32l1h6gp30chmb8mjgc9n6gqj6d9i6coj4g36cks30ehg78o3kc1q68qjkp9mcpj3kpj56or3kdhjcksmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3AzMGNobWI4bWpnYzluNmdxajZkOWk2Y29qNGczNmNrczMwZWhnNzhvM2tjMXE2OHFqa3A5bWNwajNrcGo1Nm9yM2tkaGpja3NtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T14:21:02.000Z",
+   "updated": "2023-11-21T14:21:08.697Z",
+   "summary": "WATER REVENUE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81745352312?pwd=Y243Nno4Nmg5ZXdPL3VVc0ZJOHFtQT09\n\nMeeting ID: 817 4535 2312\nPasscode: 953031\n\n---\n\nOne tap mobile\n+12678310333,,81745352312#,,,,*953031# US (Philadelphia) \n+13126266799,,81745352312#,,,,*953031# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 817 4535 2312\nPasscode: 953031\n\nFind your local number: https://us02web.zoom.us/u/kDgq4bDCa\n\n",
+   "location": "https://us02web.zoom.us/j/81745352312?pwd=Y243Nno4Nmg5ZXdPL3VVc0ZJOHFtQT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-11T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-11T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T142026Z-81745352312@fe80:0:0:0:25:e6ff:fe66:63e9ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401153216858000\"",
+   "id": "_68o34cph64p32l1h6gp34chpb8mjgchi60p3ge1n6gqj8g36cks30ehg78o3kc1qcpgjkcj5cpj3kpj5chijkohl69h6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3AzNGNocGI4bWpnY2hpNjBwM2dlMW42Z3FqOGczNmNrczMwZWhnNzhvM2tjMXFjcGdqa2NqNWNwajNrcGo1Y2hpamtvaGw2OWg2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T14:23:21.000Z",
+   "updated": "2023-11-21T14:23:28.429Z",
+   "summary": "WATER REVENUE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/82202887454?pwd=Q1NPajg0ZEVxQklxZGR2WmFOTnJ4QT09\n\nMeeting ID: 822 0288 7454\nPasscode: 261731\n\n---\n\nOne tap mobile\n+12678310333,,82202887454#,,,,*261731# US (Philadelphia) \n+13126266799,,82202887454#,,,,*261731# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 822 0288 7454\nPasscode: 261731\n\nFind your local number: https://us02web.zoom.us/u/k5Il5JFxA\n\n",
+   "location": "https://us02web.zoom.us/j/82202887454?pwd=Q1NPajg0ZEVxQklxZGR2WmFOTnJ4QT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-18T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-18T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T142229Z-82202887454@fe80:0:0:0:fa:2eff:fede:b52bens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401154699704000\"",
+   "id": "_68o34cph64p32l1h6gpj6cpib8mjgd9k6csjachg6orjcg36cks30ehg78o3kc1qc4p3kc9ocpj3kpj56cs3kcph70pmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3BqNmNwaWI4bWpnZDlrNmNzamFjaGc2b3JqY2czNmNrczMwZWhnNzhvM2tjMXFjNHAza2M5b2NwajNrcGo1NmNzM2tjcGg3MHBtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T14:35:44.000Z",
+   "updated": "2023-11-21T14:35:49.852Z",
+   "summary": "WATER REVENUE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/85439520676?pwd=NEdrY0kwZnFPZjJjZGMreWVWMnVPQT09\n\nMeeting ID: 854 3952 0676\nPasscode: 067945\n\n---\n\nOne tap mobile\n+12678310333,,85439520676#,,,,*067945# US (Philadelphia) \n+19292056099,,85439520676#,,,,*067945# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 854 3952 0676\nPasscode: 067945\n\nFind your local number: https://us02web.zoom.us/u/keAN0qRUf5\n\n",
+   "location": "https://us02web.zoom.us/j/85439520676?pwd=NEdrY0kwZnFPZjJjZGMreWVWMnVPQT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-15T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-15T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T143332Z-85439520676@fe80:0:0:0:a2:18ff:fe38:3183ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401155221798000\"",
+   "id": "_68o34cph64p32l1h6gpjichkb8mjgdho6spjee9k74rj4g36cks30ehg78o3kc1qcdj38ehl6pj6cej6cli3eej4c5i36pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3BqaWNoa2I4bWpnZGhvNnNwamVlOWs3NHJqNGczNmNrczMwZWhnNzhvM2tjMXFjZGozOGVobDZwajZjZWo2Y2xpM2VlajRjNWkzNnBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-11-21T14:40:01.000Z",
+   "updated": "2023-11-21T14:40:10.899Z",
+   "summary": "REAL ESTATE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/86873794972?pwd=eDM0V3FuL0lYU0ZwZ1lFblBqSUF5QT09\n\nMeeting ID: 868 7379 4972\nPasscode: 688046\n\n---\n\nOne tap mobile\n+12678310333,,86873794972#,,,,*688046# US (Philadelphia) \n+19292056099,,86873794972#,,,,*688046# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 868 7379 4972\nPasscode: 688046\n\nFind your local number: https://us02web.zoom.us/u/kd45GieJiC\n\n",
+   "location": "https://us02web.zoom.us/j/86873794972?pwd=eDM0V3FuL0lYU0ZwZ1lFblBqSUF5QT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-11T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-11T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T143924Z-86873794972@fe80:0:0:0:cf4:56ff:fed7:dad3ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401155469150000\"",
+   "id": "_68o34cph64p32l1h6gq32c9hb8mjgd9h64qjee9m6oo34g36cks30ehg78o3kc1q6co3kp33cpj3kpj5cgpjke1kc4rmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3EzMmM5aGI4bWpnZDloNjRxamVlOW02b28zNGczNmNrczMwZWhnNzhvM2tjMXE2Y28za3AzM2NwajNrcGo1Y2dwamtlMWtjNHJtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T14:42:08.000Z",
+   "updated": "2023-11-21T14:42:14.575Z",
+   "summary": "REAL ESTATE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/85115796602?pwd=UTl1R09rZ3NtYmhiU2ZvQnpmRGdaUT09\n\nMeeting ID: 851 1579 6602\nPasscode: 943077\n\n---\n\nOne tap mobile\n+12678310333,,85115796602#,,,,*943077# US (Philadelphia) \n+13126266799,,85115796602#,,,,*943077# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 851 1579 6602\nPasscode: 943077\n\nFind your local number: https://us02web.zoom.us/u/kcWUWD4NaB\n\n",
+   "location": "https://us02web.zoom.us/j/85115796602?pwd=UTl1R09rZ3NtYmhiU2ZvQnpmRGdaUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-18T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-18T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T144111Z-85115796602@fe80:0:0:0:30:dcff:fed3:84a7ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401155967332000\"",
+   "id": "_68o34cph64p32l1h6gq38d1kb8mjgd9i68pjedpk6os36g36cks30ehg78o3kc1qc4p3kc9ocpj3kpj56cs3kcph70pmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3EzOGQxa2I4bWpnZDlpNjhwamVkcGs2b3MzNmczNmNrczMwZWhnNzhvM2tjMXFjNHAza2M5b2NwajNrcGo1NmNzM2tjcGg3MHBtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T14:46:16.000Z",
+   "updated": "2023-11-21T14:46:23.666Z",
+   "summary": "REAL ESTATE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/85223774683?pwd=TWg2OEgzVGxXZWM5bDlQcEtFU1YvUT09\n\nMeeting ID: 852 2377 4683\nPasscode: 171613\n\n---\n\nOne tap mobile\n+12678310333,,85223774683#,,,,*171613# US (Philadelphia) \n+19292056099,,85223774683#,,,,*171613# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 852 2377 4683\nPasscode: 171613\n\nFind your local number: https://us02web.zoom.us/u/kc4YZkpwOe\n\n",
+   "location": "https://us02web.zoom.us/j/85223774683?pwd=TWg2OEgzVGxXZWM5bDlQcEtFU1YvUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-13T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-13T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T144444Z-85223774683@fe80:0:0:0:a2:18ff:fe38:3183ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401156252226000\"",
+   "id": "_68o34cph64p32l1h6gq3ed1nb8mjgcpi60o38c1g6ssj0g36cks30ehg78o3kc1qccsm8ej271j6cej6ckp3ceho6gr64pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3EzZWQxbmI4bWpnY3BpNjBvMzhjMWc2c3NqMGczNmNrczMwZWhnNzhvM2tjMXFjY3NtOGVqMjcxajZjZWo2Y2twM2NlaG82Z3I2NHBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-11-21T14:48:39.000Z",
+   "updated": "2023-11-21T14:48:46.113Z",
+   "summary": "OOPA MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/83200400790?pwd=ellJK29qMElXOURGcG9MRm1CY0hqUT09\n\nMeeting ID: 832 0040 0790\nPasscode: 336525\n\n---\n\nOne tap mobile\n+12678310333,,83200400790#,,,,*336525# US (Philadelphia) \n+13017158592,,83200400790#,,,,*336525# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 832 0040 0790\nPasscode: 336525\n\nFind your local number: https://us02web.zoom.us/u/kcpyRgQTXj\n\n",
+   "location": "https://us02web.zoom.us/j/83200400790?pwd=ellJK29qMElXOURGcG9MRm1CY0hqUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-04T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-04T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T144747Z-83200400790@fe80:0:0:0:c9d:b8ff:fe26:846bens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401156526244000\"",
+   "id": "_68o34cph64p32l1h6gq3id9jb8mjgc9o74sj0d1l60ojeg36cks30ehg78o3kc1qccsm8ej271j6cej6ckp3ceho6gr64pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3EzaWQ5amI4bWpnYzlvNzRzajBkMWw2MG9qZWczNmNrczMwZWhnNzhvM2tjMXFjY3NtOGVqMjcxajZjZWo2Y2twM2NlaG82Z3I2NHBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-11-21T14:50:57.000Z",
+   "updated": "2023-11-21T14:51:03.122Z",
+   "summary": "OOPA MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81899045017?pwd=OGRZT2Vrb0R3bnQ4SEpRUDhkTWFadz09\n\nMeeting ID: 818 9904 5017\nPasscode: 306988\n\n---\n\nOne tap mobile\n+12678310333,,81899045017#,,,,*306988# US (Philadelphia) \n+19292056099,,81899045017#,,,,*306988# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 818 9904 5017\nPasscode: 306988\n\nFind your local number: https://us02web.zoom.us/u/kfjecwKbA\n\n",
+   "location": "https://us02web.zoom.us/j/81899045017?pwd=OGRZT2Vrb0R3bnQ4SEpRUDhkTWFadz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-18T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-18T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T144953Z-81899045017@fe80:0:0:0:c9d:b8ff:fe26:846bens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401156866508000\"",
+   "id": "_68o34cph64p32l1h6gqj4cpjb8mjgchp60r30c1p74p3cg36cks30ehg78o3kc1qcct38c36cot6cp9n6kt3ge9m65imsspl",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3FqNGNwamI4bWpnY2hwNjByMzBjMXA3NHAzY2czNmNrczMwZWhnNzhvM2tjMXFjY3QzOGMzNmNvdDZjcDluNmt0M2dlOW02NWltc3NwbCB0YXhyZXZpZXdib2FyZEBt",
+   "created": "2023-11-21T14:53:47.000Z",
+   "updated": "2023-11-21T14:53:53.254Z",
+   "summary": "WATER DEPARTMENT MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/82906009926?pwd=bk1zamVSU05ib0grZFRGd3ZrTFFSQT09\n\nMeeting ID: 829 0600 9926\nPasscode: 835034\n\n---\n\nOne tap mobile\n+12678310333,,82906009926#,,,,*835034# US (Philadelphia) \n+13017158592,,82906009926#,,,,*835034# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 829 0600 9926\nPasscode: 835034\n\nFind your local number: https://us02web.zoom.us/u/keDYfN0IbN\n\n",
+   "location": "https://us02web.zoom.us/j/82906009926?pwd=bk1zamVSU05ib0grZFRGd3ZrTFFSQT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-04T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-04T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T145233Z-82906009926@fe80:0:0:0:c:40ff:fe75:8961ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401157049084000\"",
+   "id": "_68o34cph64p32l1h6gqj8d1pb8mjgcpi68q3ee1m64pjcg36cks30ehg78o3kc1q64o3kpb4cpj3kpj5cdh3kp9jchh6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3FqOGQxcGI4bWpnY3BpNjhxM2VlMW02NHBqY2czNmNrczMwZWhnNzhvM2tjMXE2NG8za3BiNGNwajNrcGo1Y2RoM2twOWpjaGg2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T14:55:18.000Z",
+   "updated": "2023-11-21T14:55:24.542Z",
+   "summary": "WATER DEPARTMENT MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/83224786136?pwd=ZGJVdHlwQUs0V0JlU0R0LzJOUytLZz09\n\nMeeting ID: 832 2478 6136\nPasscode: 049887\n\n---\n\nOne tap mobile\n+12678310333,,83224786136#,,,,*049887# US (Philadelphia) \n+13126266799,,83224786136#,,,,*049887# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 832 2478 6136\nPasscode: 049887\n\nFind your local number: https://us02web.zoom.us/u/kb2ryqvFkV\n\n",
+   "location": "https://us02web.zoom.us/j/83224786136?pwd=ZGJVdHlwQUs0V0JlU0R0LzJOUytLZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-11T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-11T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T145449Z-83224786136@fe80:0:0:0:10:edff:fecb:e3dbens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401157453474000\"",
+   "id": "_68o34cph64p32l1h6gqjed1pb8mjgdhk64o36cpl6cs3gg36cks30ehg78o3kc1qccr38ej369j6cej6ckr6cej16gq32pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3FqZWQxcGI4bWpnZGhrNjRvMzZjcGw2Y3MzZ2czNmNrczMwZWhnNzhvM2tjMXFjY3IzOGVqMzY5ajZjZWo2Y2tyNmNlajE2Z3EzMnBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-11-21T14:58:40.000Z",
+   "updated": "2023-11-21T14:58:46.737Z",
+   "summary": "WATER DEPARTMENT MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/86410335388?pwd=YzBUSzNsaWswMTJDelBaT0tVYVNKZz09\n\nMeeting ID: 864 1033 5388\nPasscode: 469073\n\n---\n\nOne tap mobile\n+12678310333,,86410335388#,,,,*469073# US (Philadelphia) \n+19292056099,,86410335388#,,,,*469073# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 864 1033 5388\nPasscode: 469073\n\nFind your local number: https://us02web.zoom.us/u/kbZ7686Xgr\n\n",
+   "location": "https://us02web.zoom.us/j/86410335388?pwd=YzBUSzNsaWswMTJDelBaT0tVYVNKZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-18T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-18T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T145749Z-86410335388@fe80:0:0:0:c64:c2ff:fe6f:a441ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401157718270000\"",
+   "id": "_68o34cph64p32l1h6gqjicppb8mjgdhi6kpjge9j6sp32g36cks30ehg78o3kc1qccojiehicdj6cej6ckqj2ehh6oo36pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2Z3FqaWNwcGI4bWpnZGhpNmtwamdlOWo2c3AzMmczNmNrczMwZWhnNzhvM2tjMXFjY29qaWVoaWNkajZjZWo2Y2txajJlaGg2b28zNnBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-11-21T15:00:51.000Z",
+   "updated": "2023-11-21T15:00:59.135Z",
+   "summary": "REFUSE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/86253893721?pwd=aUU4ZEVWQUlBNnp1MGVYWW1KRTVxZz09\n\nMeeting ID: 862 5389 3721\nPasscode: 288502\n\n---\n\nOne tap mobile\n+12678310333,,86253893721#,,,,*288502# US (Philadelphia) \n+13017158592,,86253893721#,,,,*288502# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 862 5389 3721\nPasscode: 288502\n\nFind your local number: https://us02web.zoom.us/u/kdaUXu6aVT\n\n",
+   "location": "https://us02web.zoom.us/j/86253893721?pwd=aUU4ZEVWQUlBNnp1MGVYWW1KRTVxZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-11T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-11T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T145939Z-86253893721@fe80:0:0:0:c19:2cff:fe51:1603ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401157933212000\"",
+   "id": "_68o34cph64p32l1h6ko32d9pb8mjgdpg68s3icpo6oq3eg36cks30ehg78o3kc1q69gjkeb2cpj3kpj56dgjkcj464qmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2a28zMmQ5cGI4bWpnZHBnNjhzM2ljcG82b3EzZWczNmNrczMwZWhnNzhvM2tjMXE2OWdqa2ViMmNwajNrcGo1NmRnamtjajQ2NHFtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T15:02:39.000Z",
+   "updated": "2023-11-21T15:02:46.606Z",
+   "summary": "REFUSE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/87028938647?pwd=cDFnNkRqbmNRUjNUQjRLYWFlaG0vZz09\n\nMeeting ID: 870 2893 8647\nPasscode: 306000\n\n---\n\nOne tap mobile\n+12678310333,,87028938647#,,,,*306000# US (Philadelphia) \n+13126266799,,87028938647#,,,,*306000# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 870 2893 8647\nPasscode: 306000\n\nFind your local number: https://us02web.zoom.us/u/kJ6aD7gpI\n\n",
+   "location": "https://us02web.zoom.us/j/87028938647?pwd=cDFnNkRqbmNRUjNUQjRLYWFlaG0vZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-06T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-06T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T150159Z-87028938647@fe80:0:0:0:2a:9bff:fe3a:2d15ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401158146834000\"",
+   "id": "_68o34cph64p32l1h6ko36cphb8mjge1l6grj8d1m6gs3gg36cks30ehg78o3kc1qccsjeehj75j6cej6ckom8ej2cor6cpbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2a28zNmNwaGI4bWpnZTFsNmdyajhkMW02Z3MzZ2czNmNrczMwZWhnNzhvM2tjMXFjY3NqZWVoajc1ajZjZWo2Y2tvbThlajJjb3I2Y3BiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-11-21T15:04:07.000Z",
+   "updated": "2023-11-21T15:04:33.417Z",
+   "summary": "REFUSE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/88547446488?pwd=d3JrQ1o3eTNjWHVJRHFCRTltL3UwUT09\n\nMeeting ID: 885 4744 6488\nPasscode: 030745\n\n---\n\nOne tap mobile\n+12678310333,,88547446488#,,,,*030745# US (Philadelphia) \n+13017158592,,88547446488#,,,,*030745# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 885 4744 6488\nPasscode: 030745\n\nFind your local number: https://us02web.zoom.us/u/kcbGcG21Tl\n\n",
+   "location": "https://us02web.zoom.us/j/88547446488?pwd=d3JrQ1o3eTNjWHVJRHFCRTltL3UwUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-20T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-20T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T150331Z-88547446488@fe80:0:0:0:c97:39ff:fe1d:bf6fens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401158312648000\"",
+   "id": "_68o34cph64p32l1h6ko3ac1ib8mjgd1l6op3ae9j74ojgg36cks30ehg78o3kc1qc8r3kphpcpj3kpj5cgrjkp9m6timsspl",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2a28zYWMxaWI4bWpnZDFsNm9wM2FlOWo3NG9qZ2czNmNrczMwZWhnNzhvM2tjMXFjOHIza3BocGNwajNrcGo1Y2dyamtwOW02dGltc3NwbCB0YXhyZXZpZXdib2FyZEBt",
+   "created": "2023-11-21T15:05:50.000Z",
+   "updated": "2023-11-21T15:05:56.324Z",
+   "summary": "L&I MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/84562593918?pwd=bVhqVitITzJSVytXK1Fnb3RHNlQ4QT09\n\nMeeting ID: 845 6259 3918\nPasscode: 765245\n\n---\n\nOne tap mobile\n+12678310333,,84562593918#,,,,*765245# US (Philadelphia) \n+13017158592,,84562593918#,,,,*765245# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 845 6259 3918\nPasscode: 765245\n\nFind your local number: https://us02web.zoom.us/u/kc4peERt3K\n\n",
+   "location": "https://us02web.zoom.us/j/84562593918?pwd=bVhqVitITzJSVytXK1Fnb3RHNlQ4QT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-06T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-06T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T150502Z-84562593918@fe80:0:0:0:b6:f9ff:fed7:e67ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401158521078000\"",
+   "id": "_68o34cph64p32l1h6ko3cd1mb8mjgc9j6soj0e9o60oj6g36cks30ehg78o3kc1qccr3aehpcdj6cej6clijeehkchh64pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2a28zY2QxbWI4bWpnYzlqNnNvajBlOW82MG9qNmczNmNrczMwZWhnNzhvM2tjMXFjY3IzYWVocGNkajZjZWo2Y2xpamVlaGtjaGg2NHBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-11-21T15:07:34.000Z",
+   "updated": "2023-11-21T15:07:40.539Z",
+   "summary": "L&I MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81371098013?pwd=WXZFSG1pZXRuOTF6N1Z3Q3d1Um93Zz09\n\nMeeting ID: 813 7109 8013\nPasscode: 951453\n\n---\n\nOne tap mobile\n+12678310333,,81371098013#,,,,*951453# US (Philadelphia) \n+13126266799,,81371098013#,,,,*951453# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 813 7109 8013\nPasscode: 951453\n\nFind your local number: https://us02web.zoom.us/u/kdsjTqBrCz\n\n",
+   "location": "https://us02web.zoom.us/j/81371098013?pwd=WXZFSG1pZXRuOTF6N1Z3Q3d1Um93Zz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-13T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-13T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T150646Z-81371098013@fe80:0:0:0:c65:9cff:fee7:4dbbens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401158716802000\"",
+   "id": "_68o34cph64p32l1h6ko3gc9mb8mjgd1l6or3edpk64s38g36cks30ehg78o3kc1qcdgj4ej4cpj3kpj5c4pjkc9gccsmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2a28zZ2M5bWI4bWpnZDFsNm9yM2VkcGs2NHMzOGczNmNrczMwZWhnNzhvM2tjMXFjZGdqNGVqNGNwajNrcGo1YzRwamtjOWdjY3NtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T15:09:12.000Z",
+   "updated": "2023-11-21T15:09:18.401Z",
+   "summary": "L&I MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/84566774184?pwd=U1BKdmU2SDgxY1ArWlRxeERDbmFiUT09\n\nMeeting ID: 845 6677 4184\nPasscode: 121995\n\n---\n\nOne tap mobile\n+12678310333,,84566774184#,,,,*121995# US (Philadelphia) \n+13017158592,,84566774184#,,,,*121995# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 845 6677 4184\nPasscode: 121995\n\nFind your local number: https://us02web.zoom.us/u/kcRuE2yF8X\n\n",
+   "location": "https://us02web.zoom.us/j/84566774184?pwd=U1BKdmU2SDgxY1ArWlRxeERDbmFiUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-20T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-20T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T150816Z-84566774184@fe80:0:0:0:ca2:dff:fea3:10c9ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401159492330000\"",
+   "id": "_68o34cph64p32l1h6koj6c9lb8mjgchm74r36chi6gsjig36cks30ehg78o3kc1q6gq3kc9mcpj3kpj5cphjkob671h6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2a29qNmM5bGI4bWpnY2htNzRyMzZjaGk2Z3NqaWczNmNrczMwZWhnNzhvM2tjMXE2Z3Eza2M5bWNwajNrcGo1Y3BoamtvYjY3MWg2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T15:15:39.000Z",
+   "updated": "2023-11-21T15:15:46.165Z",
+   "summary": "FULL BOARD WATER REVENUE / WATER DEPT. HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/82696322499?pwd=WVFKYkpjaUJGYTFNYzdsbHloTEVRdz09\n\nMeeting ID: 826 9632 2499\nPasscode: 808707\n\n---\n\nOne tap mobile\n+12678310333,,82696322499#,,,,*808707# US (Philadelphia) \n+13017158592,,82696322499#,,,,*808707# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 826 9632 2499\nPasscode: 808707\n\nFind your local number: https://us02web.zoom.us/u/kbUXba9J4O\n\n",
+   "location": "https://us02web.zoom.us/j/82696322499?pwd=WVFKYkpjaUJGYTFNYzdsbHloTEVRdz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-05T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-05T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T151315Z-82696322499@fe80:0:0:0:44:16ff:fefc:af8bens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3401161126442000\"",
+   "id": "_68o34cph64p32l1h6kp3ed9nb8mjge1j74rj4c1n64ojgg36cks30ehg78o3kc1q6lgjkdhkcpj3kpj5ckr3kd32c4omarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjRwMzJsMWg2a3AzZWQ5bmI4bWpnZTFqNzRyajRjMW42NG9qZ2czNmNrczMwZWhnNzhvM2tjMXE2bGdqa2Roa2NwajNrcGo1Y2tyM2tkMzJjNG9tYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-21T15:29:16.000Z",
+   "updated": "2023-11-21T15:29:23.221Z",
+   "summary": "FULL BOARD L&I HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/88397207118?pwd=Nm9HVzRtczB2Vk12YkFFWitjbEhSUT09\n\nMeeting ID: 883 9720 7118\nPasscode: 167548\n\n---\n\nOne tap mobile\n+12678310333,,88397207118#,,,,*167548# US (Philadelphia) \n+13017158592,,88397207118#,,,,*167548# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 883 9720 7118\nPasscode: 167548\n\nFind your local number: https://us02web.zoom.us/u/kofIAlHYi\n\n",
+   "location": "https://us02web.zoom.us/j/88397207118?pwd=Nm9HVzRtczB2Vk12YkFFWitjbEhSUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2023-12-07T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2023-12-07T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231121T152757Z-88397207118@fe80:0:0:0:5a:64ff:fee6:4ba1ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3402554855412000\"",
+   "id": "_b97kuj9o68oj0dhi74qj0chj",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=X2I5N2t1ajlvNjhvajBkaGk3NHFqMGNoal8yMDIyMDIyMlQxNDAwMDBaIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-11-29T17:03:39.000Z",
+   "updated": "2023-11-29T17:03:47.706Z",
+   "summary": "SPEED/RED LIGHT CAMERA HEARINGS",
+   "description": "Milton U. Oates, Jr. is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/82106295023?pwd=SXIrdFRIMEZuVmZkbEVxWjNQK21JZz09\n\nMeeting ID: 821 0629 5023\nPasscode: 756613\nOne tap mobile\n+12678310333,,82106295023#,,,,*756613# US (Philadelphia) \n+13126266799,,82106295023#,,,,*756613# US (Chicago)\n\nDial by your location\n        +1 267 831 0333 US (Philadelphia)\n        +1 312 626 6799 US (Chicago)\n        +1 929 205 6099 US (New York)\n        +1 301 715 8592 US (Washington DC)\n        +1 346 248 7799 US (Houston)\nMeeting ID: 821 0629 5023\nPasscode: 756613\nFind your local number: https://us02web.zoom.us/u/kpc4rgIJF\n\n",
+   "location": "https://us02web.zoom.us/j/82106295023?pwd=SXIrdFRIMEZuVmZkbEVxWjNQK21JZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2022-02-22T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2022-02-22T13:45:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20241231T140000Z;INTERVAL=1;BYDAY=TU,WE,TH"
+   ],
+   "iCalUID": "ZOOM82106295023",
+   "sequence": 21,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3405993415176000\"",
+   "id": "_68o34cph68ojil1h6gpjec1ob8mjgc9p6cpjgd1m6cpj0g36cks30ehg78o3kc1qcdh68ej365j6cej6ckq36ej2cdj6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2Z3BqZWMxb2I4bWpnYzlwNmNwamdkMW02Y3BqMGczNmNrczMwZWhnNzhvM2tjMXFjZGg2OGVqMzY1ajZjZWo2Y2txMzZlajJjZGo2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-19T14:38:20.000Z",
+   "updated": "2023-12-19T14:38:27.588Z",
+   "summary": "FULL BOARD L&I HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81933846330?pwd=NlNoSnJOd250MnVrWS9IM29WTy9Ldz09\n\nMeeting ID: 819 3384 6330\nPasscode: 975550\n\n---\n\nOne tap mobile\n+12678310333,,81933846330#,,,,*975550# US (Philadelphia) \n+13017158592,,81933846330#,,,,*975550# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 819 3384 6330\nPasscode: 975550\n\nFind your local number: https://us02web.zoom.us/u/kbaSq7d8k\n\n",
+   "location": "https://us02web.zoom.us/j/81933846330?pwd=NlNoSnJOd250MnVrWS9IM29WTy9Ldz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-11T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-11T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T143708Z-81933846330@fe80:0:0:0:cbd:c1ff:fe43:bcfens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3405993604072000\"",
+   "id": "_68o34cph68ojil1h6gpjic9kb8mjgc9i60pj6e9l6so3ig36cks30ehg78o3kc1qcdhjeej46hj6cej6climaeho64q36pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2Z3BqaWM5a2I4bWpnYzlpNjBwajZlOWw2c28zaWczNmNrczMwZWhnNzhvM2tjMXFjZGhqZWVqNDZoajZjZWo2Y2xpbWFlaG82NHEzNnBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-12-19T14:39:55.000Z",
+   "updated": "2023-12-19T14:40:02.036Z",
+   "summary": "FULL BOARD L&I HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81203395709?pwd=SE9xRFBBSVZVeTBUdFR4Uk9yWXJ4UT09\n\nMeeting ID: 812 0339 5709\nPasscode: 905752\n\n---\n\nOne tap mobile\n+12678310333,,81203395709#,,,,*905752# US (Philadelphia) \n+13126266799,,81203395709#,,,,*905752# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 812 0339 5709\nPasscode: 905752\n\nFind your local number: https://us02web.zoom.us/u/kIs4mLxLf\n\n",
+   "location": "https://us02web.zoom.us/j/81203395709?pwd=SE9xRFBBSVZVeTBUdFR4Uk9yWXJ4UT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-23T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-23T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T143914Z-81203395709@fe80:0:0:0:cc7:d4ff:feee:8143ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3405993808108000\"",
+   "id": "_68o34cph68ojil1h6gq32c1ib8mjge1g64oj8dpj60q34g36cks30ehg78o3kc1qcgq3kd1hcpj3kpj56kr3ko9ickqmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2Z3EzMmMxaWI4bWpnZTFnNjRvajhkcGo2MHEzNGczNmNrczMwZWhnNzhvM2tjMXFjZ3Eza2QxaGNwajNrcGo1NmtyM2tvOWlja3FtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-19T14:41:37.000Z",
+   "updated": "2023-12-19T14:41:44.054Z",
+   "summary": "FULL BOARD L&I HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/88011473042?pwd=VEsxZWhEUFJEZG5VTjRTVlJWUEozdz09\n\nMeeting ID: 880 1147 3042\nPasscode: 760276\n\n---\n\nOne tap mobile\n+12678310333,,88011473042#,,,,*760276# US (Philadelphia) \n+13126266799,,88011473042#,,,,*760276# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 880 1147 3042\nPasscode: 760276\n\nFind your local number: https://us02web.zoom.us/u/k9JEsHGUw\n\n",
+   "location": "https://us02web.zoom.us/j/88011473042?pwd=VEsxZWhEUFJEZG5VTjRTVlJWUEozdz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-25T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-25T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T144102Z-88011473042@fe80:0:0:0:d4:41ff:fe56:a2e5ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3405994477134000\"",
+   "id": "_68o34cph68ojil1h6gq3cc9pb8mjgcpj68sj8c9k64s38g36cks30ehg78o3kc1qc8r3kphpcpj3kpj5cgrjkp9m6timsspl",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2Z3EzY2M5cGI4bWpnY3BqNjhzajhjOWs2NHMzOGczNmNrczMwZWhnNzhvM2tjMXFjOHIza3BocGNwajNrcGo1Y2dyamtwOW02dGltc3NwbCB0YXhyZXZpZXdib2FyZEBt",
+   "created": "2023-12-19T14:47:12.000Z",
+   "updated": "2023-12-19T14:47:18.567Z",
+   "summary": "FULL BOARD WATER REVENUE HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/83329414184?pwd=RVNtaC9SNzZDRDY3aXRIcHprSkVwdz09\n\nMeeting ID: 833 2941 4184\nPasscode: 111998\n\n---\n\nOne tap mobile\n+12678310333,,83329414184#,,,,*111998# US (Philadelphia) \n+13126266799,,83329414184#,,,,*111998# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 833 2941 4184\nPasscode: 111998\n\nFind your local number: https://us02web.zoom.us/u/kb4SOZSU9G\n\n",
+   "location": "https://us02web.zoom.us/j/83329414184?pwd=RVNtaC9SNzZDRDY3aXRIcHprSkVwdz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-18T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-18T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T144619Z-83329414184@fe80:0:0:0:b6:f9ff:fed7:e67ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3405994670422000\"",
+   "id": "_68o34cph68ojil1h6gq3gchmb8mjgchm6kqjic1l6cr3gg36cks30ehg78o3kc1qccr6aej5clj6cej6clijeej56csmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2Z3EzZ2NobWI4bWpnY2htNmtxamljMWw2Y3IzZ2czNmNrczMwZWhnNzhvM2tjMXFjY3I2YWVqNWNsajZjZWo2Y2xpamVlajU2Y3NtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-19T14:48:49.000Z",
+   "updated": "2023-12-19T14:48:55.211Z",
+   "summary": "FULL BOARD WATER REVENUE HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/82655905368?pwd=SXArNlRHelRlSjl1VHVsdUNNcXdIQT09\n\nMeeting ID: 826 5590 5368\nPasscode: 558197\n\n---\n\nOne tap mobile\n+12678310333,,82655905368#,,,,*558197# US (Philadelphia) \n+13017158592,,82655905368#,,,,*558197# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 826 5590 5368\nPasscode: 558197\n\nFind your local number: https://us02web.zoom.us/u/kzdH04Are\n\n",
+   "location": "https://us02web.zoom.us/j/82655905368?pwd=SXArNlRHelRlSjl1VHVsdUNNcXdIQT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-30T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-30T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T144826Z-82655905368@fe80:0:0:0:c6e:eeff:fee7:e39ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3405995035686000\"",
+   "id": "_68o34cph68ojil1h6gqj2c1ob8mjge9m68s38cpi70p3cg36cks30ehg78o3kc1q6pijkp9pcpj3kpj5c8qjkeb475i6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2Z3FqMmMxb2I4bWpnZTltNjhzMzhjcGk3MHAzY2czNmNrczMwZWhnNzhvM2tjMXE2cGlqa3A5cGNwajNrcGo1YzhxamtlYjQ3NWk2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-19T14:51:50.000Z",
+   "updated": "2023-12-19T14:51:57.843Z",
+   "summary": "FULL BOARD REAL ESTATE",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/89628432826?pwd=d3pCN1BnR05DQWhLUlhja25xSjNOdz09\n\nMeeting ID: 896 2843 2826\nPasscode: 795237\n\n---\n\nOne tap mobile\n+12678310333,,89628432826#,,,,*795237# US (Philadelphia) \n+19292056099,,89628432826#,,,,*795237# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 896 2843 2826\nPasscode: 795237\n\nFind your local number: https://us02web.zoom.us/u/kdd1vqgn9U\n\n",
+   "location": "https://us02web.zoom.us/j/89628432826?pwd=d3pCN1BnR05DQWhLUlhja25xSjNOdz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-16T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-16T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T145108Z-89628432826@fe80:0:0:0:6e:e9ff:feb5:9d9dens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406010798560000\"",
+   "id": "_68o34cph68ojil1h6so34chhb8mjgd1h6cr3gdhn6ss3eg36cks30ehg78o3kc1qcdgj8ej6cpj6cej6cko6cej3c5gm4pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2c28zNGNoaGI4bWpnZDFoNmNyM2dkaG42c3MzZWczNmNrczMwZWhnNzhvM2tjMXFjZGdqOGVqNmNwajZjZWo2Y2tvNmNlajNjNWdtNHBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-12-19T17:03:13.000Z",
+   "updated": "2023-12-19T17:03:19.280Z",
+   "summary": "REFUSE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/84136867787?pwd=cGZmQ1BaRlBOQUNrRmRDS3RmTmx0dz09\n\nMeeting ID: 841 3686 7787\nPasscode: 397975\n\n---\n\nOne tap mobile\n+12678310333,,84136867787#,,,,*397975# US (Philadelphia) \n+13126266799,,84136867787#,,,,*397975# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 841 3686 7787\nPasscode: 397975\n\nFind your local number: https://us02web.zoom.us/u/kcf6qc2E7G\n\n",
+   "location": "https://us02web.zoom.us/j/84136867787?pwd=cGZmQ1BaRlBOQUNrRmRDS3RmTmx0dz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-31T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-31T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T170221Z-84136867787@fe80:0:0:0:ca4:ffff:fe0f:caabens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406017715820000\"",
+   "id": "_68o34cph68ojil1h6sqjid9kb8mjgchk68pjgd1k6gs36g36cks30ehg78o3kc1qccqm4eho6hj6cej6clhj4ehlc9hjapbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2c3FqaWQ5a2I4bWpnY2hrNjhwamdkMWs2Z3MzNmczNmNrczMwZWhnNzhvM2tjMXFjY3FtNGVobzZoajZjZWo2Y2xoajRlaGxjOWhqYXBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-12-19T18:00:50.000Z",
+   "updated": "2023-12-19T18:00:57.910Z",
+   "summary": "WATER REVENUE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/82423844483?pwd=bldub0w5RENUbU4vSEZvN0xtb2JiZz09\n\nMeeting ID: 824 2384 4483\nPasscode: 977072\n\n---\n\nOne tap mobile\n+12678310333,,82423844483#,,,,*977072# US (Philadelphia) \n+13126266799,,82423844483#,,,,*977072# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 824 2384 4483\nPasscode: 977072\n\nFind your local number: https://us02web.zoom.us/u/kxI0k8ve\n\n",
+   "location": "https://us02web.zoom.us/j/82423844483?pwd=bldub0w5RENUbU4vSEZvN0xtb2JiZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-08T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-08T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T175954Z-82423844483@fe80:0:0:0:c5b:84ff:fec2:5bc5ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406018174266000\"",
+   "id": "_68o34cph68ojil1h70o36chkb8mjgc9l70q30dhk70ojcg36cks30ehg78o3kc1q74rjkp1pcpj3kpj5cgsjkp1h6lh6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg3MG8zNmNoa2I4bWpnYzlsNzBxMzBkaGs3MG9qY2czNmNrczMwZWhnNzhvM2tjMXE3NHJqa3AxcGNwajNrcGo1Y2dzamtwMWg2bGg2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-19T18:04:40.000Z",
+   "updated": "2023-12-19T18:04:47.133Z",
+   "summary": "WATER REVENUE MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81584064816?pwd=TCs4L3JpUjhvbnVQVWZudllWMFc3Zz09\n\nMeeting ID: 815 8406 4816\nPasscode: 846552\n\n---\n\nOne tap mobile\n+12678310333,,81584064816#,,,,*846552# US (Philadelphia) \n+13017158592,,81584064816#,,,,*846552# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 815 8406 4816\nPasscode: 846552\n\nFind your local number: https://us02web.zoom.us/u/kbqqdXjnSC\n\n",
+   "location": "https://us02web.zoom.us/j/81584064816?pwd=TCs4L3JpUjhvbnVQVWZudllWMFc3Zz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-29T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-29T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T180324Z-81584064816@fe80:0:0:0:97:d9ff:fed9:d15bens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169235636000\"",
+   "id": "_68o34cph68p30l1h6gp3cc1lb8mjge9k6osj8c1m6ksjig36cks30ehg78o3kc1q64qjkdj4cpj3kpj5c8ojkdr275imsspl",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhwMzBsMWg2Z3AzY2MxbGI4bWpnZTlrNm9zajhjMW02a3NqaWczNmNrczMwZWhnNzhvM2tjMXE2NHFqa2RqNGNwajNrcGo1YzhvamtkcjI3NWltc3NwbCB0YXhyZXZpZXdib2FyZEBt",
+   "created": "2023-12-20T15:03:29.000Z",
+   "updated": "2023-12-20T15:03:37.818Z",
+   "summary": "WATER REVENUE & WATER DEPT DEPARTMENTAL HEARINGS",
+   "description": "Milton U. Oates, Jr. is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/89469406599?pwd=b3FUSVFkRlo5dndMb1RMSlYwOE5wdz09\n\nMeeting ID: 894 6940 6599\nPasscode: 367841\n\n---\n\nOne tap mobile\n+12678310333,,89469406599#,,,,*367841# US (Philadelphia) \n+13017158592,,89469406599#,,,,*367841# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 894 6940 6599\nPasscode: 367841\n\nFind your local number: https://us02web.zoom.us/u/kd8DKdtPh9\n\n",
+   "location": "https://us02web.zoom.us/j/89469406599?pwd=b3FUSVFkRlo5dndMb1RMSlYwOE5wdz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-08T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-08T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231220T142605Z-89469406599@fe80:0:0:0:15:6dff:feb1:7b9ens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169264056000\"",
+   "id": "_68o34cph68ojil1h6sqjacpnb8mjgdhi6sqjae1i6sojeg36cks30ehg78o3kc1qccrm2ej26hj6cej6ckq32ej661j6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2c3FqYWNwbmI4bWpnZGhpNnNxamFlMWk2c29qZWczNmNrczMwZWhnNzhvM2tjMXFjY3JtMmVqMjZoajZjZWo2Y2txMzJlajY2MWo2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-20T15:03:45.000Z",
+   "updated": "2023-12-20T15:03:52.028Z",
+   "summary": "WATER REVENUE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/86275582717?pwd=Vmg5NHFMd2VUbDdCS1dsMHFzWHhLZz09\n\nMeeting ID: 862 7558 2717\nPasscode: 777799\n\n---\n\nOne tap mobile\n+12678310333,,86275582717#,,,,*777799# US (Philadelphia) \n+19292056099,,86275582717#,,,,*777799# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 862 7558 2717\nPasscode: 777799\n\nFind your local number: https://us02web.zoom.us/u/khul6Q50X\n\n",
+   "location": "https://us02web.zoom.us/j/86275582717?pwd=Vmg5NHFMd2VUbDdCS1dsMHFzWHhLZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-12T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-12T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T175537Z-86275582717@fe80:0:0:0:c7a:b4ff:fe41:f0fens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169298216000\"",
+   "id": "_68o34cph68ojil1h6sqjec1jb8mjge1k74o38dhj6ko30g36cks30ehg78o3kc1qccoj8ehh6dj6cej6ckojiej16orjapbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2c3FqZWMxamI4bWpnZTFrNzRvMzhkaGo2a28zMGczNmNrczMwZWhnNzhvM2tjMXFjY29qOGVoaDZkajZjZWo2Y2tvamllajE2b3JqYXBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-12-20T15:04:03.000Z",
+   "updated": "2023-12-20T15:04:09.108Z",
+   "summary": "WATER REVENUE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/88490463500?pwd=Q1pJN1FGYTQ2bW5PdXdJam9kTmRsZz09\n\nMeeting ID: 884 9046 3500\nPasscode: 585649\n\n---\n\nOne tap mobile\n+12678310333,,88490463500#,,,,*585649# US (Philadelphia) \n+13126266799,,88490463500#,,,,*585649# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 884 9046 3500\nPasscode: 585649\n\nFind your local number: https://us02web.zoom.us/u/kcGkoVBTxe\n\n",
+   "location": "https://us02web.zoom.us/j/88490463500?pwd=Q1pJN1FGYTQ2bW5PdXdJam9kTmRsZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-19T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-19T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T175703Z-88490463500@fe80:0:0:0:c14:13ff:fe19:a675ens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169329462000\"",
+   "id": "_68o34cph68ojil1h70o32d1jb8mjgc9o6crj4chk6kojig36cks30ehg78o3kc1qcdh68ej365j6cej6ckq36ej2cdj6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg3MG8zMmQxamI4bWpnYzlvNmNyajRjaGs2a29qaWczNmNrczMwZWhnNzhvM2tjMXFjZGg2OGVqMzY1ajZjZWo2Y2txMzZlajJjZGo2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-20T15:04:18.000Z",
+   "updated": "2023-12-20T15:04:24.731Z",
+   "summary": "WATER REVENUE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81837224519?pwd=VDZ2eUs4K2cvWnpuenNpV3ROYTZrQT09\n\nMeeting ID: 818 3722 4519\nPasscode: 697039\n\n---\n\nOne tap mobile\n+12678310333,,81837224519#,,,,*697039# US (Philadelphia) \n+13126266799,,81837224519#,,,,*697039# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 818 3722 4519\nPasscode: 697039\n\nFind your local number: https://us02web.zoom.us/u/kcYLd2fSRp\n\n",
+   "location": "https://us02web.zoom.us/j/81837224519?pwd=VDZ2eUs4K2cvWnpuenNpV3ROYTZrQT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-22T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-22T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T180143Z-81837224519@fe80:0:0:0:cbd:c1ff:fe43:bcfens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169354116000\"",
+   "id": "_68o34cph68ojil1h6sqjgchmb8mjgd1j6kp3adpj74o34g36cks30ehg78o3kc1q68pjkohicpj3kpj56sojkpho6osmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2c3FqZ2NobWI4bWpnZDFqNmtwM2FkcGo3NG8zNGczNmNrczMwZWhnNzhvM2tjMXE2OHBqa29oaWNwajNrcGo1NnNvamtwaG82b3NtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-20T15:04:31.000Z",
+   "updated": "2023-12-20T15:04:37.058Z",
+   "summary": "WATER REVENUE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/84352573902?pwd=WnBsdW9lamJJYk9jUXZjN2kwN2wrQT09\n\nMeeting ID: 843 5257 3902\nPasscode: 707087\n\n---\n\nOne tap mobile\n+12678310333,,84352573902#,,,,*707087# US (Philadelphia) \n+13017158592,,84352573902#,,,,*707087# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 843 5257 3902\nPasscode: 707087\n\nFind your local number: https://us02web.zoom.us/u/kbNDfsKrXT\n\n",
+   "location": "https://us02web.zoom.us/j/84352573902?pwd=WnBsdW9lamJJYk9jUXZjN2kwN2wrQT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-26T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-26T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T175826Z-84352573902@fe80:0:0:0:23:b2ff:fe71:f869ens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169642998000\"",
+   "id": "_68o34cph68p30l1h6gp3gchkb8mjgcpl6gr3cd1j6gs3ig36cks30ehg78o3kc1q6ct64pj679j6ae9j79gj2ohlcln76d8",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhwMzBsMWg2Z3AzZ2Noa2I4bWpnY3BsNmdyM2NkMWo2Z3MzaWczNmNrczMwZWhnNzhvM2tjMXE2Y3Q2NHBqNjc5ajZhZTlqNzlnajJvaGxjbG43NmQ4IHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-20T15:06:53.000Z",
+   "updated": "2023-12-20T15:07:01.499Z",
+   "summary": "REAL ESTATE DEPARTMENTAL HEARINGS",
+   "description": "Milton U. Oates, Jr. is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/83546643489?pwd=MEEyZDFsdzk0S29tZmRmVWc2T3Zrdz09\n\nMeeting ID: 835 4664 3489\nPasscode: 419851\n\n---\n\nOne tap mobile\n+12678310333,,83546643489#,,,,*419851# US (Philadelphia) \n+13017158592,,83546643489#,,,,*419851# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 835 4664 3489\nPasscode: 419851\n\nFind your local number: https://us02web.zoom.us/u/kqx8PcapM\n\n",
+   "location": "https://us02web.zoom.us/j/83546643489?pwd=MEEyZDFsdzk0S29tZmRmVWc2T3Zrdz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-22T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-22T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231220T142824Z-83546643489@fe80:0:0:0:3:bff:fe93:a1b5ens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169670398000\"",
+   "id": "_68o34cph68p30l1h6gq36c9lb8mjgc9p6gpj6d1n64pjgg36cks30ehg78o3kc1qcdj30ehk6pj6cej6cko34ehmckomarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhwMzBsMWg2Z3EzNmM5bGI4bWpnYzlwNmdwajZkMW42NHBqZ2czNmNrczMwZWhnNzhvM2tjMXFjZGozMGVoazZwajZjZWo2Y2tvMzRlaG1ja29tYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-20T15:07:08.000Z",
+   "updated": "2023-12-20T15:07:15.199Z",
+   "summary": "LOOP DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81943347138?pwd=b3Q1bi9JTUhpeWMvTWU4d3ZlT3Jrdz09\n\nMeeting ID: 819 4334 7138\nPasscode: 281422\n\n---\n\nOne tap mobile\n+12678310333,,81943347138#,,,,*281422# US (Philadelphia) \n+13017158592,,81943347138#,,,,*281422# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 819 4334 7138\nPasscode: 281422\n\nFind your local number: https://us02web.zoom.us/u/kdRwfRaZyx\n\n",
+   "location": "https://us02web.zoom.us/j/81943347138?pwd=b3Q1bi9JTUhpeWMvTWU4d3ZlT3Jrdz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-22T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-22T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231220T144315Z-81943347138@fe80:0:0:0:cf0:46ff:fe02:6e1ens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169761642000\"",
+   "id": "_68o34cph68ojil1h6so30d9mb8mjge9m70s32dpi68oj8g36cks30ehg78o3kc1qccp3keb6cot6cp9ncct3cor4chimsspl",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2c28zMGQ5bWI4bWpnZTltNzBzMzJkcGk2OG9qOGczNmNrczMwZWhnNzhvM2tjMXFjY3Aza2ViNmNvdDZjcDluY2N0M2NvcjRjaGltc3NwbCB0YXhyZXZpZXdib2FyZEBt",
+   "created": "2023-12-20T15:07:53.000Z",
+   "updated": "2023-12-20T15:08:00.821Z",
+   "summary": "REFUSE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/89688172214?pwd=WE9WcWNIazg0OEdZK0hOZHlaTklOQT09\n\nMeeting ID: 896 8817 2214\nPasscode: 388442\n\n---\n\nOne tap mobile\n+12678310333,,89688172214#,,,,*388442# US (Philadelphia) \n+13126266799,,89688172214#,,,,*388442# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 896 8817 2214\nPasscode: 388442\n\nFind your local number: https://us02web.zoom.us/u/kca2EwhAbm\n\n",
+   "location": "https://us02web.zoom.us/j/89688172214?pwd=WE9WcWNIazg0OEdZK0hOZHlaTklOQT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-24T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-24T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T170056Z-89688172214@fe80:0:0:0:c2:9ff:fe7c:6cddens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169882602000\"",
+   "id": "_68o34cph68ojil1h6oqjic9lb8mjgd9i60p38cpl60q3ag36cks30ehg78o3kc1qcdh68ej365j6cej6ckq36ej2cdj6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2b3FqaWM5bGI4bWpnZDlpNjBwMzhjcGw2MHEzYWczNmNrczMwZWhnNzhvM2tjMXFjZGg2OGVqMzY1ajZjZWo2Y2txMzZlajJjZGo2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-20T15:08:54.000Z",
+   "updated": "2023-12-20T15:09:01.301Z",
+   "summary": "REFUSE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/85202435045?pwd=V1ZBN0ozZ2ZWQ1QraU5JR24yRXBNUT09\n\nMeeting ID: 852 0243 5045\nPasscode: 065548\n\n---\n\nOne tap mobile\n+12678310333,,85202435045#,,,,*065548# US (Philadelphia) \n+13126266799,,85202435045#,,,,*065548# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 852 0243 5045\nPasscode: 065548\n\nFind your local number: https://us02web.zoom.us/u/kcBfx2mJIn\n\n",
+   "location": "https://us02web.zoom.us/j/85202435045?pwd=V1ZBN0ozZ2ZWQ1QraU5JR24yRXBNUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-17T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-17T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T165915Z-85202435045@fe80:0:0:0:cbd:c1ff:fe43:bcfens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169932914000\"",
+   "id": "_68o34cph68p30l1h6gp34d1pb8mjgdpp64qjed9m64qjcg36cks30ehg78o3kc1qcdj6aehl71j6cej6clh3iej66cojapbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhwMzBsMWg2Z3AzNGQxcGI4bWpnZHBwNjRxamVkOW02NHFqY2czNmNrczMwZWhnNzhvM2tjMXFjZGo2YWVobDcxajZjZWo2Y2xoM2llajY2Y29qYXBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2023-12-20T15:09:20.000Z",
+   "updated": "2023-12-20T15:09:26.457Z",
+   "summary": "OOPA DEPARTMENTAL HEARINGS",
+   "description": "Milton U. Oates, Jr. is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/87915756156?pwd=R2JFMzBCbTlSMTRSTURWYkNOTHJqZz09\n\nMeeting ID: 879 1575 6156\nPasscode: 882957\n\n---\n\nOne tap mobile\n+12678310333,,87915756156#,,,,*882957# US (Philadelphia) \n+13017158592,,87915756156#,,,,*882957# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 879 1575 6156\nPasscode: 882957\n\nFind your local number: https://us02web.zoom.us/u/kdmrxuLiJQ\n\n",
+   "location": "https://us02web.zoom.us/j/87915756156?pwd=R2JFMzBCbTlSMTRSTURWYkNOTHJqZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-08T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-08T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231220T142249Z-87915756156@fe80:0:0:0:cfe:58ff:feb9:f315ens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406169983426000\"",
+   "id": "_68o34cph68ojil1h6oqj0c9jb8mjgcpn6ksjcd1m6goj4g36cks30ehg78o3kc1q6osjkob4cpj3kpj56oojkdj274omarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2b3FqMGM5amI4bWpnY3BuNmtzamNkMW02Z29qNGczNmNrczMwZWhnNzhvM2tjMXE2b3Nqa29iNGNwajNrcGo1Nm9vamtkajI3NG9tYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-20T15:09:44.000Z",
+   "updated": "2023-12-20T15:09:51.713Z",
+   "summary": "REFUSE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/83759646412?pwd=WXRlbTh5RGRNa1RjS2hjZjZCckZ5QT09\n\nMeeting ID: 837 5964 6412\nPasscode: 115030\n\n---\n\nOne tap mobile\n+12678310333,,83759646412#,,,,*115030# US (Philadelphia) \n+19292056099,,83759646412#,,,,*115030# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 837 5964 6412\nPasscode: 115030\n\nFind your local number: https://us02web.zoom.us/u/kkvWaMFz4\n\n",
+   "location": "https://us02web.zoom.us/j/83759646412?pwd=WXRlbTh5RGRNa1RjS2hjZjZCckZ5QT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-10T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-10T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T165013Z-83759646412@fe80:0:0:0:69:adff:fe61:6b91ens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3406170067666000\"",
+   "id": "_68o34cph68ojil1h6so3achob8mjge9m60s32d1p64rj0g36cks30ehg78o3kc1q74sjkd34cpj3kpj56op3kd1mcosmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0Y3BoNjhvamlsMWg2c28zYWNob2I4bWpnZTltNjBzMzJkMXA2NHJqMGczNmNrczMwZWhnNzhvM2tjMXE3NHNqa2QzNGNwajNrcGo1Nm9wM2tkMW1jb3NtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2023-12-20T15:10:25.000Z",
+   "updated": "2023-12-20T15:10:33.833Z",
+   "summary": "REFUSE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/89608149170?pwd=dTVPck90bjhla0xnaURDcm5pNGpmUT09\n\nMeeting ID: 896 0814 9170\nPasscode: 316144\n\n---\n\nOne tap mobile\n+12678310333,,89608149170#,,,,*316144# US (Philadelphia) \n+13126266799,,89608149170#,,,,*316144# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 896 0814 9170\nPasscode: 316144\n\nFind your local number: https://us02web.zoom.us/u/kej3hpdClJ\n\n",
+   "location": "https://us02web.zoom.us/j/89608149170?pwd=dTVPck90bjhla0xnaURDcm5pNGpmUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-01-03T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-01-03T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20231219T170528Z-89608149170@fe80:0:0:0:99:4dff:fe62:46f9ens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3411017279196000\"",
+   "id": "_68o34d1g64ojel1h6op36c1hb8mjgchn6kqjce9g6krj6g36cks30ehg78o3kc1qcco32ehi69j6cej6ckq6aehi74qmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRvamVsMWg2b3AzNmMxaGI4bWpnY2huNmtxamNlOWc2a3JqNmczNmNrczMwZWhnNzhvM2tjMXFjY28zMmVoaTY5ajZjZWo2Y2txNmFlaGk3NHFtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-17T16:23:52.000Z",
+   "updated": "2024-01-17T16:23:59.598Z",
+   "summary": "FULL BOARD WATER REVENUE HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/82755690573?pwd=Ty9QbUVmc1E4WHFtVkV3bVdnTUlHZz09\n\nMeeting ID: 827 5569 0573\nPasscode: 238087\n\n---\n\nOne tap mobile\n+12678310333,,82755690573#,,,,*238087# US (Philadelphia) \n+13017158592,,82755690573#,,,,*238087# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 827 5569 0573\nPasscode: 238087\n\nFind your local number: https://us02web.zoom.us/u/kenkLNRKpq\n\n",
+   "location": "https://us02web.zoom.us/j/82755690573?pwd=Ty9QbUVmc1E4WHFtVkV3bVdnTUlHZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-06T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-06T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240117T162301Z-82755690573@fe80:0:0:0:c01:22ff:fe4e:295ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3411017480124000\"",
+   "id": "_68o34d1g64ojel1h6op38d9pb8mjgdhn74qj2d9m70r38g36cks30ehg78o3kc1qc5ijkc9gcpj3kpj5c4ojkdj6c5j6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRvamVsMWg2b3AzOGQ5cGI4bWpnZGhuNzRxajJkOW03MHIzOGczNmNrczMwZWhnNzhvM2tjMXFjNWlqa2M5Z2NwajNrcGo1YzRvamtkajZjNWo2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-17T16:25:32.000Z",
+   "updated": "2024-01-17T16:25:40.062Z",
+   "summary": "FULL BOARD WATER REVENUE HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/86795156864?pwd=U0hPZjMycXlKS1J1Vk10MkN2eDZEUT09\n\nMeeting ID: 867 9515 6864\nPasscode: 242292\n\n---\n\nOne tap mobile\n+12678310333,,86795156864#,,,,*242292# US (Philadelphia) \n+13126266799,,86795156864#,,,,*242292# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 867 9515 6864\nPasscode: 242292\n\nFind your local number: https://us02web.zoom.us/u/kFfotlWR6\n\n",
+   "location": "https://us02web.zoom.us/j/86795156864?pwd=U0hPZjMycXlKS1J1Vk10MkN2eDZEUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-20T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-20T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240117T162459Z-86795156864@fe80:0:0:0:ae:10ff:fea1:6fafens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3411017786722000\"",
+   "id": "_68o34d1g64ojel1h6op3cd9mb8mjgdhn68q3ec1j6ksjeg36cks30ehg78o3kc1qc4p3kc9ocpj3kpj56cs3kcph70pmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRvamVsMWg2b3AzY2Q5bWI4bWpnZGhuNjhxM2VjMWo2a3NqZWczNmNrczMwZWhnNzhvM2tjMXFjNHAza2M5b2NwajNrcGo1NmNzM2tjcGg3MHBtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-17T16:28:06.000Z",
+   "updated": "2024-01-17T16:28:13.361Z",
+   "summary": "FULL BOARD L&I HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/86724703597?pwd=K25VRytWeU5CNk1Kbis1SkU4OEFxUT09\n\nMeeting ID: 867 2470 3597\nPasscode: 866044\n\n---\n\nOne tap mobile\n+12678310333,,86724703597#,,,,*866044# US (Philadelphia) \n+19292056099,,86724703597#,,,,*866044# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 867 2470 3597\nPasscode: 866044\n\nFind your local number: https://us02web.zoom.us/u/kGNJFeWgu\n\n",
+   "location": "https://us02web.zoom.us/j/86724703597?pwd=K25VRytWeU5CNk1Kbis1SkU4OEFxUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-08T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-08T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240117T162656Z-86724703597@fe80:0:0:0:a2:18ff:fe38:3183ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3411017970800000\"",
+   "id": "_68o34d1g64ojel1h6op3gd1ob8mjgc9n6coj0d9l6sp3ig36cks30ehg78o3kc1qcco38ehkc5j6cej6ckp34ej461gj6pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRvamVsMWg2b3AzZ2Qxb2I4bWpnYzluNmNvajBkOWw2c3AzaWczNmNrczMwZWhnNzhvM2tjMXFjY28zOGVoa2M1ajZjZWo2Y2twMzRlajQ2MWdqNnBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2024-01-17T16:29:38.000Z",
+   "updated": "2024-01-17T16:29:45.400Z",
+   "summary": "FULL BOARD L&I HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81731055729?pwd=U1FnQUtpbXZqb05yVmQ0TnFyN0N4Zz09\n\nMeeting ID: 817 3105 5729\nPasscode: 047441\n\n---\n\nOne tap mobile\n+12678310333,,81731055729#,,,,*047441# US (Philadelphia) \n+13017158592,,81731055729#,,,,*047441# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 817 3105 5729\nPasscode: 047441\n\nFind your local number: https://us02web.zoom.us/u/k2T3ygsr\n\n",
+   "location": "https://us02web.zoom.us/j/81731055729?pwd=U1FnQUtpbXZqb05yVmQ0TnFyN0N4Zz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-22T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-22T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240117T162848Z-81731055729@fe80:0:0:0:c04:4aff:fe22:d0a3ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3411018213636000\"",
+   "id": "_68o34d1g64ojel1h6opj0d9ib8mjgc9p64qj0c1j6cpjcg36cks30ehg78o3kc1q75hjkob2cpj3kpj575hjkdb16comarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRvamVsMWg2b3BqMGQ5aWI4bWpnYzlwNjRxajBjMWo2Y3BqY2czNmNrczMwZWhnNzhvM2tjMXE3NWhqa29iMmNwajNrcGo1NzVoamtkYjE2Y29tYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-17T16:31:40.000Z",
+   "updated": "2024-01-17T16:31:46.818Z",
+   "summary": "FULL BOARD REAL ESTATE",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81915003336?pwd=TE42ekdjQXVhamhKN1UzdWw3ZjE0QT09\n\nMeeting ID: 819 1500 3336\nPasscode: 796426\n\n---\n\nOne tap mobile\n+12678310333,,81915003336#,,,,*796426# US (Philadelphia) \n+13017158592,,81915003336#,,,,*796426# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 819 1500 3336\nPasscode: 796426\n\nFind your local number: https://us02web.zoom.us/u/kdWufcQTaM\n\n",
+   "location": "https://us02web.zoom.us/j/81915003336?pwd=TE42ekdjQXVhamhKN1UzdWw3ZjE0QT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-13T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-13T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240117T163052Z-81915003336@fe80:0:0:0:9c:abff:fe9c:5a31ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3411018652946000\"",
+   "id": "_68o34d1g64ojel1h6opj8c1jb8mjgchh6cp32d9m6cr34g36cks30ehg78o3kc1q75i3kdr2cpj3kpj56sq3kob4c5i6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRvamVsMWg2b3BqOGMxamI4bWpnY2hoNmNwMzJkOW02Y3IzNGczNmNrczMwZWhnNzhvM2tjMXE3NWkza2RyMmNwajNrcGo1NnNxM2tvYjRjNWk2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-17T16:34:47.000Z",
+   "updated": "2024-01-17T16:35:26.473Z",
+   "summary": "FULL BOARD REFUSE HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/82132156362?pwd=SUY3bU9VSGUxdGFrY1l4RWpnVUppZz09\n\nMeeting ID: 821 3215 6362\nPasscode: 156950\n\n---\n\nOne tap mobile\n+12678310333,,82132156362#,,,,*156950# US (Philadelphia) \n+13017158592,,82132156362#,,,,*156950# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 821 3215 6362\nPasscode: 156950\n\nFind your local number: https://us02web.zoom.us/u/kb39BPiaNI\n\n",
+   "location": "https://us02web.zoom.us/j/82132156362?pwd=SUY3bU9VSGUxdGFrY1l4RWpnVUppZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-15T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-15T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240117T163403Z-82132156362@fe80:0:0:0:9d:7bff:fe74:adadens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3411018849728000\"",
+   "id": "_68o34d1g64ojel1h6opjcc1ib8mjge1l60q3ac9n6gr3ig36cks30ehg78o3kc1q6cojkeb6cot6cp9n6ot34c9pcln76d8",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRvamVsMWg2b3BqY2MxaWI4bWpnZTFsNjBxM2FjOW42Z3IzaWczNmNrczMwZWhnNzhvM2tjMXE2Y29qa2ViNmNvdDZjcDluNm90MzRjOXBjbG43NmQ4IHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-17T16:36:58.000Z",
+   "updated": "2024-01-17T16:37:04.864Z",
+   "summary": "FULL BOARD WATER DEPT HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/88504517469?pwd=bklrUXN4UnVlTU55bEVYUVZXNGtWdz09\n\nMeeting ID: 885 0451 7469\nPasscode: 312482\n\n---\n\nOne tap mobile\n+12678310333,,88504517469#,,,,*312482# US (Philadelphia) \n+13017158592,,88504517469#,,,,*312482# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 885 0451 7469\nPasscode: 312482\n\nFind your local number: https://us02web.zoom.us/u/kp1wKDt5D\n\n",
+   "location": "https://us02web.zoom.us/j/88504517469?pwd=bklrUXN4UnVlTU55bEVYUVZXNGtWdz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-27T14:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-27T16:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240117T163602Z-88504517469@fe80:0:0:0:31:9ff:fe76:219ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412209432714000\"",
+   "id": "_68o34d1g64p38l1h6cqjcd9mb8mjgc9o6kr36c9h68rjig36cks30ehg78o3kc1qcdhmcej1c5j6cej6cks30eho68pm4pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Y3FqY2Q5bWI4bWpnYzlvNmtyMzZjOWg2OHJqaWczNmNrczMwZWhnNzhvM2tjMXFjZGhtY2VqMWM1ajZjZWo2Y2tzMzBlaG82OHBtNHBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2024-01-24T13:58:28.000Z",
+   "updated": "2024-01-24T13:58:36.357Z",
+   "summary": "REAL ESTATE DEPARTMENTAL HEARINGS",
+   "description": "Milton U. Oates, Jr. is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81856311279?pwd=bUJsWHV2MUdBeVdLLzd4MmxSQmVjdz09\n\nMeeting ID: 818 5631 1279\nPasscode: 571849\n\n---\n\nOne tap mobile\n+12678310333,,81856311279#,,,,*571849# US (Philadelphia) \n+13017158592,,81856311279#,,,,*571849# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 818 5631 1279\nPasscode: 571849\n\nFind your local number: https://us02web.zoom.us/u/kgm72kFGN\n\n",
+   "location": "https://us02web.zoom.us/j/81856311279?pwd=bUJsWHV2MUdBeVdLLzd4MmxSQmVjdz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-05T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-05T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T135656Z-81856311279@fe80:0:0:0:ccf:aaff:fe80:823bens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412209641340000\"",
+   "id": "_68o34d1g64p38l1h6cqjichhb8mjgcpj6cp3ae9p60q38g36cks30ehg78o3kc1qc4t3ip36cot6cp9m6gt3acpk75imsspl",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Y3FqaWNoaGI4bWpnY3BqNmNwM2FlOXA2MHEzOGczNmNrczMwZWhnNzhvM2tjMXFjNHQzaXAzNmNvdDZjcDltNmd0M2FjcGs3NWltc3NwbCB0YXhyZXZpZXdib2FyZEBt",
+   "created": "2024-01-24T14:00:13.000Z",
+   "updated": "2024-01-24T14:00:20.670Z",
+   "summary": "REAL ESTATE DEPARTMENTAL HEARINGS",
+   "description": "Milton U. Oates, Jr. is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/83332599044?pwd=aGh1aDNyZlR6ekNycjZvK2Z2RUdsUT09\n\nMeeting ID: 833 3259 9044\nPasscode: 865083\n\n---\n\nOne tap mobile\n+12678310333,,83332599044#,,,,*865083# US (Philadelphia) \n+13126266799,,83332599044#,,,,*865083# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 833 3259 9044\nPasscode: 865083\n\nFind your local number: https://us02web.zoom.us/u/kd8exh9Zep\n\n",
+   "location": "https://us02web.zoom.us/j/83332599044?pwd=aGh1aDNyZlR6ekNycjZvK2Z2RUdsUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-26T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-26T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T135921Z-83332599044@fe80:0:0:0:a:9dff:fe64:5349ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412210670960000\"",
+   "id": "_68o34d1g64p38l1h6go3ecplb8mjgcpi70pjecpk74oj4g36cks30ehg78o3kc1qccq62ehocpj3kpj568r3kob1cli6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Z28zZWNwbGI4bWpnY3BpNzBwamVjcGs3NG9qNGczNmNrczMwZWhnNzhvM2tjMXFjY3E2MmVob2NwajNrcGo1NjhyM2tvYjFjbGk2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-24T14:08:47.000Z",
+   "updated": "2024-01-24T14:08:55.480Z",
+   "summary": "LOOP & OOPA DEPARTMENTAL HEARINGS",
+   "description": "Milton U. Oates, Jr. is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/83283734912?pwd=ejBHdlhaazM4b3JxdGlrZndSNlo3Zz09\n\nMeeting ID: 832 8373 4912\nPasscode: 973053\n\n---\n\nOne tap mobile\n+12678310333,,83283734912#,,,,*973053# US (Philadelphia) \n+13126266799,,83283734912#,,,,*973053# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 832 8373 4912\nPasscode: 973053\n\nFind your local number: https://us02web.zoom.us/u/kelUJtMDgt\n\n",
+   "location": "https://us02web.zoom.us/j/83283734912?pwd=ejBHdlhaazM4b3JxdGlrZndSNlo3Zz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-26T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-26T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T140735Z-83283734912@fe80:0:0:0:c4a:8ff:fe26:aaedens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412211246248000\"",
+   "id": "_68o34d1g64p38l1h6goj4cpnb8mjge9k6crjed1h74s34g36cks30ehg78o3kc1qccpmcehn65j6cej6cks64eho74p6cpbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Z29qNGNwbmI4bWpnZTlrNmNyamVkMWg3NHMzNGczNmNrczMwZWhnNzhvM2tjMXFjY3BtY2VobjY1ajZjZWo2Y2tzNjRlaG83NHA2Y3BiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2024-01-24T14:13:35.000Z",
+   "updated": "2024-01-24T14:13:43.124Z",
+   "summary": "REAL ESTATE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/89437741982?pwd=TEgxdkExTkJZRkd5YnZZT08xT1d5UT09\n\nMeeting ID: 894 3774 1982\nPasscode: 972037\n\n---\n\nOne tap mobile\n+12678310333,,89437741982#,,,,*972037# US (Philadelphia) \n+13126266799,,89437741982#,,,,*972037# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 894 3774 1982\nPasscode: 972037\n\nFind your local number: https://us02web.zoom.us/u/kecCegv23g\n\n",
+   "location": "https://us02web.zoom.us/j/89437741982?pwd=TEgxdkExTkJZRkd5YnZZT08xT1d5UT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-12T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-12T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T141237Z-89437741982@fe80:0:0:0:c3f:71ff:fe8b:892fens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412212753530000\"",
+   "id": "_68o34d1g64p38l1h6gp3ac1jb8mjgd1l70o32d9m74o32g36cks30ehg78o3kc1qc8s3kchicpj3kpj5chh3keb6cgrmarjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Z3AzYWMxamI4bWpnZDFsNzBvMzJkOW03NG8zMmczNmNrczMwZWhnNzhvM2tjMXFjOHMza2NoaWNwajNrcGo1Y2hoM2tlYjZjZ3JtYXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-24T14:26:09.000Z",
+   "updated": "2024-01-24T14:26:16.765Z",
+   "summary": "WATER REVENUE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/84580156901?pwd=Uyt0NnBRRWJVWlIrbklqZHF6SUhUZz09\n\nMeeting ID: 845 8015 6901\nPasscode: 348060\n\n---\n\nOne tap mobile\n+12678310333,,84580156901#,,,,*348060# US (Philadelphia) \n+13126266799,,84580156901#,,,,*348060# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 845 8015 6901\nPasscode: 348060\n\nFind your local number: https://us02web.zoom.us/u/kc2SWXDRkO\n\n",
+   "location": "https://us02web.zoom.us/j/84580156901?pwd=Uyt0NnBRRWJVWlIrbklqZHF6SUhUZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-05T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-05T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T142503Z-84580156901@fe80:0:0:0:b8:22ff:fedb:9fd7ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412212947726000\"",
+   "id": "_68o34d1g64p38l1h6gp3ec1mb8mjgdpp6orjcd9k6ksjag36cks30ehg78o3kc1qclj3kchncpj3kpj5cksjkcr16pj6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Z3AzZWMxbWI4bWpnZHBwNm9yamNkOWs2a3NqYWczNmNrczMwZWhnNzhvM2tjMXFjbGoza2NobmNwajNrcGo1Y2tzamtjcjE2cGo2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-24T14:27:46.000Z",
+   "updated": "2024-01-24T14:27:53.863Z",
+   "summary": "WATER REVENUE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/87967654595?pwd=T21XWFNDQ2ZJT3hqcTNtSXlaRmxvZz09\n\nMeeting ID: 879 6765 4595\nPasscode: 140331\n\n---\n\nOne tap mobile\n+12678310333,,87967654595#,,,,*140331# US (Philadelphia) \n+13126266799,,87967654595#,,,,*140331# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 879 6765 4595\nPasscode: 140331\n\nFind your local number: https://us02web.zoom.us/u/kFR6cGReP\n\n",
+   "location": "https://us02web.zoom.us/j/87967654595?pwd=T21XWFNDQ2ZJT3hqcTNtSXlaRmxvZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-09T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-09T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T142706Z-87967654595@fe80:0:0:0:ef:27ff:fee9:3a6fens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412213641864000\"",
+   "id": "_68o34d1g64p38l1h6gp3icpjb8mjgdpj6sq3ad9o68s38g36cks30ehg78o3kc1qccrmcehj65j6cej6ckojaej4c4o32pbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Z3AzaWNwamI4bWpnZHBqNnNxM2FkOW82OHMzOGczNmNrczMwZWhnNzhvM2tjMXFjY3JtY2VoajY1ajZjZWo2Y2tvamFlajRjNG8zMnBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2024-01-24T14:33:34.000Z",
+   "updated": "2024-01-24T14:33:40.932Z",
+   "summary": "WATER REVENUE & WATER DEPT DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/87374558284?pwd=RzhQT3hmczNtY2tJZjBRTFZtNDNZZz09\n\nMeeting ID: 873 7455 8284\nPasscode: 966021\n\n---\n\nOne tap mobile\n+12678310333,,87374558284#,,,,*966021# US (Philadelphia) \n+19292056099,,87374558284#,,,,*966021# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 873 7455 8284\nPasscode: 966021\n\nFind your local number: https://us02web.zoom.us/u/kbZANUAb5p\n\n",
+   "location": "https://us02web.zoom.us/j/87374558284?pwd=RzhQT3hmczNtY2tJZjBRTFZtNDNZZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-23T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-23T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T142933Z-87374558284@fe80:0:0:0:c7f:31ff:fe15:da01ens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412214143328000\"",
+   "id": "_68o34d1g64p38l1h6gpjcchgb8mjgdpi6gp30chi64p34g36cks30ehg78o3kc1q64t6apj6cot6cpb6ckt32e9mc9imsspl",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Z3BqY2NoZ2I4bWpnZHBpNmdwMzBjaGk2NHAzNGczNmNrczMwZWhnNzhvM2tjMXE2NHQ2YXBqNmNvdDZjcGI2Y2t0MzJlOW1jOWltc3NwbCB0YXhyZXZpZXdib2FyZEBt",
+   "created": "2024-01-24T14:37:44.000Z",
+   "updated": "2024-01-24T14:37:51.664Z",
+   "summary": "WATER DEPARTMENT MASTER HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/87242022122?pwd=eEtDMVVPQ3RRaGZnQVEvcVdHcVNQUT09\n\nMeeting ID: 872 4202 2122\nPasscode: 804861\n\n---\n\nOne tap mobile\n+12678310333,,87242022122#,,,,*804861# US (Philadelphia) \n+13126266799,,87242022122#,,,,*804861# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 872 4202 2122\nPasscode: 804861\n\nFind your local number: https://us02web.zoom.us/u/kc9jmTma5t\n\n",
+   "location": "https://us02web.zoom.us/j/87242022122?pwd=eEtDMVVPQ3RRaGZnQVEvcVdHcVNQUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-26T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-26T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T143620Z-87242022122@fe80:0:0:0:1:efff:fefe:196bens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412214664642000\"",
+   "id": "_68o34d1g64p38l1h6gpjid1ob8mjgc9m6or38e9j74q3gg36cks30ehg78o3kc1qc9gjkcr6cpj3kpj56cojkcj4c9j6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Z3BqaWQxb2I4bWpnYzltNm9yMzhlOWo3NHEzZ2czNmNrczMwZWhnNzhvM2tjMXFjOWdqa2NyNmNwajNrcGo1NmNvamtjajRjOWo2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-24T14:42:05.000Z",
+   "updated": "2024-01-24T14:42:12.321Z",
+   "summary": "WATER REVENUE & TAP DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/81666493948?pwd=YnA0MVh5UDR1MDRYMytNbTFKdENKZz09\n\nMeeting ID: 816 6649 3948\nPasscode: 722434\n\n---\n\nOne tap mobile\n+12678310333,,81666493948#,,,,*722434# US (Philadelphia) \n+19292056099,,81666493948#,,,,*722434# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 816 6649 3948\nPasscode: 722434\n\nFind your local number: https://us02web.zoom.us/u/kd8BeCdkNP\n\n",
+   "location": "https://us02web.zoom.us/j/81666493948?pwd=YnA0MVh5UDR1MDRYMytNbTFKdENKZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-02T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-02T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T143948Z-81666493948@fe80:0:0:0:ba:3fff:fe31:2dbfens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412216481112000\"",
+   "id": "_68o34d1g64p38l1h6gqj4d9ib8mjgd9i74sj0dpg70o34g36cks30ehg78o3kc1qckr3ke9mcpj3kpj568r3ke3361i6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Z3FqNGQ5aWI4bWpnZDlpNzRzajBkcGc3MG8zNGczNmNrczMwZWhnNzhvM2tjMXFja3Iza2U5bWNwajNrcGo1NjhyM2tlMzM2MWk2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-24T14:57:14.000Z",
+   "updated": "2024-01-24T14:57:20.556Z",
+   "summary": "REFUSE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/85299070802?pwd=TU4rdjVmRExtZHZWZUxEWFFJZHpxUT09\n\nMeeting ID: 852 9907 0802\nPasscode: 984574\n\n---\n\nOne tap mobile\n+12678310333,,85299070802#,,,,*984574# US (Philadelphia) \n+13126266799,,85299070802#,,,,*984574# US (Chicago)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 852 9907 0802\nPasscode: 984574\n\nFind your local number: https://us02web.zoom.us/u/kdmRnWoxff\n\n",
+   "location": "https://us02web.zoom.us/j/85299070802?pwd=TU4rdjVmRExtZHZWZUxEWFFJZHpxUT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-07T13:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-07T15:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T145252Z-85299070802@fe80:0:0:0:e6:96ff:fe26:8c0dens5",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412217349536000\"",
+   "id": "_68o34d1g64p38l1h6gqjgd1pb8mjgdhg64q36dhm70qjgg36cks30ehg78o3kc1qccp36ehocpj6cej6clhj4ehi65j3ipbeecqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2Z3FqZ2QxcGI4bWpnZGhnNjRxMzZkaG03MHFqZ2czNmNrczMwZWhnNzhvM2tjMXFjY3AzNmVob2NwajZjZWo2Y2xoajRlaGk2NWozaXBiZWVjcWcgdGF4cmV2aWV3Ym9hcmRAbQ",
+   "created": "2024-01-24T15:04:28.000Z",
+   "updated": "2024-01-24T15:04:34.768Z",
+   "summary": "REFUSE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/86014366858?pwd=VkZBR1ZlQzVGbVhVSk9qUXlmaFNxQT09\n\nMeeting ID: 860 1436 6858\nPasscode: 099667\n\n---\n\nOne tap mobile\n+12678310333,,86014366858#,,,,*099667# US (Philadelphia) \n+19292056099,,86014366858#,,,,*099667# US (New York)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 929 205 6099 US (New York)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 860 1436 6858\nPasscode: 099667\n\nFind your local number: https://us02web.zoom.us/u/kxwnmwLAu\n\n",
+   "location": "https://us02web.zoom.us/j/86014366858?pwd=VkZBR1ZlQzVGbVhVSk9qUXlmaFNxQT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-28T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-28T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T145849Z-86014366858@fe80:0:0:0:c23:8fff:fec2:21f9ens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412217650356000\"",
+   "id": "_68o34d1g64p38l1h6ko34c9gb8mjgd9o6kp38e1n74r3eg36cks30ehg78o3kc1q6gr3kdhjcpj3kpj5cpgjkcph75h6arjj6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzM0ZDFnNjRwMzhsMWg2a28zNGM5Z2I4bWpnZDlvNmtwMzhlMW43NHIzZWczNmNrczMwZWhnNzhvM2tjMXE2Z3Iza2RoamNwajNrcGo1Y3BnamtjcGg3NWg2YXJqajZrIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-24T15:06:53.000Z",
+   "updated": "2024-01-24T15:07:05.178Z",
+   "summary": "REAL ESTATE DEPARTMENTAL HEARINGS",
+   "description": "Melissa Andre is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/85852487967?pwd=bS9YK0pzS1gxSUhhUkVwWUtUMU1jZz09\n\nMeeting ID: 858 5248 7967\nPasscode: 897275\n\n---\n\nOne tap mobile\n+12678310333,,85852487967#,,,,*897275# US (Philadelphia) \n+13017158592,,85852487967#,,,,*897275# US (Washington DC)\n\n---\n\nDial by your location\n• +1 267 831 0333 US (Philadelphia)\n• +1 301 715 8592 US (Washington DC)\n• +1 312 626 6799 US (Chicago)\n• +1 929 205 6099 US (New York)\n• +1 346 248 7799 US (Houston)\n\nMeeting ID: 858 5248 7967\nPasscode: 897275\n\nFind your local number: https://us02web.zoom.us/u/kbRbhZ8plr\n\n",
+   "location": "https://us02web.zoom.us/j/85852487967?pwd=bS9YK0pzS1gxSUhhUkVwWUtUMU1jZz09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2024-02-14T09:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2024-02-14T11:00:00-05:00",
+    "timeZone": "America/New_York"
+   },
+   "iCalUID": "20240124T150210Z-85852487967@fe80:0:0:0:46:63ff:fefa:319bens5",
+   "sequence": 1,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "optional": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3412568063378000\"",
+   "id": "_b97kuj9o74p3gdpm6cqj2c1k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=X2I5N2t1ajlvNzRwM2dkcG02Y3FqMmMxa18yMDIyMDYwM1QxMzAwMDBaIHRheHJldmlld2JvYXJkQG0",
+   "created": "2024-01-26T15:47:01.000Z",
+   "updated": "2024-01-26T15:47:11.689Z",
+   "summary": "TOBACCO HEARINGS / CODE VIOLATION HEARINGS",
+   "description": "Milton U. Oates, Jr. is inviting you to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/89287635104?pwd=dkhYUjVESmxXS0ZjRHJtL0NqZUh2UT09\n\nMeeting ID: 892 8763 5104\nPasscode: 445457\nOne tap mobile\n+12678310333,,89287635104#,,,,*445457# US (Philadelphia) \n+13126266799,,89287635104#,,,,*445457# US (Chicago)\n\nDial by your location\n        +1 267 831 0333 US (Philadelphia)\n        +1 312 626 6799 US (Chicago)\n        +1 929 205 6099 US (New York)\n        +1 301 715 8592 US (Washington DC)\n        +1 346 248 7799 US (Houston)\nMeeting ID: 892 8763 5104\nPasscode: 445457\nFind your local number: https://us02web.zoom.us/u/keEDXRTzvs\n\n",
+   "location": "https://us02web.zoom.us/j/89287635104?pwd=dkhYUjVESmxXS0ZjRHJtL0NqZUh2UT09",
+   "creator": {
+    "email": "taxreviewboard@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "milton.oates@phila.gov",
+    "displayName": "Milton Oates"
+   },
+   "start": {
+    "dateTime": "2022-06-03T09:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "end": {
+    "dateTime": "2022-06-03T14:00:00-04:00",
+    "timeZone": "America/New_York"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20251231T140000Z;INTERVAL=1;BYDAY=MO,FR"
+   ],
+   "iCalUID": "ZOOM89287635104",
+   "sequence": 21,
+   "attendees": [
+    {
+     "email": "taxreviewboard@gmail.com",
+     "self": true,
+     "responseStatus": "needsAction"
+    }
+   ],
+   "guestsCanInviteOthers": false,
+   "privateCopy": true,
+   "eventType": "default"
+  }
+ ]
+}
