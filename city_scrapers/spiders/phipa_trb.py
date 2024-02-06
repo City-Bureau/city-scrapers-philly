@@ -67,11 +67,7 @@ class PhipaTrbSpider(CityScrapersSpider):
         return item.get("summary") or ""
 
     def _parse_description(self, item):
-        """Parse meeting description. Description text for this
-        agency's Google Calendar tends to contain HTML so we convert
-        it to plain text."""
-        if "description" not in item:
-            return ""
+        """Parse meeting description."""
         return item.get("description") or ""
 
     def _parse_datetime(self, datetime_dict):
