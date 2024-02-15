@@ -11,7 +11,7 @@ from city_scrapers.spiders.phipa_trb import PhipaTrbSpider
 
 test_response = file_response(
     join(dirname(__file__), "files", "phipa_trb.json"),
-    url="https://go.boarddocs.com/in/indps/Board.nsf/XML-ActiveMeetings",
+    url="https://calendar.google.com/calendar/u/0/embed?src=taxreviewboard@gmail.com",
 )
 spider = PhipaTrbSpider()
 
@@ -24,7 +24,7 @@ freezer.stop()
 
 
 def test_count():
-    assert len(parsed_items) == 62  # Adjusted based on provided data
+    assert len(parsed_items) == 62
 
 
 def test_title():
