@@ -16,7 +16,9 @@ class PhipaCityCouncilSpider(CityScrapersSpider):
         """
         `parse` should always `yield` Meeting items.
 
-        We are now parsing response as HTML with parse() method instead of JSON with parse_legistar() method. Something on their end changed. This spider handles the HTML reponse now.
+        We are now parsing response as HTML with parse() method instead of JSON
+        with parse_legistar() method. Something on their end changed.
+        This spider handles the HTML reponse now.
         """
 
         for item in response.css(".rgMasterTable tbody tr"):
@@ -41,7 +43,7 @@ class PhipaCityCouncilSpider(CityScrapersSpider):
 
     def _parse_title(self, item):
         """Parse or generate meeting title."""
-        return item.css("td")[0].css('::text').getall()[1]
+        return item.css("td")[0].css("::text").getall()[1]
 
     def _parse_description(self, item):
         """Parse or generate meeting description."""
@@ -54,7 +56,7 @@ class PhipaCityCouncilSpider(CityScrapersSpider):
     def _parse_start(self, item):
         """Parse start datetime as a naive datetime object."""
         date = item.css("td")[1].css("::text").get()
-        time_parts = item.css("td")[3].css('::text').getall()
+        time_parts = item.css("td")[3].css("::text").getall()
         if date and len(time_parts) > 1:
             return parse(f"{date} {time_parts[1]}")
         else:
@@ -75,7 +77,7 @@ class PhipaCityCouncilSpider(CityScrapersSpider):
     def _parse_location(self, item):
         """Parse or generate location."""
         address = "1400 John F Kennedy Blvd, Philadelphia, PA 19107"
-        name = item.css('td')[4].css('::text').get()
+        name = item.css("td")[4].css("::text").get()
         return {
             "address": address,
             "name": name,

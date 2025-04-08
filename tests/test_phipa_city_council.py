@@ -1,7 +1,6 @@
 from datetime import datetime
 from os.path import dirname, join
 
-import pytest
 from city_scrapers_core.utils import file_response
 from freezegun import freeze_time
 
@@ -48,7 +47,10 @@ def test_start():
 
 
 def test_id():
-    assert parsed_items[0]["id"] == "phipa_city_council/202504301000/x/committee_of_the_whole"
+    assert (
+        parsed_items[0]["id"]
+        == "phipa_city_council/202504301000/x/committee_of_the_whole"
+    )
 
 
 def test_status():
@@ -58,7 +60,7 @@ def test_status():
 def test_location():
     assert parsed_items[0]["location"] == {
         "name": "Room 400, City Hall",
-        "address": "1400 John F Kennedy Blvd, Philadelphia, PA 19107"
+        "address": "1400 John F Kennedy Blvd, Philadelphia, PA 19107",
     }
 
 
