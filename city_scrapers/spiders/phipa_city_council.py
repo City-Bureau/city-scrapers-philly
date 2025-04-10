@@ -1,49 +1,41 @@
-from urllib.parse import urljoin
-
 from city_scrapers_core.constants import CITY_COUNCIL
 from city_scrapers_core.items import Meeting
-from city_scrapers_core.spiders import CityScrapersSpider
-from dateutil.parser import parse
+from city_scrapers_core.spiders import LegistarSpider
 
 
-class PhipaCityCouncilSpider(CityScrapersSpider):
+class PhipaCityCouncilSpider(LegistarSpider):
     name = "phipa_city_council"
     agency = "Philadelphia City Council"
     timezone = "America/New_York"
     start_urls = ["https://phila.legistar.com/Calendar.aspx"]
+    # Add the titles of any links not included in the scraped results
+    link_types = []
 
-    def parse(self, response):
+    def parse_legistar(self, events):
         """
-        `parse` should always `yield` Meeting items.
+        `parse_legistar` should always `yield` Meeting items.
 
-        We are now parsing response as HTML with parse() method instead of JSON
-        with parse_legistar() method. Something on their end changed.
-        This spider handles the HTML reponse now.
+        Change the `_parse_title`, `_parse_start`, etc methods to fit your scraping
+        needs.
         """
-
-        for item in response.css(".rgMasterTable tbody tr"):
-            # import pdb; pdb.set_trace()
+        for event in events:
             meeting = Meeting(
-                title=self._parse_title(item),
-                description=self._parse_description(item),
-                classification=self._parse_classification(item),
-                start=self._parse_start(item),
-                end=self._parse_end(item),
-                all_day=self._parse_all_day(item),
-                time_notes=self._parse_time_notes(item),
-                location=self._parse_location(item),
-                links=self._parse_links(item),
-                source=self._parse_source(response),
+                title=event["Name"],
+                description=self._parse_description(event),
+                classification=self._parse_classification(event),
+                start=self.legistar_start(event),
+                end=self._parse_end(event),
+                all_day=self._parse_all_day(event),
+                time_notes=self._parse_time_notes(event),
+                location=self._parse_location(event),
+                links=self.legistar_links(event),
+                source=self.legistar_source(event),
             )
 
             meeting["status"] = self._get_status(meeting)
             meeting["id"] = self._get_id(meeting)
 
             yield meeting
-
-    def _parse_title(self, item):
-        """Parse or generate meeting title."""
-        return item.css("td")[0].css("::text").getall()[1]
 
     def _parse_description(self, item):
         """Parse or generate meeting description."""
@@ -52,15 +44,6 @@ class PhipaCityCouncilSpider(CityScrapersSpider):
     def _parse_classification(self, item):
         """Parse or generate classification from allowed options."""
         return CITY_COUNCIL
-
-    def _parse_start(self, item):
-        """Parse start datetime as a naive datetime object."""
-        date = item.css("td")[1].css("::text").get()
-        time_parts = item.css("td")[3].css("::text").getall()
-        if date and len(time_parts) > 1:
-            return parse(f"{date} {time_parts[1]}")
-        else:
-            return None
 
     def _parse_end(self, item):
         """Parse end datetime as a naive datetime object. Added by pipeline if None"""
@@ -77,19 +60,10 @@ class PhipaCityCouncilSpider(CityScrapersSpider):
     def _parse_location(self, item):
         """Parse or generate location."""
         address = "1400 John F Kennedy Blvd, Philadelphia, PA 19107"
-        name = item.css("td")[4].css("::text").get()
+        location = item.get("Meeting Location", "")
+        if isinstance(location, dict):
+            location = location.get("label", "")
         return {
             "address": address,
-            "name": name,
+            "name": location,
         }
-
-    def _parse_links(self, item):
-        """Parse or generate links."""
-        base_url = "https://phila.legistar.com/"
-        path = item.css("td")[2].css("a::attr(href)").get()
-        href = urljoin(base_url, path)
-        return [{"href": href, "title": "Agenda"}]
-
-    def _parse_source(self, response):
-        """Parse or generate source."""
-        return response.url
