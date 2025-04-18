@@ -37,6 +37,7 @@ jobs:
           key: pip-${{ matrix.python-version }}-${{ hashFiles('**/Pipfile.lock') }}
           restore-keys: |
             pip-${{ matrix.python-version }}-
+            pip-
 
       - name: Check and conditionally remove invalid virtual environment
         run: |
