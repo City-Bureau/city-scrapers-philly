@@ -12,7 +12,7 @@ from city_scrapers_core.constants import (
 from city_scrapers_core.utils import file_response
 from freezegun import freeze_time
 
-from city_scrapers.spiders.phipa_cpc_cdr import PhipaCdrSpider, PhipaCpcSpider
+from city_scrapers.spiders.phipa_cpc_cdr import PhipaCpcCdrSpider
 
 FILES_DIR = join(dirname(__file__), "files")
 
@@ -43,7 +43,9 @@ def recordings_response():
     )
 
 
-def _run(spider, calendar_response, documents_response, recordings_response):
+@pytest.fixture(scope="module")
+def items(calendar_response, documents_response, recordings_response):
+    spider = PhipaCpcCdrSpider()
     documents_request = next(spider.parse(calendar_response))
     recordings_request = next(
         spider._parse_documents(documents_response, **documents_request.cb_kwargs)
@@ -57,20 +59,17 @@ def _run(spider, calendar_response, documents_response, recordings_response):
 
 
 @pytest.fixture(scope="module")
-def cdr_items(calendar_response, documents_response, recordings_response):
-    return _run(
-        PhipaCdrSpider(), calendar_response, documents_response, recordings_response
-    )
+def cdr_items(items):
+    return [item for item in items if item["classification"] == COMMITTEE]
 
 
 @pytest.fixture(scope="module")
-def cpc_items(calendar_response, documents_response, recordings_response):
-    return _run(
-        PhipaCpcSpider(), calendar_response, documents_response, recordings_response
-    )
+def cpc_items(items):
+    return [item for item in items if item["classification"] == COMMISSION]
 
 
-def test_count(cdr_items, cpc_items):
+def test_count(items, cdr_items, cpc_items):
+    assert len(items) == 6
     assert len(cdr_items) == 3
     assert len(cpc_items) == 3
 
@@ -96,11 +95,12 @@ def test_end(cdr_items):
 
 def test_id(cdr_items, cpc_items):
     assert (
-        cdr_items[0]["id"] == "phipa_cdr/202607071300/x/civic_design_review_committee"
+        cdr_items[0]["id"]
+        == "phipa_cpc_cdr/202607071300/x/civic_design_review_committee"
     )
     assert (
         cpc_items[0]["id"]
-        == "phipa_cpc/202607161300/x/philadelphia_city_planning_commission_meeting"
+        == "phipa_cpc_cdr/202607161300/x/philadelphia_city_planning_commission_meeting"
     )
 
 
@@ -132,6 +132,5 @@ def test_links(cdr_items, cpc_items):
     assert cpc_items[2]["links"] == []
 
 
-def test_source(cdr_items, cpc_items):
-    assert cdr_items[0]["source"] == EXPECTED_URL
-    assert cpc_items[0]["source"] == EXPECTED_URL
+def test_source(items):
+    assert all(m["source"] == EXPECTED_URL for m in items)

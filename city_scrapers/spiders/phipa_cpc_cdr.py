@@ -1,17 +1,39 @@
+"""
+This file dynamically creates spider classes for the spider factory mixin
+that agencies use.
+"""
+
+from city_scrapers_core.constants import COMMISSION, COMMITTEE
+
 from city_scrapers.mixins.phipa_cpc_cdr import PhipaCpcCdrSpiderMixin
 
 spider_configs = [
     {
-        "class_name": "PhipaCpcSpider",
-        "name": "phipa_cpc",
-        "agency": "Philadelphia City Planning Commission",
-        "agency_name": "Philadelphia City Planning Commission and Civic Design Review Committee",  # noqa
-    },
-    {
-        "class_name": "PhipaCdrSpider",
-        "name": "phipa_cdr",
-        "agency": "Civic Design Review Committee",
-        "agency_name": "Philadelphia City Planning Commission and Civic Design Review Committee",  # noqa
+        "class_name": "PhipaCpcCdrSpider",
+        "name": "phipa_cpc_cdr",
+        "agency": "Philadelphia City Planning Commission and Civic Design Review Committee",  # noqa
+        "category": "Philadelphia City Planning Commission",
+        "calendar_id": "do6kgfl3sslqvfq0iumt9eogto@group.calendar.google.com",
+        "documents_url": "https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/",  # noqa
+        "recordings_url": "https://www.phila.gov/departments/philadelphia-city-planning-commission/recordings-of-public-meetings/",  # noqa
+        "location": {
+            "name": "One Parkway Building, Room 18-029",
+            "address": "1515 Arch Street, 18th Floor, Philadelphia, PA 19102",
+        },
+        "bodies": [
+            {
+                "id": "pcpc",
+                "classification": COMMISSION,
+                "keyword": None,
+                "heading_match": ["pcpc", "planning-commission"],
+            },
+            {
+                "id": "cdr",
+                "classification": COMMITTEE,
+                "keyword": "civic design review",
+                "heading_match": ["cdr", "civic-design-review"],
+            },
+        ],
     },
 ]
 
@@ -25,8 +47,13 @@ def create_spiders():
         class_name = config["class_name"]
 
         if class_name not in globals():
+            # Build attributes dict without class_name to avoid duplication.
+            # We make sure that the class_name is not already in the global namespace
+            # Because some scrapy CLI commands like `scrapy list` will inadvertently
+            # declare the spider class more than once otherwise
             attrs = {k: v for k, v in config.items() if k != "class_name"}
 
+            # Dynamically create the spider class
             spider_class = type(
                 class_name,
                 (PhipaCpcCdrSpiderMixin,),
@@ -36,4 +63,5 @@ def create_spiders():
             globals()[class_name] = spider_class
 
 
+# Create all spider classes at module load
 create_spiders()

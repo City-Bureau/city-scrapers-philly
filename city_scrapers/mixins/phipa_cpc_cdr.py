@@ -2,10 +2,11 @@ import json
 import re
 from collections import defaultdict
 from datetime import datetime
+from urllib.parse import quote
 
 import pytz
 from bs4 import BeautifulSoup
-from city_scrapers_core.constants import CANCELLED, COMMISSION, COMMITTEE
+from city_scrapers_core.constants import CANCELLED
 from city_scrapers_core.items import Meeting
 from city_scrapers_core.spiders import CityScrapersSpider
 from dateutil.relativedelta import relativedelta
@@ -17,20 +18,58 @@ DATE_RE = re.compile(
     re.IGNORECASE,
 )
 
+BASE_SOURCE_URL = "https://www.phila.gov/the-latest/all-events/"
 
-class PhipaCpcCdrSpiderMixin(CityScrapersSpider):
+
+class PhipaCpcCdrSpiderMixinMeta(type):
+    """
+    Metaclass that enforces the implementation of required static
+    variables in child classes that inherit from the "Mixin" class.
+    """
+
+    def __init__(cls, name, bases, dct):
+        required_static_vars = [
+            "agency",
+            "name",
+            "category",
+            "calendar_id",
+            "documents_url",
+            "recordings_url",
+            "location",
+            "bodies",
+        ]
+        missing_vars = [var for var in required_static_vars if var not in dct]
+
+        if missing_vars:
+            missing_vars_str = ", ".join(missing_vars)
+            raise NotImplementedError(
+                f"{name} must define the following static variable(s): "
+                f"{missing_vars_str}."
+            )
+
+        super().__init__(name, bases, dct)
+
+
+class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixinMeta):
+    name = None
+    agency = None
+    category = None
+    calendar_id = None
+    documents_url = None
+    recordings_url = None
+    location = None
+    bodies = None
+
     timezone = "America/New_York"
-    calendar_id = "do6kgfl3sslqvfq0iumt9eogto@group.calendar.google.com"
-    source_url = "https://www.phila.gov/the-latest/all-events/?category=Philadelphia%20City%20Planning%20Commission"  # noqa
-    documents_url = "https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/"  # noqa
-    recordings_url = "https://www.phila.gov/departments/philadelphia-city-planning-commission/recordings-of-public-meetings/"  # noqa
-    location = {
-        "name": "One Parkway Building, Room 18-029",
-        "address": "1515 Arch Street, 18th Floor, Philadelphia, PA 19102",
-    }
     custom_settings = {"ROBOTSTXT_OBEY": False, "FEED_EXPORT_ENCODING": "utf-8"}
 
+    @property
+    def source_url(self):
+        return f"{BASE_SOURCE_URL}?category={quote(self.category)}"
+
     def start_requests(self):
+        # The Google Calendar API rejects requests with no API key, so fail
+        # fast here rather than letting every request 400 downstream.
         api_key = self.settings.get("GOOGLE_CLOUD_API_KEY")
         if not api_key:
             raise ValueError("No GOOGLE_CLOUD_API_KEY provided")
@@ -62,8 +101,8 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider):
     def _parse_documents(self, response, items):
         documents = self._new_link_index()
         for heading in response.xpath('//h3[@class="bmn"]'):
-            body = self._body_from_id(heading.attrib.get("id", ""))
-            if not body:
+            body_id = self._body_from_heading_id(heading.attrib.get("id", ""))
+            if not body_id:
                 continue
             table = heading.xpath(
                 'following-sibling::div[contains(@class, "search-sort-table")][1]'
@@ -74,7 +113,7 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider):
                 if not href or not title:
                     continue
                 link = {"href": response.urljoin(href), "title": title}
-                self._index_link(documents, body, title, link)
+                self._index_link(documents, body_id, title, link)
         yield Request(
             self.recordings_url,
             callback=self._parse_recordings,
@@ -84,8 +123,8 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider):
     def _parse_recordings(self, response, items, documents):
         recordings = self._new_link_index()
         for heading in response.xpath('//h2[@class="h4"]'):
-            body = self._body_from_id(heading.attrib.get("id", ""))
-            if not body:
+            body_id = self._body_from_heading_id(heading.attrib.get("id", ""))
+            if not body_id:
                 continue
             row = heading.xpath('ancestor::div[contains(@class, "grid-x")][1]')
             for li in row.css("div.resource-list li.clickable-row"):
@@ -95,38 +134,36 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider):
                     continue
                 self._index_link(
                     recordings,
-                    body,
+                    body_id,
                     text,
                     {"href": href, "title": "Video Recording"},
                 )
 
         for item in items:
-            if self._item_body(item) != self._get_body():
-                continue
+            body_id = self._item_body(item)
             start = self._parse_datetime(item["start"])
             meeting = Meeting(
                 title=self._parse_title(item),
                 description=self._parse_description(item),
-                classification=self._parse_classification(item),
+                classification=self._parse_classification(body_id),
                 start=start,
                 end=self._parse_datetime(item["end"]),
                 all_day="date" in item["start"],
                 time_notes="",
                 location=self.location,
-                links=self._parse_links(start, documents, recordings),
+                links=self._parse_links(body_id, start, documents, recordings),
                 source=self.source_url,
             )
             meeting["status"] = self._parse_status(item, meeting)
             meeting["id"] = self._get_id(meeting)
             yield meeting
 
-    def _body_from_id(self, heading_id):
-        """Map a heading's id/anchor text to a body key ("pcpc" or "cdr")."""
+    def _body_from_heading_id(self, heading_id):
+        """Map a heading's id attribute to one of this spider's body keys."""
         heading_id = heading_id.lower()
-        if "pcpc" in heading_id or "planning-commission" in heading_id:
-            return "pcpc"
-        if "cdr" in heading_id or "civic-design-review" in heading_id:
-            return "cdr"
+        for body in self.bodies:
+            if any(match in heading_id for match in body["heading_match"]):
+                return body["id"]
         return None
 
     def _new_link_index(self):
@@ -136,12 +173,12 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider):
         to."""
         return {"by_date": defaultdict(list)}
 
-    def _index_link(self, index, body, text, link):
+    def _index_link(self, index, body_id, text, link):
         """File a link under its exact date if the source text names one;
         skip it otherwise."""
         exact_date = self._parse_exact_date_from_text(text)
         if exact_date:
-            index["by_date"][(body, exact_date)].append(link)
+            index["by_date"][(body_id, exact_date)].append(link)
 
     def _parse_exact_date_from_text(self, text):
         """Parse a full day-level date from free-form title text."""
@@ -167,8 +204,8 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider):
         soup = BeautifulSoup(item["description"], "html.parser")
         return soup.get_text(separator=" ", strip=True)
 
-    def _parse_classification(self, item):
-        return COMMITTEE if self._item_body(item) == "cdr" else COMMISSION
+    def _parse_classification(self, body_id):
+        return next(b["classification"] for b in self.bodies if b["id"] == body_id)
 
     def _parse_datetime(self, datetime_dict):
         """Parse a Google Calendar datetime Dict into a naive datetime in the
@@ -183,19 +220,24 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider):
             return CANCELLED
         return self._get_status(meeting)
 
-    def _parse_links(self, start, documents, recordings):
-        date_key = (self._get_body(), start.date())
+    def _parse_links(self, body_id, start, documents, recordings):
+        date_key = (body_id, start.date())
         links = []
         for index in (documents, recordings):
             links.extend(index["by_date"].get(date_key, []))
         return links
 
     def _item_body(self, item):
+        """Match a calendar item's title against each body's keyword,
+        falling back to the body with no keyword (the default)."""
         title = (item.get("summary") or "").lower()
-        return "cdr" if "civic design review" in title else "pcpc"
-
-    def _get_body(self):
-        return "cdr" if "cdr" in self.name else "pcpc"
+        default_id = None
+        for body in self.bodies:
+            if body["keyword"] is None:
+                default_id = body["id"]
+            elif body["keyword"] in title:
+                return body["id"]
+        return default_id
 
     def _get_tz(self):
         return pytz.timezone(self.timezone)
