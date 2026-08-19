@@ -35,6 +35,33 @@ spider_configs = [
             },
         ],
     },
+    {
+        "class_name": "PhipaFairHousingCommissionSpider",
+        "name": "phipa_fair_housing_commission",
+        "agency": "Fair Housing Commission",
+        "category": "Fair Housing Commission",
+        "calendar_id": "phila.fairhousingcommission@gmail.com",
+        "documents_url": "https://www.phila.gov/documents/fair-housing-commission-meeting-agendas/",  # noqa
+        "recordings_url": None,
+        "location": {
+            "name": "Fair Housing Commission",
+            "address": "601 Walnut Street, Suite 300 South, Philadelphia, PA 19106",
+        },
+        "bodies": [
+            {
+                "id": "executive_session",
+                "classification": COMMISSION,
+                "keyword": "executive",
+                "heading_match": [],
+            },
+            {
+                "id": "public_hearing",
+                "classification": COMMISSION,
+                "keyword": None,
+                "heading_match": [],
+            },
+        ],
+    },
 ]
 
 

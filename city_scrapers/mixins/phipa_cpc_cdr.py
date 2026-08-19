@@ -100,25 +100,43 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
 
     def _parse_documents(self, response, items):
         documents = self._new_link_index()
-        for heading in response.xpath('//h3[@class="bmn"]'):
-            body_id = self._body_from_heading_id(heading.attrib.get("id", ""))
-            if not body_id:
-                continue
-            table = heading.xpath(
-                'following-sibling::div[contains(@class, "search-sort-table")][1]'
-            )
-            for row in table.css("tr.clickable-row"):
-                href = row.attrib.get("data-href") or row.css("a::attr(href)").get()
-                title = " ".join(row.css("span.title::text").getall()).strip()
-                if not href or not title:
+        headings = response.xpath('//h3[@class="bmn"]')
+        if headings:
+            for heading in headings:
+                body_id = self._body_from_heading_id(heading.attrib.get("id", ""))
+                if not body_id:
                     continue
-                link = {"href": response.urljoin(href), "title": title}
-                self._index_link(documents, body_id, title, link)
-        yield Request(
-            self.recordings_url,
-            callback=self._parse_recordings,
-            cb_kwargs={"items": items, "documents": documents},
-        )
+                table = heading.xpath(
+                    'following-sibling::div[contains(@class, "search-sort-table")][1]'
+                )
+                self._index_document_rows(
+                    response, table.css("tr.clickable-row"), documents, body_id
+                )
+        else:
+            self._index_document_rows(
+                response, response.css("tr.clickable-row"), documents
+            )
+
+        if self.recordings_url:
+            yield Request(
+                self.recordings_url,
+                callback=self._parse_recordings,
+                cb_kwargs={"items": items, "documents": documents},
+            )
+        else:
+            yield from self._build_meetings(items, documents, self._new_link_index())
+
+    def _index_document_rows(self, response, rows, documents, body_id=None):
+        for row in rows:
+            href = row.attrib.get("data-href") or row.css("a::attr(href)").get()
+            title = " ".join(row.css("span.title::text").getall()).strip()
+            if not href or not title:
+                continue
+            row_body_id = body_id or self._body_from_title(title)
+            if not row_body_id:
+                continue
+            link = {"href": response.urljoin(href), "title": title}
+            self._index_link(documents, row_body_id, title, link)
 
     def _parse_recordings(self, response, items, documents):
         recordings = self._new_link_index()
@@ -139,6 +157,9 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
                     {"href": href, "title": "Video Recording"},
                 )
 
+        yield from self._build_meetings(items, documents, recordings)
+
+    def _build_meetings(self, items, documents, recordings):
         for item in items:
             body_id = self._item_body(item)
             start = self._parse_datetime(item["start"])
@@ -230,7 +251,13 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
     def _item_body(self, item):
         """Match a calendar item's title against each body's keyword,
         falling back to the body with no keyword (the default)."""
-        title = (item.get("summary") or "").lower()
+        return self._body_from_title(item.get("summary") or "")
+
+    def _body_from_title(self, title):
+        """Match free-form title text (a calendar item's summary, or a
+        document row's title) against each body's keyword, falling back to
+        the body with no keyword (the default)."""
+        title = title.lower()
         default_id = None
         for body in self.bodies:
             if body["keyword"] is None:
