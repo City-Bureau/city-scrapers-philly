@@ -12,14 +12,6 @@ from city_scrapers_core.spiders import CityScrapersSpider
 from dateutil.relativedelta import relativedelta
 from scrapy import Request
 
-DATE_RE = re.compile(
-    r"(January|February|March|April|May|June|July|August|September|October|"
-    r"November|December)[\s_.-]+(\d{1,2})(?:st|nd|rd|th)?,?[\s_.-]+(\d{4})",
-    re.IGNORECASE,
-)
-
-BASE_SOURCE_URL = "https://www.phila.gov/the-latest/all-events/"
-
 
 class PhipaCpcCdrSpiderMixinMeta(type):
     """
@@ -34,7 +26,6 @@ class PhipaCpcCdrSpiderMixinMeta(type):
             "category",
             "calendar_id",
             "documents_url",
-            "recordings_url",
             "location",
             "bodies",
         ]
@@ -63,9 +54,18 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
     timezone = "America/New_York"
     custom_settings = {"ROBOTSTXT_OBEY": False, "FEED_EXPORT_ENCODING": "utf-8"}
 
+    DATE_RE = re.compile(
+        r"(January|February|March|April|May|June|July|August|September|October|"
+        r"November|December)[\s_.-]+(\d{1,2})(?:st|nd|rd|th)?,?[\s_.-]+(\d{4})",
+        re.IGNORECASE,
+    )
+
     @property
     def source_url(self):
-        return f"{BASE_SOURCE_URL}?category={quote(self.category)}"
+        return (
+            "https://www.phila.gov/the-latest/all-events/"
+            f"?category={quote(self.category)}"
+        )
 
     def start_requests(self):
         # The Google Calendar API rejects requests with no API key, so fail
@@ -203,7 +203,7 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
 
     def _parse_exact_date_from_text(self, text):
         """Parse a full day-level date from free-form title text."""
-        match = DATE_RE.search(text)
+        match = self.DATE_RE.search(text)
         if not match:
             return None
         month_str, day_str, year_str = match.groups()
@@ -213,7 +213,8 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
                 .replace(year=int(year_str), day=int(day_str))
                 .date()
             )
-        except ValueError:
+        except ValueError as exc:
+            self.logger.warning("Could not parse date from text %r: %s", text, exc)
             return None
 
     def _parse_title(self, item):
