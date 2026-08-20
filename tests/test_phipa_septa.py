@@ -4,8 +4,95 @@ from os.path import dirname, join
 from city_scrapers_core.constants import ADVISORY_COMMITTEE, BOARD, COMMITTEE
 from city_scrapers_core.utils import file_response
 from freezegun import freeze_time
+from scrapy.http import HtmlResponse
 
 from city_scrapers.spiders.phipa_septa import PhipaSeptaSpider
+
+# Narrow, single-page HTML quirks are inlined here rather than saved as
+# full downloaded pages under tests/files/ - the spider only ever selects
+# within .entry-header/.entry-content, so a full ~180KB real page adds
+# nothing a small literal snippet doesn't already cover.
+BARE_CFEMAIL_PDF_URL = "https://wwww.septa.org/wp-content/uploads/meeting/cac/2025-1028-CAC-Plenary-Minutes-R1.pdf"  # noqa
+DUP_LINK_VIMEO_URL = "https://vimeo.com/880978025/9a476c7727?share=copy"
+DUP_LINK_SPECIAL_NOTICE_PDF_URL = "https://wwww.septa.org/wp-content/uploads/board/septa-board/special-notice.pdf"  # noqa
+DUP_LINK_RECESSED_AGENDA_PDF_URL = "https://wwww.septa.org/wp-content/uploads/board/septa-board/recessed-agenda.pdf"  # noqa
+DUP_PDF_SUFFIX_SPANISH_URL = "https://wwww.septa.org/wp-content/uploads/meeting/general/notice-spanish.pdf"  # noqa
+DUP_PDF_SUFFIX_CHINESE_URL = "https://wwww.septa.org/wp-content/uploads/meeting/general/notice-chinese.pdf"  # noqa
+
+BARE_CFEMAIL_HTML = f"""<html><body><article>
+<header class="entry-header"><h1 class="entry-title">CAC Plenary Meeting</h1></header>
+<div class="entry-content"><div class="flex entry-columns">
+<div class="entry-column-1 no-border"><p><strong>Organization:</strong>
+<a href="https://wwww.septa.org/about/partners/#cac">Citizen Advisory Committee</a><br>
+<strong>Time and Date:</strong> 5:30 pm Tuesday, October 28, 2025<br>
+<strong>Session Type::</strong> Open to the public<br></p>
+<p class="meeting-location"><strong>Location:</strong><br>Online via Teams,
+please email <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+data-cfemail="5d1e1c1e1d2e382d293c73322f3a">[email&#160;protected]</a>
+for the meeting link.</p>
+<h2 id="documents">Meeting Documents</h2><ul><li>
+<a href="{BARE_CFEMAIL_PDF_URL}" rel="nofollow">Minutes (PDF)</a></li></ul></div>
+</div></div>
+</article></body></html>""".encode("utf-8")
+
+DUP_LINK_HTML = f"""<html><body><article>
+<header class="entry-header">
+<h1 class="entry-title">SEPTA Board Regular Meeting</h1></header>
+<div class="entry-content"><div class="flex entry-columns">
+<div class="entry-column-1 no-border"><p><strong>Organization:</strong>
+<a href="https://wwww.septa.org/about/septa-board/">SEPTA Board</a><br>
+<strong>Time and Date:</strong> 3:00 pm Thursday, October 26, 2023<br>
+<strong>Session Type::</strong> Open to the public<br></p>
+<p class="meeting-location"><strong>Location:</strong><br>
+The regular SEPTA Board Meeting will be rescheduled to a date
+that is to be determined.</p>
+<h2 id="attend">Register and Attend</h2><ul><li>
+<a href="{DUP_LINK_VIMEO_URL}" rel="nofollow">Meeting Link</a>
+</li></ul>
+<h2 id="links">Links</h2><ul><li>
+<a href="{DUP_LINK_VIMEO_URL}">Meeting Video Link</a></li></ul>
+<h2 id="documents">Meeting Documents</h2><ul>
+<li><a href="https://wwww.septa.org/wp-content/uploads/board/septa-board/notice.pdf"
+rel="nofollow">Meeting Notice (PDF)</a></li>
+<li><a href="https://wwww.septa.org/wp-content/uploads/board/septa-board/agenda.pdf"
+rel="nofollow">Agenda (PDF)</a></li>
+<li><a href="https://wwww.septa.org/wp-content/uploads/board/septa-board/minutes.pdf"
+rel="nofollow">Minutes (PDF)</a></li>
+<li><a href="https://wwww.septa.org/wp-content/uploads/board/septa-board/transcript.pdf"
+rel="nofollow">Transcript (PDF)</a></li></ul>
+<h3>Additional Documents</h3><ul>
+<li><a href="{DUP_LINK_SPECIAL_NOTICE_PDF_URL}">
+Special Board Meeting Notice Recessed to 10/27 (PDF)</a></li>
+<li><a href="{DUP_LINK_RECESSED_AGENDA_PDF_URL}">
+Recessed October 2023 Board Meeting Agenda (PDF)</a></li></ul></div>
+</div></div>
+</article></body></html>""".encode("utf-8")
+
+DUP_PDF_SUFFIX_HTML = f"""<html><body><article>
+<header class="entry-header">
+<h1 class="entry-title">SEPTA Annual Service Plan Public Hearing</h1></header>
+<div class="entry-content"><div class="flex entry-columns">
+<div class="entry-column-1 has-border"><p><strong>Organization:</strong>
+General Public<br>
+<strong>Time and Date:</strong> 5:00 pm Wednesday, April 15, 2026<br>
+<strong>Session Type::</strong> Open to the public<br></p>
+<p class="meeting-location"><strong>Location:</strong><br>
+<b>In person</b>: SEPTA Board Room<br />
+1234 Market Street, Mezzanine Level, Philadelphia, PA 19107<br />
+<b>Virtual</b>: Webex</p>
+<h2 id="attend">Register and Attend</h2><ul><li>
+<a href="https://septaorg.webex.com/weblink/register/r88f3bc11554f03e65fd4c3b40c034f70"
+rel="nofollow">Meeting Registration Link</a></li></ul>
+<h2 id="documents">Meeting Documents</h2><ul><li>
+<a href="https://wwww.septa.org/wp-content/uploads/meeting/general/notice-english.pdf"
+rel="nofollow">Meeting Notice (PDF)</a></li></ul>
+<h3>Additional Documents</h3><ul>
+<li><a href="{DUP_PDF_SUFFIX_SPANISH_URL}">
+Notice of Public Hearing (Spanish/Español) (PDF) (PDF)</a></li>
+<li><a href="{DUP_PDF_SUFFIX_CHINESE_URL}">
+Notice of Public Hearing (Simplified Chinese/简体中文) (PDF) (PDF)</a></li></ul></div>
+</div></div>
+</article></body></html>""".encode("utf-8")
 
 test_response = file_response(
     join(dirname(__file__), "files", "phipa_septa.html"),
@@ -37,21 +124,25 @@ archive_response = file_response(
     url="https://wwww.septa.org/about/meetings/page/11/?archive=1",
 )
 BARE_CFEMAIL_URL = "https://wwww.septa.org/about/meetings/cac-plenary-meeting-october/"
-bare_cfemail_detail_response = file_response(
-    join(dirname(__file__), "files", "phipa_septa_detail_bare_cfemail.html"),
-    url=BARE_CFEMAIL_URL,
+bare_cfemail_detail_response = HtmlResponse(
+    url=BARE_CFEMAIL_URL, body=BARE_CFEMAIL_HTML, encoding="utf-8"
 )
 DUP_LINK_URL = "https://wwww.septa.org/about/meetings/septa-board-regular-meeting-98/"
-dup_link_detail_response = file_response(
-    join(dirname(__file__), "files", "phipa_septa_detail_dup_link.html"),
-    url=DUP_LINK_URL,
+dup_link_detail_response = HtmlResponse(
+    url=DUP_LINK_URL, body=DUP_LINK_HTML, encoding="utf-8"
 )
 DUP_PDF_SUFFIX_URL = (
     "https://wwww.septa.org/about/meetings/service-plan-public-hearing-2/"
 )
-dup_pdf_suffix_detail_response = file_response(
-    join(dirname(__file__), "files", "phipa_septa_detail_dup_pdf_suffix.html"),
-    url=DUP_PDF_SUFFIX_URL,
+dup_pdf_suffix_detail_response = HtmlResponse(
+    url=DUP_PDF_SUFFIX_URL, body=DUP_PDF_SUFFIX_HTML, encoding="utf-8"
+)
+cancelled_listing_response = file_response(
+    join(dirname(__file__), "files", "phipa_septa_cancelled_listing.html"),
+    url="https://wwww.septa.org/about/meetings/",
+)
+BOARD_ROOM_LISTING_LOCATION = (
+    "SEPTA Board Room, 1234 Market Street, Mezzanine Level, Philadelphia, PA 19107"
 )
 spider = PhipaSeptaSpider()
 
@@ -82,6 +173,7 @@ capitalized_item = next(
         listing_start=datetime(2024, 12, 19, 15, 0),
         cancelled=False,
         source=CAPITALIZED_URL,
+        listing_location=BOARD_ROOM_LISTING_LOCATION,
     )
 )
 
@@ -94,6 +186,7 @@ bare_cfemail_item = next(
         listing_start=datetime(2025, 10, 28, 17, 30),
         cancelled=False,
         source=BARE_CFEMAIL_URL,
+        listing_location="",
     )
 )
 
@@ -104,6 +197,7 @@ dup_link_item = next(
         listing_start=datetime(2023, 10, 26, 19, 0),
         cancelled=False,
         source=DUP_LINK_URL,
+        listing_location="",
     )
 )
 
@@ -114,6 +208,7 @@ dup_pdf_suffix_item = next(
         listing_start=datetime(2026, 4, 15, 18, 0),
         cancelled=False,
         source=DUP_PDF_SUFFIX_URL,
+        listing_location=BOARD_ROOM_LISTING_LOCATION,
     )
 )
 
@@ -141,6 +236,11 @@ cancelled_request = next(
     == "https://wwww.septa.org/about/meetings/septa-committee-meeting-august-2026/"
 )
 
+# SEPTA also marks cancellations with a <div class="entry-canceled"> note
+# (and an "entry-title canceled" class) instead of a "(canceled)" title
+# suffix; that listing format also omits entry-location entirely.
+cancelled_via_div_requests = [req for req in spider.parse(cancelled_listing_response)]
+
 freezer.stop()
 
 
@@ -165,6 +265,21 @@ def test_start_prefers_detail_page_over_listing():
     assert virtual_item["start"] == datetime(2026, 9, 1, 17, 30)
 
 
+def test_start_handles_bare_hour_time():
+    # dateutil's parser handles "3pm"-style bare hours natively, with no
+    # manual ":00" insertion needed first.
+    _, start, _ = spider._parse_listing_text(
+        " August 27, 2026, at 3pm: SEPTA Board Regular Meeting"
+    )
+    assert start == datetime(2026, 8, 27, 15, 0)
+
+
+def test_to_datetime_logs_warning_on_unparseable_input(caplog):
+    result = spider._to_datetime("Not a real month 2026", "3:00 pm")
+    assert result is None
+    assert "Could not parse datetime" in caplog.text
+
+
 def test_id():
     assert board_item["id"] == "phipa_septa/202609241500/x/septa_board_regular_meeting"
 
@@ -174,6 +289,22 @@ def test_status_cancelled():
     assert cancelled_request.cb_kwargs["title"] == (
         "Administration & Operations Committees Meeting"
     )
+
+
+def test_status_cancelled_via_entry_canceled_div():
+    canceled_urls = [
+        "https://wwww.septa.org/about/meetings/septa-committee-meeting-august-2026/",
+        "https://wwww.septa.org/about/meetings/septa-board-meeting-august-2026/",
+    ]
+    matched = [req for req in cancelled_via_div_requests if req.url in canceled_urls]
+    assert len(matched) == 2
+    assert all(req.cb_kwargs["cancelled"] is True for req in matched)
+    # This listing format omits entry-location entirely for canceled
+    # meetings, alongside skipping the "(canceled)" title suffix.
+    assert all(req.cb_kwargs["listing_location"] == "" for req in matched)
+    assert all(
+        "canceled" not in req.cb_kwargs["title"].lower() for req in matched
+    ), "title suffix stripping should be a no-op here since there is none"
 
 
 def test_listing_text_multiple_status_tags():
@@ -194,14 +325,30 @@ def test_status():
 
 
 def test_location():
+    # The listing page's own <div class="entry-location"> is the
+    # authoritative source per QA feedback, not the detail page's prose.
     assert board_item["location"] == {
         "name": "SEPTA Board Room",
         "address": "1234 Market Street, Mezzanine Level, Philadelphia, PA 19107",
     }
 
 
-def test_location_virtual():
-    assert virtual_item["location"] == {"name": "Online via Teams", "address": ""}
+def test_location_empty_for_virtual_meetings():
+    # entry-location is blank for virtual-only meetings on the listing
+    # page; the platform info still surfaces in the description instead
+    # (see test_description_decodes_obfuscated_email).
+    assert virtual_item["location"] == {"name": "", "address": ""}
+
+
+def test_location_comes_from_listing_not_detail_page():
+    # This meeting's detail page describes the venue as "In-person at 1234
+    # Market Street, Room 10A" with no formal name, but the listing page's
+    # entry-location gives the fuller "SEPTA Headquarters, 1234 Market
+    # Street, Room 10A, Philadelphia" - the listing wins now.
+    assert mixed_item["location"] == {
+        "name": "SEPTA Headquarters",
+        "address": "1234 Market Street, Room 10A, Philadelphia",
+    }
 
 
 def test_source():
@@ -211,13 +358,9 @@ def test_source():
     )
 
 
-def test_links():
-    assert board_item["links"] == [
-        {
-            "href": "https://wwww.septa.org/about/meetings/septa-board-meeting-september-2026/",  # noqa
-            "title": "Meeting Details",
-        }
-    ]
+def test_links_empty_when_no_attachments():
+    # This detail page has no <ul><li><a> attachment section at all.
+    assert board_item["links"] == []
 
 
 def test_classification():
@@ -244,12 +387,10 @@ def test_all_day():
     assert board_item["all_day"] is False
 
 
-def test_description():
-    assert board_item["description"] == (
-        "Organization: SEPTA Board\n"
-        "Session Type: Open to the public\n"
-        "Virtual: Webex"
-    )
+def test_description_includes_meeting_details_link():
+    # QA feedback: the "Meeting Details" self-link no longer lives in
+    # `links` - it's folded into the description instead.
+    assert f"Meeting Details: {board_url}" in board_item["description"]
 
 
 def test_description_decodes_obfuscated_email():
@@ -277,19 +418,10 @@ def test_time_notes():
     )
 
 
-def test_location_mixed_in_person_and_virtual():
-    # CAC Plenary meetings use "In-person:"/"Online:" instead of the usual
-    # "In person:"/"Virtual:", and only give a street/room, not a venue name.
-    assert mixed_item["location"] == {
-        "name": "1234 Market Street, Room 10A",
-        "address": "",
-    }
-
-
 def test_description_keeps_in_person_registration_instructions():
-    # The registration instructions that `_parse_location` strips out of
-    # the venue name must still show up somewhere - here, in description -
-    # rather than being silently dropped.
+    # The registration instructions that don't belong in the structured
+    # `location` field must still show up somewhere - here, in
+    # description - rather than being silently dropped.
     assert (
         "In person: To register for in-person meetings, send an email to "
         "CAC@SEPTA.org. Remember to bring your ID, and arrive a few minutes "
@@ -303,30 +435,18 @@ def test_description_keeps_in_person_registration_instructions():
     assert "[email" not in mixed_item["description"]
 
 
-def test_location_in_person_capitalized_label():
+def test_description_normalizes_capitalized_in_person_label():
     # SEPTA also spells this "In Person:" (capital P) on some older pages;
-    # it must still be recognized as the same in-person label.
-    assert capitalized_item["location"] == {
-        "name": "SEPTA Board Room",
-        "address": "1234 Market Street, Mezzanine Level, Philadelphia, PA 19107",
-    }
+    # it must still be recognized so the "Virtual: Webex" note in the
+    # description is isolated correctly rather than swallowing the whole
+    # location paragraph.
+    assert "Virtual: Webex" in capitalized_item["description"]
 
 
-def test_links_include_registration_video_and_documents():
-    # Some detail pages - mostly archived ones - also publish a
-    # registration link, a meeting video, and documents (notice, agenda,
-    # minutes, transcript); all of it belongs in `links` alongside the
-    # "Meeting Details" self-link, not just the page itself.
+def test_links_pdf_only():
+    # QA feedback: `links` only holds PDF documents. The registration link
+    # and meeting video from this page belong in the description instead.
     assert capitalized_item["links"] == [
-        {"href": CAPITALIZED_URL, "title": "Meeting Details"},
-        {
-            "href": "https://septaorg.webex.com/weblink/register/r78076d52130ab033e85c881befd37e7e",  # noqa
-            "title": "Meeting Registration Link",
-        },
-        {
-            "href": "https://vimeo.com/1041176055/a02878935a?share=copy",
-            "title": "Meeting Video Link",
-        },
         {
             "href": "https://wwww.septa.org/wp-content/uploads/meeting/septa-board/december-2024-committee-meetings-board-meeting-notice_001.pdf",  # noqa
             "title": "Meeting Notice (PDF)",
@@ -344,6 +464,20 @@ def test_links_include_registration_video_and_documents():
             "title": "Transcript (PDF)",
         },
     ]
+
+
+def test_description_includes_non_pdf_links():
+    # The registration link and meeting video filtered out of `links`
+    # still appear in the description, so nothing is lost.
+    assert (
+        "Meeting Registration Link: https://septaorg.webex.com/weblink/register/"
+        "r78076d52130ab033e85c881befd37e7e" in capitalized_item["description"]
+    )
+    assert (
+        "Meeting Video Link: https://vimeo.com/1041176055/a02878935a?share=copy"
+        in capitalized_item["description"]
+    )
+    assert f"Meeting Details: {CAPITALIZED_URL}" in capitalized_item["description"]
 
 
 def test_archive_cutoff_filters_old_meetings():
@@ -386,7 +520,8 @@ def test_archive_item_end_to_end():
     assert archive_item["title"] == "SEPTA Board Regular Meeting"
     assert archive_item["start"] == datetime(2023, 8, 24, 15, 0)
     assert archive_item["classification"] == BOARD
-    assert archive_item["location"] == {"name": "Online via WebEx", "address": ""}
+    # This archived meeting's listing entry has an empty entry-location.
+    assert archive_item["location"] == {"name": "", "address": ""}
     # The real listing text for this one is "... (canceled) (remote)" - two
     # trailing status tags. It was genuinely cancelled, so status must say
     # so rather than falling back to "passed" just because the date is old.
@@ -394,15 +529,22 @@ def test_archive_item_end_to_end():
 
 
 def test_links_deduplicated_by_href():
-    # This page genuinely lists the same Vimeo link twice - once
+    # This page genuinely lists the same non-PDF video link twice - once
     # (mislabeled) under "Register and Attend", again under "Links" - so
-    # only the first occurrence should survive.
-    hrefs = [link["href"] for link in dup_link_item["links"]]
-    assert len(hrefs) == len(set(hrefs))
-    assert "https://vimeo.com/880978025/9a476c7727?share=copy" in hrefs
-    titles = [link["title"] for link in dup_link_item["links"]]
-    assert "Meeting Link" in titles
-    assert "Meeting Video Link" not in titles
+    # only the first occurrence should survive, and it should only ever
+    # show up once in the description too.
+    assert (
+        dup_link_item["description"].count(
+            "https://vimeo.com/880978025/9a476c7727?share=copy"
+        )
+        == 1
+    )
+    assert "Meeting Link: https://vimeo.com/880978025/9a476c7727?share=copy" in (
+        dup_link_item["description"]
+    )
+    # The PDFs on this page are unaffected and all land in `links`.
+    assert len(dup_link_item["links"]) == 6
+    assert all(link["href"].lower().endswith(".pdf") for link in dup_link_item["links"])
 
 
 def test_link_titles_collapse_duplicated_pdf_suffix():

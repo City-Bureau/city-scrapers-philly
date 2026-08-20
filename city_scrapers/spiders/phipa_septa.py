@@ -11,6 +11,7 @@ from city_scrapers_core.constants import (
 )
 from city_scrapers_core.items import Meeting
 from city_scrapers_core.spiders import CityScrapersSpider
+from dateutil.parser import parse as dt_parser
 from dateutil.relativedelta import relativedelta
 from scrapy import Request
 
@@ -55,13 +56,8 @@ CF_EMAIL_RE = re.compile(
 
 class PhipaSeptaSpider(CityScrapersSpider):
     name = "phipa_septa"
-    agency = "Southeastern Pennsylvania Transportation Authority"
+    agency = "SEPTA"
     timezone = "America/New_York"
-    # The ticket's original archive URL, "?view=archive", is stale - it
-    # silently serves the same content as the upcoming-meetings page. The
-    # real archive lives at "?archive=1", and goes back to 2009; only the
-    # last few years are worth the crawl time, so pagination stops once a
-    # listing's date falls before this cutoff.
     start_urls = [
         "https://wwww.septa.org/about/meetings/",
         "https://wwww.septa.org/about/meetings/?archive=1",
@@ -78,6 +74,13 @@ class PhipaSeptaSpider(CityScrapersSpider):
             href = link.attrib.get("href")
             listing_text = "".join(link.css("::text").getall())
             title, listing_start, cancelled = self._parse_listing_text(listing_text)
+            listing_location = self._clean_text(item.css("div.entry-location"))
+            # SEPTA also flags cancellations with a <div class="entry-canceled">
+            # note (and an "entry-title canceled" class on the <li>) instead
+            # of - or in addition to - a "(canceled)" title suffix; when that
+            # div is present, the listing also omits entry-location entirely.
+            if item.css("div.entry-canceled"):
+                cancelled = True
 
             if not href or listing_start is None:
                 continue
@@ -94,6 +97,7 @@ class PhipaSeptaSpider(CityScrapersSpider):
                     "listing_start": listing_start,
                     "cancelled": cancelled,
                     "source": source,
+                    "listing_location": listing_location,
                 },
             )
 
@@ -101,23 +105,27 @@ class PhipaSeptaSpider(CityScrapersSpider):
         if next_href and not past_cutoff:
             yield Request(urljoin(response.url, next_href), callback=self.parse)
 
-    def _parse_detail(self, response, title, listing_start, cancelled, source):
+    def _parse_detail(
+        self, response, title, listing_start, cancelled, source, listing_location
+    ):
         """Build a meeting from its authoritative detail notice."""
         detail_title = self._clean_text(response.css(".entry-header .entry-title"))
         is_cancelled = cancelled or "cancel" in detail_title.lower()
 
         meeting = Meeting(
             title=title,
-            description=self._parse_description(response),
+            description=self._parse_description(response, source),
             classification=self._parse_classification(title),
             start=self._parse_detail_start(response) or listing_start,
             # SEPTA does not publish definitive end times.
             end=None,
             all_day=False,
             time_notes=self._parse_time_notes(response),
-            location=self._parse_location(response),
-            links=[{"href": source, "title": "Meeting Details"}]
-            + self._parse_extra_links(response),
+            location=self._parse_location(listing_location),
+            # Only PDF documents belong in `links` - the
+            # meeting-details page and any non-PDF attachment are folded
+            # into the description instead (see `_parse_description`).
+            links=self._parse_links(response),
             source=source,
         )
         meeting["status"] = "cancelled" if is_cancelled else self._get_status(meeting)
@@ -162,12 +170,11 @@ class PhipaSeptaSpider(CityScrapersSpider):
             time_str = "12:00 pm"
         elif time_str == "midnight":
             time_str = "12:00 am"
-        elif re.fullmatch(r"\d{1,2}\s*[ap]m", time_str):
-            time_str = re.sub(r"\s*([ap]m)$", r":00 \1", time_str)
 
         try:
-            return datetime.strptime(f"{date_str} {time_str}", "%B %d, %Y %I:%M %p")
+            return dt_parser(f"{date_str} {time_str}")
         except ValueError:
+            self.logger.warning(f"Could not parse datetime from: {date_str} {time_str}")
             return None
 
     def _parse_classification(self, title):
@@ -183,17 +190,23 @@ class PhipaSeptaSpider(CityScrapersSpider):
         return NOT_CLASSIFIED
 
     def _parse_location_block(self, response):
-        """Split the meeting's Location paragraph into an in-person part and
-        a virtual/online part, normalizing SEPTA's "In-person:"/"In person:"
-        and "Virtual:"/"Online:" label variants. Either part may be absent.
+        """Split the detail page's prose Location paragraph into an
+        in-person part and a virtual/online part, normalizing SEPTA's
+        "In-person:"/"In person:" and "Virtual:"/"Online:" label variants.
+        Either part may be absent. This only feeds `_parse_description`
+        now - the structured `location` field comes from the listing
+        page's own <div class="entry-location"> instead (see
+        `_parse_location`), so this is purely for surfacing extra detail
+        (registration instructions, virtual platform) in the description.
         """
         text = self._clean_text(
             response.css(".entry-content .entry-column-1 p.meeting-location")
         )
         text = text.split("Location:", 1)[-1].strip()
-        # SEPTA spells this "In person:", "In-person:", and "In Person:"
-        # interchangeably depending on the year/author.
-        text = re.sub(r"In[\s-]?[Pp]erson:", "In person:", text)
+        # SEPTA spells this "In person:", "In-person:", "In Person:", and
+        # "In person :" (space before the colon) interchangeably depending
+        # on the year/author.
+        text = re.sub(r"In[\s-]?[Pp]erson\s*:", "In person:", text)
 
         if "In person:" not in text:
             return {"in_person": None, "virtual": text or None, "virtual_label": None}
@@ -201,7 +214,7 @@ class PhipaSeptaSpider(CityScrapersSpider):
         in_person = text.split("In person:", 1)[1]
         virtual = None
         virtual_label = None
-        virtual_match = re.search(r"\b(Online|Virtual):", in_person, re.IGNORECASE)
+        virtual_match = re.search(r"\b(Online|Virtual)\s*:", in_person, re.IGNORECASE)
         if virtual_match:
             virtual_label = virtual_match.group(1).capitalize()
             virtual = in_person[virtual_match.end() :].strip()
@@ -213,48 +226,30 @@ class PhipaSeptaSpider(CityScrapersSpider):
             "virtual_label": virtual_label,
         }
 
-    def _parse_location(self, response):
-        block = self._parse_location_block(response)
-        in_person = block["in_person"]
+    @staticmethod
+    def _parse_location(listing_location):
+        """The listing page's own <div class="entry-location"> is the
+        authoritative source per QA feedback: empty for virtual-only
+        meetings, absent entirely for canceled ones (both cases collapse
+        to `listing_location` being falsy), and otherwise a clean
+        "Venue Name, Street Address" pair."""
+        if not listing_location:
+            return {"name": "", "address": ""}
 
-        if not in_person:
-            return {"name": block["virtual"] or "", "address": ""}
-
-        # Registration/attendance instructions go into the description
-        # instead, so location stays a short venue name/address.
-        venue = (
-            re.split(r"\.\s*To register\b", in_person, maxsplit=1, flags=re.IGNORECASE)[
-                0
-            ]
-            .strip()
-            .rstrip(".")
-        )
-
-        # CAC Plenary provides only a street/room, not a formal venue name.
-        if re.match(r"^\d", venue):
-            return {"name": venue, "address": ""}
-
-        match = re.match(r"(?P<name>.+?)\s+(?P<address>\d.+)", venue)
-        if not match:
-            return {"name": venue, "address": ""}
-
-        return {
-            "name": match.group("name").strip(),
-            "address": match.group("address").strip(),
-        }
+        name, _, address = listing_location.partition(",")
+        return {"name": name.strip(), "address": address.strip()}
 
     @staticmethod
     def _parse_in_person_notes(block):
         """Any in-person text beyond the venue itself - e.g. registration
-        or attendance instructions - that `_parse_location` strips out so
-        it can still be included in the description."""
+        or attendance instructions - for inclusion in the description."""
         in_person = block["in_person"]
         if not in_person:
             return ""
         match = re.search(r"\.\s*(To register\b.*)$", in_person, re.IGNORECASE)
         return match.group(1).strip() if match else ""
 
-    def _parse_description(self, response):
+    def _parse_description(self, response, source):
         info_text = self._clean_text(self._info_selector(response))
         location_block = self._parse_location_block(response)
         notes_text = self._parse_notes(response)
@@ -284,6 +279,17 @@ class PhipaSeptaSpider(CityScrapersSpider):
         if notes_text:
             parts.append(notes_text)
 
+        # `links` only keeps PDFs, so the meeting-details page
+        # itself and any non-PDF attachment (registration link, video,
+        # non-PDF document) are surfaced here instead of being dropped.
+        link_notes = [f"Meeting Details: {source}"]
+        link_notes += [
+            f"{link['title']}: {link['href']}"
+            for link in self._parse_attachment_links(response)
+            if not link["href"].lower().endswith(".pdf")
+        ]
+        parts.append("\n".join(link_notes))
+
         return "\n".join(parts)
 
     def _parse_time_notes(self, response):
@@ -299,11 +305,13 @@ class PhipaSeptaSpider(CityScrapersSpider):
             if text
         )
 
-    def _parse_extra_links(self, response):
+    def _parse_attachment_links(self, response):
         """Some detail pages - mostly archived ones - publish a
         registration link, a meeting video, and/or documents (notice,
         agenda, minutes, transcript) as "<h2>...</h2><ul><li><a>" blocks
-        after the location paragraph."""
+        after the location paragraph. `_parse_links` keeps only the PDFs
+        from this; everything else is folded into the description by
+        `_parse_description` instead, per QA feedback."""
         links = []
         seen_hrefs = set()
         for anchor in response.css(".entry-content .entry-column-1 ul li a"):
@@ -322,6 +330,15 @@ class PhipaSeptaSpider(CityScrapersSpider):
             title = re.sub(r"(\([^)]*\))\s*\1$", r"\1", title)
             links.append({"href": href, "title": title})
         return links
+
+    def _parse_links(self, response):
+        """`links` only holds PDF meeting documents (notice, agenda,
+        minutes, transcript, etc.) per QA feedback."""
+        return [
+            link
+            for link in self._parse_attachment_links(response)
+            if link["href"].lower().endswith(".pdf")
+        ]
 
     @staticmethod
     def _extract_time_notes(notes_text):
