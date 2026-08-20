@@ -1,10 +1,10 @@
 import json
 import re
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 
-import pytz
 from bs4 import BeautifulSoup
 from city_scrapers_core.constants import CANCELLED
 from city_scrapers_core.items import Meeting
@@ -50,6 +50,7 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
     recordings_url = None
     location = None
     bodies = None
+    no_description_text = None
 
     timezone = "America/New_York"
     custom_settings = {"ROBOTSTXT_OBEY": False, "FEED_EXPORT_ENCODING": "utf-8"}
@@ -73,7 +74,7 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
         api_key = self.settings.get("GOOGLE_CLOUD_API_KEY")
         if not api_key:
             raise ValueError("No GOOGLE_CLOUD_API_KEY provided")
-        current_datetime = datetime.utcnow()
+        current_datetime = datetime.now(timezone.utc)
         min_time_val = (current_datetime - relativedelta(years=3)).strftime(
             "%Y-%m-%dT%H:%M:%SZ"
         )
@@ -221,8 +222,8 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
         return item.get("summary") or ""
 
     def _parse_description(self, item):
-        if "description" not in item:
-            return ""
+        if not item.get("description"):
+            return self.no_description_text or ""
         soup = BeautifulSoup(item["description"], "html.parser")
         return soup.get_text(separator=" ", strip=True)
 
@@ -268,4 +269,4 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
         return default_id
 
     def _get_tz(self):
-        return pytz.timezone(self.timezone)
+        return ZoneInfo(self.timezone)

@@ -44,9 +44,12 @@ spider_configs = [
         "documents_url": "https://www.phila.gov/documents/fair-housing-commission-meeting-agendas/",  # noqa
         "recordings_url": None,
         "location": {
-            "name": "Fair Housing Commission",
-            "address": "601 Walnut Street, Suite 300 South, Philadelphia, PA 19106",
+            "name": "",
+            "address": "",
         },
+        "no_description_text": (
+            "Please visit https://www.phila.gov/departments/fair-housing-commission/ for more information about accessing our meetings."  # noqa
+        ),
         "bodies": [
             {
                 "id": "executive_session",

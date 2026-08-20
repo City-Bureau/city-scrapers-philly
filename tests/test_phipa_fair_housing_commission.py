@@ -108,11 +108,15 @@ def test_status(past_item, today_item, hearing_item):
     assert hearing_item["status"] == TENTATIVE
 
 
+def test_description(past_item, today_item, hearing_item):
+    expected_fallback = "Please visit https://www.phila.gov/departments/fair-housing-commission/ for more information about accessing our meetings."  # noqa
+    assert past_item["description"] == expected_fallback
+    assert today_item["description"] == expected_fallback
+    assert "Jane Doe v. Example Leasing Office" in hearing_item["description"]
+
+
 def test_location(past_item, today_item, hearing_item):
-    expected_location = {
-        "name": "Fair Housing Commission",
-        "address": "601 Walnut Street, Suite 300 South, Philadelphia, PA 19106",
-    }
+    expected_location = {"name": "", "address": ""}
     assert past_item["location"] == expected_location
     assert today_item["location"] == expected_location
     assert hearing_item["location"] == expected_location
