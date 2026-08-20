@@ -172,8 +172,8 @@ capitalized_item = next(
         title="SEPTA Board Regular Meeting",
         listing_start=datetime(2024, 12, 19, 15, 0),
         cancelled=False,
-        source=CAPITALIZED_URL,
         listing_location=BOARD_ROOM_LISTING_LOCATION,
+        listing_session_type="Open to the public",
     )
 )
 
@@ -185,8 +185,8 @@ bare_cfemail_item = next(
         title="CAC Plenary Meeting",
         listing_start=datetime(2025, 10, 28, 17, 30),
         cancelled=False,
-        source=BARE_CFEMAIL_URL,
         listing_location="",
+        listing_session_type="Open to the public",
     )
 )
 
@@ -196,8 +196,8 @@ dup_link_item = next(
         title="SEPTA Board Regular Meeting",
         listing_start=datetime(2023, 10, 26, 19, 0),
         cancelled=False,
-        source=DUP_LINK_URL,
         listing_location="",
+        listing_session_type="Open to the public",
     )
 )
 
@@ -207,8 +207,8 @@ dup_pdf_suffix_item = next(
         title="SEPTA Annual Service Plan Public Hearing",
         listing_start=datetime(2026, 4, 15, 18, 0),
         cancelled=False,
-        source=DUP_PDF_SUFFIX_URL,
         listing_location=BOARD_ROOM_LISTING_LOCATION,
+        listing_session_type="Open to the public",
     )
 )
 
