@@ -411,11 +411,10 @@ def test_end():
 
 
 def test_time_notes():
+    # SEPTA does not publish a reliable "typical schedule" note, so
+    # `time_notes` is always empty.
     assert board_item["time_notes"] == ""
-    assert virtual_item["time_notes"] == (
-        "Meetings are typically held on the first Tuesday of the month from "
-        "5:30 pm to 7 pm online via Teams."
-    )
+    assert virtual_item["time_notes"] == ""
 
 
 def test_description_keeps_in_person_registration_instructions():

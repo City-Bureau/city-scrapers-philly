@@ -1,5 +1,5 @@
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from html import unescape
 
 from city_scrapers_core.constants import (
@@ -33,9 +33,6 @@ DETAIL_TIME_RE = re.compile(
 ORGANIZATION_RE = re.compile(
     r"Organization:\s*(?P<org>.+?)\s*Time and Date:", re.IGNORECASE
 )
-TYPICAL_SCHEDULE_RE = re.compile(
-    r"Meetings are typically held.*?(?:\.|$)", re.IGNORECASE
-)
 # Matches Cloudflare's email-obfuscation markup: an <a> wrapping a
 # <span data-cfemail="...">.
 CF_EMAIL_WRAPPED_RE = re.compile(
@@ -62,7 +59,9 @@ class PhipaSeptaSpider(CityScrapersSpider):
 
     def parse(self, response):
         """Follow each meeting notice and pagination link."""
-        cutoff = datetime.now() - relativedelta(years=self.archive_years)
+        cutoff = datetime.now(timezone.utc).replace(tzinfo=None) - relativedelta(
+            years=self.archive_years
+        )
         past_cutoff = False
 
         for item in response.css("li.entry-title"):
@@ -121,7 +120,7 @@ class PhipaSeptaSpider(CityScrapersSpider):
             # SEPTA does not publish definitive end times.
             end=None,
             all_day=False,
-            time_notes=self._parse_time_notes(response),
+            time_notes="",
             location=self._parse_location(listing_location),
             # `links` holds only PDF documents (see `_parse_description`
             # for other attachment links).
@@ -237,10 +236,6 @@ class PhipaSeptaSpider(CityScrapersSpider):
         info_text = self._clean_text(self._info_selector(response))
         location_block = self._parse_location_block(response)
         notes_text = self._parse_notes(response)
-        time_notes = self._extract_time_notes(notes_text)
-
-        if time_notes:
-            notes_text = notes_text.replace(time_notes, "", 1).strip()
 
         parts = []
 
@@ -273,9 +268,6 @@ class PhipaSeptaSpider(CityScrapersSpider):
         parts.append("\n".join(link_notes))
 
         return "\n".join(parts)
-
-    def _parse_time_notes(self, response):
-        return self._extract_time_notes(self._parse_notes(response))
 
     def _parse_notes(self, response):
         texts = (
@@ -311,10 +303,6 @@ class PhipaSeptaSpider(CityScrapersSpider):
             for link in self._parse_attachment_links(response)
             if link["href"].lower().endswith(".pdf")
         ]
-
-    def _extract_time_notes(self, notes_text):
-        match = TYPICAL_SCHEDULE_RE.search(notes_text)
-        return match.group(0).strip() if match else ""
 
     def _info_selector(self, response):
         return response.css(".entry-content .entry-column-1 p:not(.meeting-location)")
