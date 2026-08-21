@@ -45,6 +45,9 @@ CF_EMAIL_RE = re.compile(
     r"<(?P<tag>a|span)\b[^>]*\bdata-cfemail=\"(?P<hex>[0-9a-f]+)\"[^>]*>"
     r"[^<]*</(?P=tag)>"
 )
+# Attachment extensions treated as meeting documents (vs. e.g. registration
+# or video links, which stay in the description).
+DOC_EXTS = (".pdf", ".docx", ".doc", ".xlsx")
 
 
 class PhipaSeptaSpider(CityScrapersSpider):
@@ -122,7 +125,7 @@ class PhipaSeptaSpider(CityScrapersSpider):
             all_day=False,
             time_notes="",
             location=self._parse_location(listing_location),
-            # `links` holds only PDF documents (see `_parse_description`
+            # `links` holds only meeting documents (see `_parse_description`
             # for other attachment links).
             links=self._parse_links(response),
             source=response.url,
@@ -257,13 +260,13 @@ class PhipaSeptaSpider(CityScrapersSpider):
         if notes_text:
             parts.append(notes_text)
 
-        # Includes the meeting-details link and any non-PDF attachment
+        # Includes the meeting-details link and any non-document attachment
         # links.
         link_notes = [f"Meeting Details: {response.url}"]
         link_notes += [
             f"{link['title']}: {link['href']}"
             for link in self._parse_attachment_links(response)
-            if not link["href"].lower().endswith(".pdf")
+            if not link["href"].lower().endswith(DOC_EXTS)
         ]
         parts.append("\n".join(link_notes))
 
@@ -297,11 +300,11 @@ class PhipaSeptaSpider(CityScrapersSpider):
         return links
 
     def _parse_links(self, response):
-        """Filters attachment links down to PDF meeting documents."""
+        """Filters attachment links down to meeting documents."""
         return [
             link
             for link in self._parse_attachment_links(response)
-            if link["href"].lower().endswith(".pdf")
+            if link["href"].lower().endswith(DOC_EXTS)
         ]
 
     def _info_selector(self, response):
