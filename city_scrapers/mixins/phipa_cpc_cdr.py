@@ -2,7 +2,6 @@ import json
 import re
 from collections import defaultdict
 from datetime import datetime, timezone
-from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
@@ -51,6 +50,7 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
     location = None
     bodies = None
     no_description_text = None
+    source_url = None
 
     timezone = "America/New_York"
     custom_settings = {"ROBOTSTXT_OBEY": False, "FEED_EXPORT_ENCODING": "utf-8"}
@@ -61,20 +61,13 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
         re.IGNORECASE,
     )
 
-    @property
-    def source_url(self):
-        return (
-            "https://www.phila.gov/the-latest/all-events/"
-            f"?category={quote(self.category)}"
-        )
-
     def start_requests(self):
         # The Google Calendar API rejects requests with no API key, so fail
         # fast here rather than letting every request 400 downstream.
         api_key = self.settings.get("GOOGLE_CLOUD_API_KEY")
         if not api_key:
             raise ValueError("No GOOGLE_CLOUD_API_KEY provided")
-        current_datetime = datetime.now(timezone.utc)
+        current_datetime = datetime.now(timezone.utc).replace(tzinfo=None)
         min_time_val = (current_datetime - relativedelta(years=3)).strftime(
             "%Y-%m-%dT%H:%M:%SZ"
         )
@@ -236,7 +229,7 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
         if "date" in datetime_dict:
             return datetime.strptime(datetime_dict["date"], "%Y-%m-%d")
         dt_aware = datetime.strptime(datetime_dict["dateTime"], "%Y-%m-%dT%H:%M:%S%z")
-        return dt_aware.astimezone(self._get_tz()).replace(tzinfo=None)
+        return dt_aware.astimezone(ZoneInfo(self.timezone)).replace(tzinfo=None)
 
     def _parse_status(self, item, meeting):
         if item.get("status") == "cancelled":
@@ -267,6 +260,3 @@ class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixi
             elif body["keyword"] in title:
                 return body["id"]
         return default_id
-
-    def _get_tz(self):
-        return ZoneInfo(self.timezone)
