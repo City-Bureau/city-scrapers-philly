@@ -12,7 +12,7 @@ from dateutil.relativedelta import relativedelta
 from scrapy import Request
 
 
-class PhipaCpcCdrSpiderMixinMeta(type):
+class PhipaCityMixinMeta(type):
     """
     Metaclass that enforces the implementation of required static
     variables in child classes that inherit from the "Mixin" class.
@@ -40,7 +40,7 @@ class PhipaCpcCdrSpiderMixinMeta(type):
         super().__init__(name, bases, dct)
 
 
-class PhipaCpcCdrSpiderMixin(CityScrapersSpider, metaclass=PhipaCpcCdrSpiderMixinMeta):
+class PhipaCitySpiderMixin(CityScrapersSpider, metaclass=PhipaCityMixinMeta):
     name = None
     agency = None
     category = None

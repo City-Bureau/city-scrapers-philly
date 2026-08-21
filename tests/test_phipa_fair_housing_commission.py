@@ -6,7 +6,7 @@ from city_scrapers_core.constants import COMMISSION, PASSED, TENTATIVE
 from city_scrapers_core.utils import file_response
 from freezegun import freeze_time
 
-from city_scrapers.spiders.phipa_cpc_cdr import PhipaFairHousingCommissionSpider
+from city_scrapers.spiders.phipa_city import PhipaFairHousingCommissionSpider
 
 FILES_DIR = join(dirname(__file__), "files")
 

@@ -12,7 +12,7 @@ from city_scrapers_core.constants import (
 from city_scrapers_core.utils import file_response
 from freezegun import freeze_time
 
-from city_scrapers.spiders.phipa_cpc_cdr import PhipaCpcCdrSpider
+from city_scrapers.spiders.phipa_city import PhipaCpcCdrSpider
 
 FILES_DIR = join(dirname(__file__), "files")
 

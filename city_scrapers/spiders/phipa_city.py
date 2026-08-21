@@ -7,7 +7,7 @@ from urllib.parse import quote
 
 from city_scrapers_core.constants import COMMISSION, COMMITTEE
 
-from city_scrapers.mixins.phipa_cpc_cdr import PhipaCpcCdrSpiderMixin
+from city_scrapers.mixins.phipa_city import PhipaCitySpiderMixin
 
 spider_configs = [
     {
@@ -95,7 +95,7 @@ def create_spiders():
             # Dynamically create the spider class
             spider_class = type(
                 class_name,
-                (PhipaCpcCdrSpiderMixin,),
+                (PhipaCitySpiderMixin,),
                 attrs,
             )
 
