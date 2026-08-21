@@ -20,9 +20,11 @@ LISTING_RE = re.compile(
     r"(?P<title>.+?)\s*$",
     re.IGNORECASE,
 )
-# Matches a trailing parenthetical status tag, e.g. "(canceled)"; also
-# matches an empty "()".
-STATUS_SUFFIX_RE = re.compile(r"\(([^)]*)\)\s*$")
+# Matches an empty "()" left over once a real tag next to it is removed.
+EMPTY_PARENS_RE = re.compile(r"\(\s*\)\s*$")
+# Matches a "(canceled)"/"(cancelled)" tag anywhere in the title; other
+# tags, e.g. "(remote)", stay in the title text.
+CANCELLED_TAG_RE = re.compile(r"\(\s*cancell?ed\s*\)\s*", re.IGNORECASE)
 DETAIL_TIME_RE = re.compile(
     r"Time and Date:\s*(?P<time>noon|midnight|\d{1,2}(?::\d{2})?\s*[ap]m)\s+"
     r"[A-Za-z]+,\s*(?P<date>[A-Za-z]+ \d{1,2}, \d{4})",
@@ -116,32 +118,19 @@ class PhipaSeptaSpider(CityScrapersSpider):
             description=self._parse_description(response, listing_session_type),
             classification=self._parse_classification(title),
             start=self._parse_detail_start(response) or listing_start,
-            end=self._parse_end(response),
-            all_day=self._parse_all_day(response),
+            # SEPTA does not publish definitive end times.
+            end=None,
+            all_day=False,
             time_notes=self._parse_time_notes(response),
             location=self._parse_location(listing_location),
             # `links` holds only PDF documents (see `_parse_description`
             # for other attachment links).
             links=self._parse_links(response),
-            source=self._parse_source(response),
+            source=response.url,
         )
         meeting["status"] = "cancelled" if is_cancelled else self._get_status(meeting)
         meeting["id"] = self._get_id(meeting)
         yield meeting
-
-    def _parse_end(self, response):
-        """Parse end datetime as a naive datetime object. SEPTA does not
-        publish definitive end times, so this is left for the pipeline
-        to default."""
-        return None
-
-    def _parse_all_day(self, response):
-        """Parse or generate all-day status. Defaults to False."""
-        return False
-
-    def _parse_source(self, response):
-        """Parse or generate source."""
-        return response.url
 
     def _parse_listing_text(self, text):
         match = LISTING_RE.match(text)
@@ -149,14 +138,9 @@ class PhipaSeptaSpider(CityScrapersSpider):
             return text.strip(), None, False
 
         title = match.group("title")
-        cancelled = False
-        while True:
-            status_match = STATUS_SUFFIX_RE.search(title)
-            if not status_match:
-                break
-            if "cancel" in status_match.group(1).lower():
-                cancelled = True
-            title = title[: status_match.start()].strip()
+        cancelled = bool(CANCELLED_TAG_RE.search(title))
+        title = CANCELLED_TAG_RE.sub("", title).strip()
+        title = EMPTY_PARENS_RE.sub("", title).strip()
 
         return (
             title,
@@ -280,7 +264,7 @@ class PhipaSeptaSpider(CityScrapersSpider):
 
         # Includes the meeting-details link and any non-PDF attachment
         # links.
-        link_notes = [f"Meeting Details: {self._parse_source(response)}"]
+        link_notes = [f"Meeting Details: {response.url}"]
         link_notes += [
             f"{link['title']}: {link['href']}"
             for link in self._parse_attachment_links(response)

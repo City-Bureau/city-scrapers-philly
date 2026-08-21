@@ -309,13 +309,13 @@ def test_status_cancelled_via_entry_canceled_div():
 
 def test_listing_text_multiple_status_tags():
     # SEPTA sometimes appends more than one trailing tag, e.g.
-    # "Meeting Name (canceled) (remote)". Both must be stripped from the
-    # title, and "canceled" must be detected no matter which position it's
-    # in among them.
+    # "Meeting Name (canceled) (remote)". Only the cancellation tag is
+    # stripped from the title - "(remote)" is meaningful and stays -
+    # and "canceled" must be detected no matter which position it's in.
     title, start, cancelled = spider._parse_listing_text(
         " May 27, 2025, at 9:30 pm: CAC Plenary Meeting (canceled) (remote)"
     )
-    assert title == "CAC Plenary Meeting"
+    assert title == "CAC Plenary Meeting (remote)"
     assert cancelled is True
     assert start == datetime(2025, 5, 27, 21, 30)
 
@@ -517,14 +517,15 @@ def test_archive_item_end_to_end():
     # page disagreeing with the detail page (7:00 pm vs 3:00 pm) - the
     # same bug, confirmed present in the archive too, not just upcoming
     # meetings.
-    assert archive_item["title"] == "SEPTA Board Regular Meeting"
+    # The real listing text for this one is "... (canceled) (remote)" -
+    # only the cancellation tag is stripped, so "(remote)" stays.
+    assert archive_item["title"] == "SEPTA Board Regular Meeting (remote)"
     assert archive_item["start"] == datetime(2023, 8, 24, 15, 0)
     assert archive_item["classification"] == BOARD
     # This archived meeting's listing entry has an empty entry-location.
     assert archive_item["location"] == {"name": "", "address": ""}
-    # The real listing text for this one is "... (canceled) (remote)" - two
-    # trailing status tags. It was genuinely cancelled, so status must say
-    # so rather than falling back to "passed" just because the date is old.
+    # It was genuinely cancelled, so status must say so rather than
+    # falling back to "passed" just because the date is old.
     assert archive_item["status"] == "cancelled"
 
 
