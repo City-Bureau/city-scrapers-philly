@@ -2,6 +2,7 @@ import json
 import re
 from collections import defaultdict
 from datetime import datetime, timezone
+from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
@@ -50,7 +51,6 @@ class PhipaCitySpiderMixin(CityScrapersSpider, metaclass=PhipaCityMixinMeta):
     location = None
     bodies = None
     no_description_text = None
-    source_url = None
 
     timezone = "America/New_York"
     custom_settings = {"ROBOTSTXT_OBEY": False, "FEED_EXPORT_ENCODING": "utf-8"}
@@ -60,6 +60,13 @@ class PhipaCitySpiderMixin(CityScrapersSpider, metaclass=PhipaCityMixinMeta):
         r"November|December)[\s_.-]+(\d{1,2})(?:st|nd|rd|th)?,?[\s_.-]+(\d{4})",
         re.IGNORECASE,
     )
+
+    @property
+    def source_url(self):
+        return (
+            "https://www.phila.gov/the-latest/all-events/"
+            f"?category={quote(self.category)}"
+        )
 
     def start_requests(self):
         # The Google Calendar API rejects requests with no API key, so fail

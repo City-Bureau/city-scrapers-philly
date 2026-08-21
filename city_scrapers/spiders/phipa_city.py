@@ -3,8 +3,6 @@ This file dynamically creates spider classes for the spider factory mixin
 that agencies use.
 """
 
-from urllib.parse import quote
-
 from city_scrapers_core.constants import COMMISSION, COMMITTEE
 
 from city_scrapers.mixins.phipa_city import PhipaCitySpiderMixin
@@ -87,10 +85,6 @@ def create_spiders():
             # Because some scrapy CLI commands like `scrapy list` will inadvertently
             # declare the spider class more than once otherwise
             attrs = {k: v for k, v in config.items() if k != "class_name"}
-            attrs["source_url"] = (
-                "https://www.phila.gov/the-latest/all-events/"
-                f"?category={quote(config['category'])}"
-            )
 
             # Dynamically create the spider class
             spider_class = type(
