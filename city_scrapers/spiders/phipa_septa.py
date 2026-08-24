@@ -5,6 +5,7 @@ from html import unescape
 from city_scrapers_core.constants import (
     ADVISORY_COMMITTEE,
     BOARD,
+    CANCELLED,
     COMMITTEE,
     NOT_CLASSIFIED,
 )
@@ -48,6 +49,9 @@ CF_EMAIL_RE = re.compile(
 # Attachment extensions treated as meeting documents (vs. e.g. registration
 # or video links, which stay in the description).
 DOC_EXTS = (".pdf", ".docx", ".doc", ".xlsx")
+# Matches a listing location that opens with a street number, meaning it
+# has no venue name (e.g. "1234 Market St, Philadelphia").
+STREET_ADDRESS_RE = re.compile(r"^\d+\s")
 
 
 class PhipaSeptaSpider(CityScrapersSpider):
@@ -130,7 +134,7 @@ class PhipaSeptaSpider(CityScrapersSpider):
             links=self._parse_links(response),
             source=response.url,
         )
-        meeting["status"] = "cancelled" if is_cancelled else self._get_status(meeting)
+        meeting["status"] = CANCELLED if is_cancelled else self._get_status(meeting)
         meeting["id"] = self._get_id(meeting)
         yield meeting
 
@@ -219,9 +223,15 @@ class PhipaSeptaSpider(CityScrapersSpider):
 
     def _parse_location(self, listing_location):
         """Builds the location dict from the listing page's entry-location
-        text, splitting it into a venue name and an address."""
+        text, splitting it into a venue name and an address. A value that
+        opens with a street number (e.g. "1234 Market St, Philadelphia")
+        has no venue name, so it's kept together as the address instead of
+        splitting off the street as a false name."""
         if not listing_location:
             return {"name": "", "address": ""}
+
+        if STREET_ADDRESS_RE.match(listing_location):
+            return {"name": "", "address": listing_location.strip()}
 
         name, _, address = listing_location.partition(",")
         return {"name": name.strip(), "address": address.strip()}

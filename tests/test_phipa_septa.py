@@ -33,7 +33,9 @@ for the meeting link.</p>
 <h2 id="documents">Meeting Documents</h2><ul><li>
 <a href="{BARE_CFEMAIL_PDF_URL}" rel="nofollow">Minutes (PDF)</a></li></ul></div>
 </div></div>
-</article></body></html>""".encode("utf-8")
+</article></body></html>""".encode(
+    "utf-8"
+)
 
 DUP_LINK_HTML = f"""<html><body><article>
 <header class="entry-header">
@@ -66,7 +68,9 @@ Special Board Meeting Notice Recessed to 10/27 (PDF)</a></li>
 <li><a href="{DUP_LINK_RECESSED_AGENDA_PDF_URL}">
 Recessed October 2023 Board Meeting Agenda (PDF)</a></li></ul></div>
 </div></div>
-</article></body></html>""".encode("utf-8")
+</article></body></html>""".encode(
+    "utf-8"
+)
 
 DUP_PDF_SUFFIX_HTML = f"""<html><body><article>
 <header class="entry-header">
@@ -92,7 +96,9 @@ Notice of Public Hearing (Spanish/Español) (PDF) (PDF)</a></li>
 <li><a href="{DUP_PDF_SUFFIX_CHINESE_URL}">
 Notice of Public Hearing (Simplified Chinese/简体中文) (PDF) (PDF)</a></li></ul></div>
 </div></div>
-</article></body></html>""".encode("utf-8")
+</article></body></html>""".encode(
+    "utf-8"
+)
 
 test_response = file_response(
     join(dirname(__file__), "files", "phipa_septa.html"),
