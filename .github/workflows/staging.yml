@@ -36,6 +36,8 @@ env:
   AZURE_ACCOUNT_NAME: ${{ secrets.AZURE_ACCOUNT_NAME }}
   AZURE_STAGING_CONTAINER: ${{ secrets.AZURE_STAGING_CONTAINER }}
   SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+  # phipa_boe / phipa_trb raise in start_requests without this (as prod cron.yml)
+  GOOGLE_CLOUD_API_KEY: ${{ secrets.GOOGLE_CLOUD_API_KEY }}
 
 jobs:
   crawl:
