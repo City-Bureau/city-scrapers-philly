@@ -1,3 +1,4 @@
+import json
 from datetime import datetime
 from os.path import dirname, join
 
@@ -11,6 +12,7 @@ from city_scrapers_core.constants import (
 )
 from city_scrapers_core.utils import file_response
 from freezegun import freeze_time
+from scrapy.http import TextResponse
 
 from city_scrapers.spiders.phipa_city import PhipaCpcCdrSpider
 
@@ -134,3 +136,19 @@ def test_links(cdr_items, cpc_items):
 
 def test_source(items):
     assert all(m["source"] == EXPECTED_URL for m in items)
+
+
+def test_parse_calendar_api_error(caplog):
+    """A Calendar API error response (e.g. expired/invalid API key, quota
+    exceeded) has no "items" key. parse() should log and stop instead of
+    raising KeyError and killing the crawl."""
+    spider = PhipaCpcCdrSpider()
+    error_response = TextResponse(
+        url="https://www.googleapis.com/calendar/v3/calendars/x/events",
+        body=json.dumps(
+            {"error": {"code": 403, "message": "API key not valid."}}
+        ).encode("utf-8"),
+    )
+    results = list(spider.parse(error_response))
+    assert results == []
+    assert "API key not valid" in caplog.text

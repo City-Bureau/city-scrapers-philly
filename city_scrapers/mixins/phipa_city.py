@@ -92,7 +92,10 @@ class PhipaCitySpiderMixin(CityScrapersSpider, metaclass=PhipaCityMixinMeta):
 
     def parse(self, response):
         data = json.loads(response.text)
-        items = [item for item in data["items"] if "start" in item]
+        if "error" in data:
+            self.logger.error("Google Calendar API error: %s", data["error"])
+            return
+        items = [item for item in data.get("items", []) if "start" in item]
         yield Request(
             self.documents_url,
             callback=self._parse_documents,
@@ -102,7 +105,8 @@ class PhipaCitySpiderMixin(CityScrapersSpider, metaclass=PhipaCityMixinMeta):
     def _parse_documents(self, response, items):
         documents = self._new_link_index()
         headings = response.xpath('//h3[@class="bmn"]')
-        if headings:
+        uses_heading_match = any(body["heading_match"] for body in self.bodies)
+        if headings and uses_heading_match:
             for heading in headings:
                 body_id = self._body_from_heading_id(heading.attrib.get("id", ""))
                 if not body_id:

@@ -138,3 +138,26 @@ def test_links(past_item, today_item, hearing_item):
 
 def test_source(items):
     assert all(m["source"] == EXPECTED_URL for m in items)
+
+
+def test_documents_with_unrelated_heading(calendar_response):
+    """Both Fair Housing bodies have an empty heading_match, so if the
+    agendas page ever gains an unrelated section heading (e.g. "General
+    resources"), documents must still be matched by title text rather than
+    silently dropped because no body's heading_match matches it."""
+    spider = PhipaFairHousingCommissionSpider()
+    documents_request = next(spider.parse(calendar_response))
+    documents_response = file_response(
+        join(FILES_DIR, "phipa_fair_housing_commission_documents_with_heading.html"),
+        url="https://www.phila.gov/documents/fair-housing-commission-meeting-agendas/",  # noqa
+    )
+    with freeze_time("2026-08-12"):
+        items = list(
+            spider._parse_documents(documents_response, **documents_request.cb_kwargs)
+        )
+
+    past_item = next(m for m in items if m["start"] == datetime(2026, 7, 15, 8, 30))
+    past_hrefs = {link["href"] for link in past_item["links"]}
+    assert any(
+        "FHC-Executive-Session-Agenda-July-15-2026" in href for href in past_hrefs
+    )
