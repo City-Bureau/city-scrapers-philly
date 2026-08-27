@@ -1,0 +1,233 @@
+{
+  "kind": "calendar#events",
+  "etag": "\"p32vpjlcimeb9c0o\"",
+  "summary": "Events",
+  "description": "",
+  "updated": "2026-08-10T15:42:07.105Z",
+  "timeZone": "America/New_York",
+  "accessRole": "reader",
+  "defaultReminders": [],
+  "items": [
+    {
+      "kind": "calendar#event",
+      "etag": "\"3550288652250078\"",
+      "id": "5jv9oq8f304i0mn3c0lqpjoqi7_20260707T170000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NWp2OW9xOGYzMDRpMG1uM2MwbHFwam9xaTdfMjAyNjA3MDdUMTcwMDAwWiBkbzZrZ2ZsM3NzbHF2ZnEwaXVtdDllb2d0b0Bn",
+      "created": "2019-07-25T18:44:08.000Z",
+      "updated": "2026-04-02T15:38:46.125Z",
+      "summary": "Civic Design Review Committee",
+      "description": "Agenda, meeting materials and access information available at<a href=\"https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/\" target=\"_blank\">\u00a0https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/</a><br><br><b>Participate in-person: </b><br>You can attend the CDR meeting in person. Meetings are held at: <br>One Parkway Building <br>1515 Arch Street, 18th Floor, Room 18-029 <br>Philadelphia, PA 19102<br>\u00a0 <br><b>Participate virtually (Zoom): </b><br>If you have a computer, tablet, or smartphone, please join us online: You will be able to view the meeting and submit questions. <br><a href=\"https://us02web.zoom.us/webinar/register/WN_X4z48ofCSkeVKdZP1G_WHQ\">https://us02web.zoom.us/webinar/register/WN_X4z48ofCSkeVKdZP1G_WHQ</a><br>\u2022 \u00a0 \u00a0The meeting will begin at 1:00 PM<br>\u2022 \u00a0 \u00a0Zoom may ask you to add an extension to your browser before you log in.<br>\u2022 \u00a0<b> \u00a0Webinar ID:</b> 848 2820 6308<br>\u2022 \u00a0 <b>\u00a0Passcode: </b>001767<br><span><br></span><br><span>If you do not have a computer, tablet, or smartphone, please join us on your landline telephone. You will be able to listen, but not see the presentation.\u00a0\u00a0</span><br>\u2022 \u00a0 <b>\u00a0Dial: +1 (267) 831-0333</b><br>\u2022<b> \u00a0 \u00a0Webinar ID: 848 2820 6308</b><br>\u2022 \u00a0<b> \u00a0Passcode: 001767</b><span></span><br><b><br></b><br>Members of the public have multiple ways to comment on agenda items. When the agenda item that you are interested in is being discussed, members in person will first have a chance to state their comment. If you attend virtually, you can use the \u201craise hand\u201d feature in Zoom. If you are joining by phone, you may also use the \u201craise hand\u201d feature by dialing \u201c*9\u201d during the public comment period. \u00a0<br><br>Participate with written comment: <br>We will also field questions and comments by email. Questions and comments must be received <b><u>before noon the day before</u></b> the Civic Design Review meeting in order to be considered. Please send emails to: <a href=\"mailto:cdr@phila.gov\">cdr@phila.gov\u00a0</a><b></b>",
+      "creator": {
+        "email": "philacityplanningcommission@gmail.com"
+      },
+      "organizer": {
+        "email": "do6kgfl3sslqvfq0iumt9eogto@group.calendar.google.com",
+        "displayName": "Events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-07-07T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-07-07T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "5jv9oq8f304i0mn3c0lqpjoqi7_R20250204T180000",
+      "originalStartTime": {
+        "dateTime": "2026-07-07T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "iCalUID": "5jv9oq8f304i0mn3c0lqpjoqi7_R20250204T180000@google.com",
+      "sequence": 0,
+      "guestsCanInviteOthers": false,
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3550288652250078\"",
+      "id": "5jv9oq8f304i0mn3c0lqpjoqi7_20260901T170000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NWp2OW9xOGYzMDRpMG1uM2MwbHFwam9xaTdfMjAyNjA5MDFUMTcwMDAwWiBkbzZrZ2ZsM3NzbHF2ZnEwaXVtdDllb2d0b0Bn",
+      "created": "2019-07-25T18:44:08.000Z",
+      "updated": "2026-04-02T15:38:46.125Z",
+      "summary": "Civic Design Review Committee",
+      "description": "Agenda, meeting materials and access information available at<a href=\"https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/\" target=\"_blank\">\u00a0https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/</a><br><br><b>Participate in-person: </b><br>You can attend the CDR meeting in person. Meetings are held at: <br>One Parkway Building <br>1515 Arch Street, 18th Floor, Room 18-029 <br>Philadelphia, PA 19102<br>\u00a0 <br><b>Participate virtually (Zoom): </b><br>If you have a computer, tablet, or smartphone, please join us online: You will be able to view the meeting and submit questions. <br><a href=\"https://us02web.zoom.us/webinar/register/WN_X4z48ofCSkeVKdZP1G_WHQ\">https://us02web.zoom.us/webinar/register/WN_X4z48ofCSkeVKdZP1G_WHQ</a><br>\u2022 \u00a0 \u00a0The meeting will begin at 1:00 PM<br>\u2022 \u00a0 \u00a0Zoom may ask you to add an extension to your browser before you log in.<br>\u2022 \u00a0<b> \u00a0Webinar ID:</b> 848 2820 6308<br>\u2022 \u00a0 <b>\u00a0Passcode: </b>001767<br><span><br></span><br><span>If you do not have a computer, tablet, or smartphone, please join us on your landline telephone. You will be able to listen, but not see the presentation.\u00a0\u00a0</span><br>\u2022 \u00a0 <b>\u00a0Dial: +1 (267) 831-0333</b><br>\u2022<b> \u00a0 \u00a0Webinar ID: 848 2820 6308</b><br>\u2022 \u00a0<b> \u00a0Passcode: 001767</b><span></span><br><b><br></b><br>Members of the public have multiple ways to comment on agenda items. When the agenda item that you are interested in is being discussed, members in person will first have a chance to state their comment. If you attend virtually, you can use the \u201craise hand\u201d feature in Zoom. If you are joining by phone, you may also use the \u201craise hand\u201d feature by dialing \u201c*9\u201d during the public comment period. \u00a0<br><br>Participate with written comment: <br>We will also field questions and comments by email. Questions and comments must be received <b><u>before noon the day before</u></b> the Civic Design Review meeting in order to be considered. Please send emails to: <a href=\"mailto:cdr@phila.gov\">cdr@phila.gov\u00a0</a><b></b>",
+      "creator": {
+        "email": "philacityplanningcommission@gmail.com"
+      },
+      "organizer": {
+        "email": "do6kgfl3sslqvfq0iumt9eogto@group.calendar.google.com",
+        "displayName": "Events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-09-01T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-01T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "5jv9oq8f304i0mn3c0lqpjoqi7_R20250204T180000",
+      "originalStartTime": {
+        "dateTime": "2026-09-01T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "iCalUID": "5jv9oq8f304i0mn3c0lqpjoqi7_R20250204T180000@google.com",
+      "sequence": 0,
+      "guestsCanInviteOthers": false,
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3550288652250078\"",
+      "id": "5jv9oq8f304i0mn3c0lqpjoqi7_20250401T170000Z",
+      "status": "cancelled",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NWp2OW9xOGYzMDRpMG1uM2MwbHFwam9xaTdfMjAyNTA0MDFUMTcwMDAwWiBkbzZrZ2ZsM3NzbHF2ZnEwaXVtdDllb2d0b0Bn",
+      "created": "2019-07-25T18:44:08.000Z",
+      "updated": "2026-04-02T15:38:46.125Z",
+      "summary": "Civic Design Review Committee",
+      "description": "The April Civic Design Review Board meeting has been canceled. The next CDR meeting will be May 6, 2025.<br><br>Agenda, meeting materials and access information available at<a href=\"https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/\" target=\"_blank\">\u00a0https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/</a>",
+      "creator": {
+        "email": "philacityplanningcommission@gmail.com"
+      },
+      "organizer": {
+        "email": "do6kgfl3sslqvfq0iumt9eogto@group.calendar.google.com",
+        "displayName": "Events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-04-01T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2025-04-01T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "5jv9oq8f304i0mn3c0lqpjoqi7_R20250204T180000",
+      "originalStartTime": {
+        "dateTime": "2025-04-01T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "iCalUID": "5jv9oq8f304i0mn3c0lqpjoqi7_R20250204T180000@google.com",
+      "sequence": 0,
+      "guestsCanInviteOthers": false,
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3572753043943454\"",
+      "id": "qkvgvasajlm68psioick3u1i8h_20260716T170000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cWt2Z3Zhc2FqbG02OHBzaW9pY2szdTFpOGhfMjAyNjA3MTZUMTcwMDAwWiBkbzZrZ2ZsM3NzbHF2ZnEwaXVtdDllb2d0b0Bn",
+      "created": "2019-04-29T16:13:47.000Z",
+      "updated": "2026-08-10T15:42:01.971Z",
+      "summary": "Philadelphia City Planning Commission Meeting",
+      "description": "<p>Agenda, meeting materials and access information available at<a href=\"https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/\" target=\"_blank\">\u00a0https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/</a>\u00a0\u00a0<br></p><p><b>Participate in-person: </b><br>You can attend the City Planning Commission meeting in person. Meetings are held at: <br>One Parkway Building <br>1515 Arch Street, 18th Floor, Room 18-029 <br>Philadelphia, PA 19102</p><p><b>Participate virtually (Zoom): </b><br>If you have a computer, tablet, or smartphone, please join us online: You will be able to view the meeting and submit questions.\u00a0</p><p><a href=\"https://us02web.zoom.us/j/84629842291?pwd=YXRaTmdIeE04YXAvelVxcVZCVVhkZz09\">https://us02web.zoom.us/j/84629842291?pwd=YXRaTmdIeE04YXAvelVxcVZCVVhkZz09</a></p>\u2022 \u00a0 \u00a0The meeting will begin at 1:00 PM<br>\u2022 \u00a0 \u00a0Zoom may ask you to add an extension to your browser before you log in.<br>\u2022 \u00a0<b> \u00a0Webinar ID:</b> 846 298 42291<br>\u2022 \u00a0 <b>\u00a0Passcode: </b>146958<p>If you do not have a computer, tablet, or smartphone, please join us on your landline telephone. You will be able to listen, but not see the presentation.\u00a0\u00a0<br>\u2022 \u00a0 <b>\u00a0Dial: +1 (267) 831-0333</b><br>\u2022<b> \u00a0 \u00a0Webinar ID:\u00a0</b>846 298 42291<br>\u2022 \u00a0<b> \u00a0Passcode:\u00a0</b><span>146958</span></p><p>Members of the public have multiple ways to comment on agenda items. When the agenda item that you are interested in is being discussed, members in person will first have a chance to state their comment. If you attend virtually, you can use the \u201craise hand\u201d feature in Zoom. If you are joining by phone, you may also use the \u201craise hand\u201d feature by dialing \u201c*9\u201d during the public comment period. \u00a0<br><br>Participate with written comment: <br>We will also field questions and comments by email. Questions and comments must be received <b><u>before noon the day before</u></b> the Planning Commission meeting in order to be considered. Please send emails to: <a href=\"mailto:planning@phila.gov\" target=\"_blank\">planning@phila.gov\u00a0</a></p>",
+      "location": "1515 Arch Street, 18th Floor, Room 18-029 Philadelphia, PA 19102",
+      "creator": {
+        "email": "philacityplanningcommission@gmail.com"
+      },
+      "organizer": {
+        "email": "do6kgfl3sslqvfq0iumt9eogto@group.calendar.google.com",
+        "displayName": "Events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-07-16T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-07-16T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "qkvgvasajlm68psioick3u1i8h_R20250220T180000",
+      "originalStartTime": {
+        "dateTime": "2026-07-16T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "iCalUID": "qkvgvasajlm68psioick3u1i8h_R20250220T180000@google.com",
+      "sequence": 3,
+      "guestsCanModify": true,
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3572753043943454\"",
+      "id": "qkvgvasajlm68psioick3u1i8h_20260917T170000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cWt2Z3Zhc2FqbG02OHBzaW9pY2szdTFpOGhfMjAyNjA5MTdUMTcwMDAwWiBkbzZrZ2ZsM3NzbHF2ZnEwaXVtdDllb2d0b0Bn",
+      "created": "2019-04-29T16:13:47.000Z",
+      "updated": "2026-08-10T15:42:01.971Z",
+      "summary": "Philadelphia City Planning Commission Meeting",
+      "description": "<p>Agenda, meeting materials and access information available at<a href=\"https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/\" target=\"_blank\">\u00a0https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/</a>\u00a0\u00a0<br></p><p><b>Participate in-person: </b><br>You can attend the City Planning Commission meeting in person. Meetings are held at: <br>One Parkway Building <br>1515 Arch Street, 18th Floor, Room 18-029 <br>Philadelphia, PA 19102</p><p><b>Participate virtually (Zoom): </b><br>If you have a computer, tablet, or smartphone, please join us online: You will be able to view the meeting and submit questions.\u00a0</p><p><a href=\"https://us02web.zoom.us/j/84629842291?pwd=YXRaTmdIeE04YXAvelVxcVZCVVhkZz09\">https://us02web.zoom.us/j/84629842291?pwd=YXRaTmdIeE04YXAvelVxcVZCVVhkZz09</a></p>\u2022 \u00a0 \u00a0The meeting will begin at 1:00 PM<br>\u2022 \u00a0 \u00a0Zoom may ask you to add an extension to your browser before you log in.<br>\u2022 \u00a0<b> \u00a0Webinar ID:</b> 846 298 42291<br>\u2022 \u00a0 <b>\u00a0Passcode: </b>146958<p>If you do not have a computer, tablet, or smartphone, please join us on your landline telephone. You will be able to listen, but not see the presentation.\u00a0\u00a0<br>\u2022 \u00a0 <b>\u00a0Dial: +1 (267) 831-0333</b><br>\u2022<b> \u00a0 \u00a0Webinar ID:\u00a0</b>846 298 42291<br>\u2022 \u00a0<b> \u00a0Passcode:\u00a0</b><span>146958</span></p><p>Members of the public have multiple ways to comment on agenda items. When the agenda item that you are interested in is being discussed, members in person will first have a chance to state their comment. If you attend virtually, you can use the \u201craise hand\u201d feature in Zoom. If you are joining by phone, you may also use the \u201craise hand\u201d feature by dialing \u201c*9\u201d during the public comment period. \u00a0<br><br>Participate with written comment: <br>We will also field questions and comments by email. Questions and comments must be received <b><u>before noon the day before</u></b> the Planning Commission meeting in order to be considered. Please send emails to: <a href=\"mailto:planning@phila.gov\" target=\"_blank\">planning@phila.gov\u00a0</a></p>",
+      "location": "1515 Arch Street, 18th Floor, Room 18-029 Philadelphia, PA 19102",
+      "creator": {
+        "email": "philacityplanningcommission@gmail.com"
+      },
+      "organizer": {
+        "email": "do6kgfl3sslqvfq0iumt9eogto@group.calendar.google.com",
+        "displayName": "Events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-09-17T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-17T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "qkvgvasajlm68psioick3u1i8h_R20250220T180000",
+      "originalStartTime": {
+        "dateTime": "2026-09-17T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "iCalUID": "qkvgvasajlm68psioick3u1i8h_R20250220T180000@google.com",
+      "sequence": 3,
+      "guestsCanModify": true,
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3572753043943454\"",
+      "id": "qkvgvasajlm68psioick3u1i8h_20250116T180000Z",
+      "status": "cancelled",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cWt2Z3Zhc2FqbG02OHBzaW9pY2szdTFpOGhfMjAyNTAxMTZUMTgwMDAwWiBkbzZrZ2ZsM3NzbHF2ZnEwaXVtdDllb2d0b0Bn",
+      "created": "2019-04-29T16:13:47.000Z",
+      "updated": "2026-08-10T15:42:01.971Z",
+      "summary": "Philadelphia City Planning Commission Meeting",
+      "description": "<p>The January meeting of the City Planning Commission has been canceled - there are no items on the agenda.</p><p>Agenda, meeting materials and access information available at<a href=\"https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/\" target=\"_blank\">\u00a0https://www.phila.gov/departments/philadelphia-city-planning-commission/public-meetings/</a>\u00a0\u00a0<br></p><p><br></p>",
+      "creator": {
+        "email": "philacityplanningcommission@gmail.com"
+      },
+      "organizer": {
+        "email": "do6kgfl3sslqvfq0iumt9eogto@group.calendar.google.com",
+        "displayName": "Events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-01-16T13:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2025-01-16T17:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "qkvgvasajlm68psioick3u1i8h_R20250116T180000",
+      "originalStartTime": {
+        "dateTime": "2025-01-16T13:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "iCalUID": "qkvgvasajlm68psioick3u1i8h_R20250116T180000@google.com",
+      "sequence": 3,
+      "guestsCanModify": true,
+      "eventType": "default"
+    }
+  ]
+}
