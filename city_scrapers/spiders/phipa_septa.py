@@ -15,6 +15,7 @@ from dateutil.parser import parse as dt_parser
 from dateutil.relativedelta import relativedelta
 from scrapy import Request
 
+# Matches a listing line: "August 20, 2026, at noon: Committee Meeting".
 LISTING_RE = re.compile(
     r"^\s*(?P<date>[A-Za-z]+ \d{1,2}, \d{4}),\s*at\s*"
     r"(?P<time>noon|midnight|\d{1,2}(?::\d{2})?\s*[ap]m)\s*:\s*"
@@ -26,25 +27,12 @@ EMPTY_PARENS_RE = re.compile(r"\(\s*\)\s*$")
 # Matches a "(canceled)"/"(cancelled)" tag anywhere in the title; other
 # tags, e.g. "(remote)", stay in the title text.
 CANCELLED_TAG_RE = re.compile(r"\(\s*cancell?ed\s*\)\s*", re.IGNORECASE)
-DETAIL_TIME_RE = re.compile(
-    r"Time and Date:\s*(?P<time>noon|midnight|\d{1,2}(?::\d{2})?\s*[ap]m)\s+"
-    r"[A-Za-z]+,\s*(?P<date>[A-Za-z]+ \d{1,2}, \d{4})",
+# Matches the "Month D, YYYY, at TIME" stamp in the detail page's summary
+# paragraph ("SEPTA Board September 24, 2026, at 3:00 pm SEPTA Board Room...").
+DETAIL_DATETIME_RE = re.compile(
+    r"(?P<date>[A-Za-z]+ \d{1,2}, \d{4}),\s*at\s*"
+    r"(?P<time>noon|midnight|\d{1,2}(?::\d{2})?\s*[ap]m)",
     re.IGNORECASE,
-)
-ORGANIZATION_RE = re.compile(
-    r"Organization:\s*(?P<org>.+?)\s*Time and Date:", re.IGNORECASE
-)
-# Matches Cloudflare's email-obfuscation markup: an <a> wrapping a
-# <span data-cfemail="...">.
-CF_EMAIL_WRAPPED_RE = re.compile(
-    r'<a\b[^>]*>\s*<span\b[^>]*\bdata-cfemail="(?P<hex>[0-9a-f]+)"[^>]*>'
-    r"[^<]*</span>\s*</a>"
-)
-# Matches a bare <a> or <span> tag carrying data-cfemail directly, with no
-# inner wrapper.
-CF_EMAIL_RE = re.compile(
-    r"<(?P<tag>a|span)\b[^>]*\bdata-cfemail=\"(?P<hex>[0-9a-f]+)\"[^>]*>"
-    r"[^<]*</(?P=tag)>"
 )
 # Attachment extensions treated as meeting documents (vs. e.g. registration
 # or video links, which stay in the description).
@@ -52,6 +40,9 @@ DOC_EXTS = (".pdf", ".docx", ".doc", ".xlsx")
 # Matches a listing location that opens with a street number, meaning it
 # has no venue name (e.g. "1234 Market St, Philadelphia").
 STREET_ADDRESS_RE = re.compile(r"^\d+\s")
+# Matches a "<Venue>, <street number> <rest of address>" listing location,
+# the only shape we split into a name and an address.
+VENUE_ADDRESS_RE = re.compile(r"^(?P<name>[^,]+?),\s*(?P<address>\d+\s+.+)$")
 
 
 class PhipaSeptaSpider(CityScrapersSpider):
@@ -81,6 +72,8 @@ class PhipaSeptaSpider(CityScrapersSpider):
                 item.css("div.entry-details span:first-child")
             )
             # A <div class="entry-canceled"> note also marks a cancellation.
+            # (The "entry-title canceled" class does not - SEPTA sets it on
+            # most upcoming rows regardless of status.)
             if item.css("div.entry-canceled"):
                 cancelled = True
 
@@ -117,7 +110,11 @@ class PhipaSeptaSpider(CityScrapersSpider):
     ):
         """Build a meeting from its authoritative detail notice."""
         detail_title = self._clean_text(response.css(".entry-header .entry-title"))
-        is_cancelled = cancelled or "cancel" in detail_title.lower()
+        is_cancelled = (
+            cancelled
+            or "cancel" in detail_title.lower()
+            or bool(response.css(".entry-content .entry-canceled"))
+        )
 
         meeting = Meeting(
             title=title,
@@ -130,7 +127,7 @@ class PhipaSeptaSpider(CityScrapersSpider):
             time_notes="",
             location=self._parse_location(listing_location),
             # `links` holds only meeting documents (see `_parse_description`
-            # for other attachment links).
+            # for registration/video links).
             links=self._parse_links(response),
             source=response.url,
         )
@@ -139,6 +136,7 @@ class PhipaSeptaSpider(CityScrapersSpider):
         yield meeting
 
     def _parse_listing_text(self, text):
+        """Split a listing line into (title, start datetime, cancelled)."""
         match = LISTING_RE.match(text)
         if not match:
             return text.strip(), None, False
@@ -155,14 +153,10 @@ class PhipaSeptaSpider(CityScrapersSpider):
         )
 
     def _parse_detail_start(self, response):
-        """Parses the meeting start time from the detail page's
-        "Time and Date:" field."""
-        text = self._clean_text(self._info_selector(response))
-        match = DETAIL_TIME_RE.search(text)
-
+        """Parse the start time from the detail page's summary paragraph."""
+        match = DETAIL_DATETIME_RE.search(self._detail_summary_text(response))
         if not match:
             return None
-
         return self._to_datetime(match.group("date"), match.group("time"))
 
     def _to_datetime(self, date_str, time_str):
@@ -191,87 +185,45 @@ class PhipaSeptaSpider(CityScrapersSpider):
 
         return NOT_CLASSIFIED
 
-    def _parse_location_block(self, response):
-        """Splits the detail page's Location paragraph into an in-person
-        part and a virtual/online part, normalizing "In person:" and
-        "Virtual:"/"Online:" labels. Either part may be absent."""
-        text = self._clean_text(
-            response.css(".entry-content .entry-column-1 p.meeting-location")
-        )
-        text = text.split("Location:", 1)[-1].strip()
-        # Normalizes "In person:", "In-person:", "In Person:", and
-        # "In person :" label spellings.
-        text = re.sub(r"In[\s-]?[Pp]erson\s*:", "In person:", text)
-
-        if "In person:" not in text:
-            return {"in_person": None, "virtual": text or None, "virtual_label": None}
-
-        in_person = text.split("In person:", 1)[1]
-        virtual = None
-        virtual_label = None
-        virtual_match = re.search(r"\b(Online|Virtual)\s*:", in_person, re.IGNORECASE)
-        if virtual_match:
-            virtual_label = virtual_match.group(1).capitalize()
-            virtual = in_person[virtual_match.end() :].strip()
-            in_person = in_person[: virtual_match.start()].strip()
-
-        return {
-            "in_person": in_person.strip(),
-            "virtual": virtual,
-            "virtual_label": virtual_label,
-        }
-
     def _parse_location(self, listing_location):
-        """Builds the location dict from the listing page's entry-location
-        text, splitting it into a venue name and an address. A value that
-        opens with a street number (e.g. "1234 Market St, Philadelphia")
-        has no venue name, so it's kept together as the address instead of
-        splitting off the street as a false name."""
-        if not listing_location:
+        """Build the location dict from the listing page's entry-location
+        text. Only a "<Venue>, <street number> <address>" value is split
+        into a name and an address; anything else (including a bare street
+        address or free-form instructions) is kept whole rather than
+        guessing a split that could turn prose into a false address."""
+        value = (listing_location or "").strip()
+        if not value:
             return {"name": "", "address": ""}
+        if STREET_ADDRESS_RE.match(value):
+            return {"name": "", "address": value}
 
-        if STREET_ADDRESS_RE.match(listing_location):
-            return {"name": "", "address": listing_location.strip()}
-
-        name, _, address = listing_location.partition(",")
-        return {"name": name.strip(), "address": address.strip()}
-
-    def _parse_in_person_notes(self, block):
-        """Extracts registration or attendance instructions from the
-        in-person text."""
-        in_person = block["in_person"]
-        if not in_person:
-            return ""
-        match = re.search(r"\.\s*(To register\b.*)$", in_person, re.IGNORECASE)
-        return match.group(1).strip() if match else ""
+        match = VENUE_ADDRESS_RE.match(value)
+        if match:
+            return {
+                "name": match.group("name").strip(),
+                "address": match.group("address").strip(),
+            }
+        return {"name": value, "address": ""}
 
     def _parse_description(self, response, listing_session_type):
-        info_text = self._clean_text(self._info_selector(response))
-        location_block = self._parse_location_block(response)
-        notes_text = self._parse_notes(response)
-
+        """Assemble the free-text description: organizing body, session
+        type, online-attendance instructions, and the non-document links
+        (meeting-details self-link, registration link, video)."""
         parts = []
 
-        org_match = ORGANIZATION_RE.search(info_text)
-        if org_match:
-            parts.append(f"Organization: {org_match.group('org').strip()}")
+        organization = self._clean_text(
+            response.css(".entry-content > p:not(.entry-docs) strong")[:1]
+        )
+        if organization:
+            parts.append(f"Organization: {organization}")
 
         if listing_session_type:
             parts.append(f"Session Type: {listing_session_type}")
 
-        in_person_notes = self._parse_in_person_notes(location_block)
-        if in_person_notes:
-            parts.append(f"In person: {in_person_notes}")
+        instructions = self._parse_meeting_instructions(response)
+        if instructions:
+            parts.append(instructions)
 
-        if location_block["virtual"]:
-            label = location_block["virtual_label"] or "Virtual"
-            parts.append(f"{label}: {location_block['virtual']}")
-
-        if notes_text:
-            parts.append(notes_text)
-
-        # Includes the meeting-details link and any non-document attachment
-        # links.
         link_notes = [f"Meeting Details: {response.url}"]
         link_notes += [
             f"{link['title']}: {link['href']}"
@@ -282,54 +234,71 @@ class PhipaSeptaSpider(CityScrapersSpider):
 
         return "\n".join(parts)
 
-    def _parse_notes(self, response):
-        texts = (
-            self._clean_text(p)
-            for p in response.css(".entry-content .entry-column-2 p")
-        )
-        return " ".join(filter(None, texts))
+    def _parse_meeting_instructions(self, response):
+        """Collect the Webex registration/meeting links and the trailing
+        instruction note from <div class="meeting-instructions">. Links
+        that have expired render as <span>, not <a>, and are skipped."""
+        block = response.css("div.meeting-instructions")
+        if not block:
+            return ""
+
+        lines = []
+        seen = set()
+        for anchor in block.css("a"):
+            href = anchor.attrib.get("href")
+            if not href or href in seen:
+                continue
+            seen.add(href)
+            label = self._clean_text(anchor) or "Link"
+            lines.append(f"{label}: {response.urljoin(href)}")
+
+        for para in block.css("p"):
+            if para.css("a") or para.css("span.expired"):
+                continue
+            note = self._clean_text(para)
+            if note:
+                lines.append(note)
+
+        return "\n".join(lines)
 
     def _parse_attachment_links(self, response):
-        """Collects registration, video, and document links from the
-        detail page's "<h2>...</h2><ul><li><a>" blocks."""
+        """Collect every link from the detail page's <p class="entry-docs">
+        block - documents, video, registration - deduplicated by href."""
         links = []
         seen_hrefs = set()
-        for anchor in response.css(".entry-content .entry-column-1 ul li a"):
+        for anchor in response.css(".entry-docs a"):
             href = anchor.attrib.get("href")
             if not href:
                 continue
             href = response.urljoin(href)
-            # Skips a link once its href has already been added.
             if href in seen_hrefs:
                 continue
             seen_hrefs.add(href)
-            title = self._clean_text(anchor) or href
+            # Anchor text without the nested screen-reader-only span.
+            title = re.sub(
+                r"\s+", " ", "".join(anchor.xpath("./text()").getall())
+            ).strip()
+            title = title or href
             # Collapses a doubled "(PDF) (PDF)" suffix down to one.
             title = re.sub(r"(\([^)]*\))\s*\1$", r"\1", title)
             links.append({"href": href, "title": title})
         return links
 
     def _parse_links(self, response):
-        """Filters attachment links down to meeting documents."""
+        """Filter attachment links down to meeting documents."""
         return [
             link
             for link in self._parse_attachment_links(response)
             if link["href"].lower().endswith(DOC_EXTS)
         ]
 
-    def _info_selector(self, response):
-        return response.css(".entry-content .entry-column-1 p:not(.meeting-location)")
+    def _detail_summary_text(self, response):
+        """Flattened text of the detail page's lead <p> - the block that
+        carries the organizing body, date/time, location and session
+        type on <br>-separated lines."""
+        return self._clean_text(response.css(".entry-content > p:not(.entry-docs)")[:1])
 
     def _clean_text(self, sel):
-        """Flatten HTML and decode Cloudflare-obfuscated email addresses."""
-        html = "".join(sel.getall())
-        html = CF_EMAIL_WRAPPED_RE.sub(self._decode_cf_email_match, html)
-        html = CF_EMAIL_RE.sub(self._decode_cf_email_match, html)
-        text = re.sub(r"<[^>]+>", " ", html)
+        """Flatten a selection's HTML to collapsed plain text."""
+        text = re.sub(r"<[^>]+>", " ", "".join(sel.getall()))
         return re.sub(r"\s+", " ", unescape(text)).strip()
-
-    def _decode_cf_email_match(self, match):
-        raw = bytes.fromhex(match.group("hex"))
-        key = raw[0]
-
-        return bytes(b ^ key for b in raw[1:]).decode()
