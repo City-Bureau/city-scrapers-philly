@@ -1,0 +1,108 @@
+{
+  "kind": "calendar#events",
+  "etag": "\"p32vpjlcimeb9c0o\"",
+  "summary": "Events",
+  "description": "",
+  "updated": "2026-08-10T15:42:07.105Z",
+  "timeZone": "America/New_York",
+  "accessRole": "reader",
+  "defaultReminders": [],
+  "items": [
+    {
+      "kind": "calendar#event",
+      "etag": "\"3550288652250001\"",
+      "id": "fhc001_20260715T123000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZmhjMDAxXzIwMjYwNzE1VDEyMzAwMFo",
+      "created": "2019-07-25T18:44:08.000Z",
+      "updated": "2026-04-02T15:38:46.125Z",
+      "summary": "FAIR HOUSING EXECUTIVE SESSION",
+      "description": "",
+      "creator": {
+        "email": "phila.fairhousingcommission@gmail.com"
+      },
+      "organizer": {
+        "email": "phila.fairhousingcommission@gmail.com",
+        "displayName": "Events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-07-15T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-07-15T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "iCalUID": "fhc001@google.com",
+      "sequence": 0,
+      "guestsCanInviteOthers": false,
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3550288652250002\"",
+      "id": "fhc002_20260901T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZmhjMDAyXzIwMjYwOTAxVDEzMDAwMFo",
+      "created": "2019-07-25T18:44:08.000Z",
+      "updated": "2026-04-02T15:38:46.125Z",
+      "summary": "FAIR HOUSING PUBLIC HEARINGS",
+      "description": "The Philadelphia Fair Housing Commission will hold a public hearing on Tuesday, September 1, 2026. This meeting will be conducted virtually through the Zoom teleconferencing platform. Members of the public may participate in the public hearing at the following links: Topic: Jane Doe v. Example Leasing Office Time: Sep 1, 2026 09:00 AM Eastern Time (US and Canada) Join Zoom Meeting https://us02web.zoom.us/j/88487528966",
+      "creator": {
+        "email": "phila.fairhousingcommission@gmail.com"
+      },
+      "organizer": {
+        "email": "phila.fairhousingcommission@gmail.com",
+        "displayName": "Events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-09-01T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-01T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "iCalUID": "fhc002@google.com",
+      "sequence": 0,
+      "guestsCanInviteOthers": false,
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3550288652250003\"",
+      "id": "fhc003_20260812T123000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZmhjMDAzXzIwMjYwODEyVDEyMzAwMFo",
+      "created": "2019-07-25T18:44:08.000Z",
+      "updated": "2026-04-02T15:38:46.125Z",
+      "summary": "FAIR HOUSING EXECUTIVE SESSION",
+      "description": "",
+      "creator": {
+        "email": "phila.fairhousingcommission@gmail.com"
+      },
+      "organizer": {
+        "email": "phila.fairhousingcommission@gmail.com",
+        "displayName": "Events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-08-12T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-12T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "iCalUID": "fhc003@google.com",
+      "sequence": 0,
+      "guestsCanInviteOthers": false,
+      "eventType": "default"
+    }
+  ]
+}
