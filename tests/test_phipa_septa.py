@@ -332,6 +332,42 @@ def test_end():
     assert board_item["end"] is None
 
 
+def test_closed_to_public_false_for_open_sessions():
+    assert board_item["closed_to_public"] is False
+    assert docs_item["closed_to_public"] is False
+
+
+def test_closed_to_public_true_for_closed_sessions():
+    closed_item = next(
+        spider._parse_detail(
+            _fixture("phipa_septa_detail_docs.html", DOCS_URL),
+            title="CAC Transit Subcommittee Meeting (Remote)",
+            listing_start=datetime(2026, 10, 6, 17, 30),
+            cancelled=False,
+            listing_location="Virtual:",
+            listing_session_type="Closed session",
+        )
+    )
+    assert closed_item["closed_to_public"] is True
+    # The session type still appears in the description as before
+    assert "Session Type: Closed session" in closed_item["description"]
+
+
+def test_closed_to_public_false_when_session_type_missing():
+    # The entry-canceled listing format omits entry-details entirely
+    item = next(
+        spider._parse_detail(
+            _fixture("phipa_septa_detail_docs.html", DOCS_URL),
+            title="SEPTA Board Regular Meeting",
+            listing_start=datetime(2026, 5, 28, 15, 0),
+            cancelled=False,
+            listing_location=BOARD_ROOM_LISTING_LOCATION,
+            listing_session_type="",
+        )
+    )
+    assert item["closed_to_public"] is False
+
+
 def test_time_notes():
     assert board_item["time_notes"] == ""
     assert virtual_item["time_notes"] == ""
