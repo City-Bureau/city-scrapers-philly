@@ -124,6 +124,9 @@ class PhipaSeptaSpider(CityScrapersSpider):
             # SEPTA does not publish definitive end times.
             end=None,
             all_day=False,
+            # SEPTA labels each meeting "Closed session" or "Open to the
+            # public"; Documenters can't attend closed ones.
+            closed_to_public="closed" in (listing_session_type or "").lower(),
             time_notes="",
             location=self._parse_location(listing_location),
             # `links` holds only meeting documents (see `_parse_description`
